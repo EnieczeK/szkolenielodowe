@@ -355,7 +355,7 @@ textarea {
   overflow: hidden;
   background-color: var(--wopr-primary-deep);
   color: #FFFFFF;
-  padding: 6rem 1.5rem 3.5rem;
+  padding: 3.5rem 1.5rem 5.5rem;
 }
 
 /* Warstwa Wideo */
@@ -418,10 +418,10 @@ textarea {
   border-color: var(--wopr-primary);
 }
 
-/* Treść w Hero */
+/* Treść w Hero: lekko uniesiona na komputerze */
 .hero-inner-container {
   max-width: 1180px;
-  margin: 0 auto;
+  margin: -2.8rem auto 0;
   position: relative;
   z-index: 2;
   width: 100%;
@@ -843,7 +843,18 @@ textarea {
   background-color: var(--wopr-primary);
 }
 
-.bento-action-footer .btn-apple-primary,
+.bento-action-footer .btn-apple-primary {
+  width: 100%;
+  background: #6e91c5 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 18px rgba(110, 145, 197, 0.35) !important;
+}
+
+.bento-action-footer .btn-apple-primary:hover {
+  background: #5b7fb5 !important;
+  box-shadow: 0 6px 22px rgba(110, 145, 197, 0.45) !important;
+}
+
 .bento-action-footer .btn-apple-outline {
   width: 100%;
 }
@@ -2766,9 +2777,9 @@ textarea {
     padding: 0.3rem 0.75rem;
   }
 
-  .c-admin-badge {
-    font-size: 0.72rem;
-    padding: 0.3rem 0.75rem;
+  .c-admin-badge,
+  #adminBtn {
+    display: none !important;
   }
 
   .c-menu {
@@ -2839,6 +2850,10 @@ textarea {
   .hero-cinematic {
     padding: 2.2rem 1rem 3.5rem;
     min-height: auto;
+  }
+
+  .hero-inner-container {
+    margin: 0 auto;
   }
 
   .hero-typography-card {
@@ -2930,13 +2945,26 @@ textarea {
     line-height: 1.55;
   }
 
+  #poziomy {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .bento-grid {
-    grid-template-columns: 1fr;
-    gap: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1.35rem;
   }
 
   .bento-card {
-    padding: 1.5rem 1.1rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1.45rem 1.2rem;
+    box-sizing: border-box;
+    border-radius: 12px;
   }
 
   .bento-card-header {
