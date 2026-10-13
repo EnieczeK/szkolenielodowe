@@ -2960,11 +2960,12 @@ textarea {
 
   .bento-card {
     width: 100%;
-    max-width: 400px;
+    max-width: 410px;
     margin: 0 auto;
-    padding: 1.45rem 1.2rem;
+    padding: 1.45rem 1.15rem;
     box-sizing: border-box;
     border-radius: 12px;
+    overflow: hidden;
   }
 
   .bento-card-header {
@@ -2972,20 +2973,21 @@ textarea {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    gap: 0.4rem;
-    margin-bottom: 1rem;
+    gap: 0.45rem;
+    margin-bottom: 0.95rem;
   }
 
   .badge-tag {
-    font-size: clamp(0.62rem, 2.3vw, 0.72rem);
-    padding: 0.25rem 0.6rem;
+    font-size: clamp(0.56rem, 2.1vw, 0.68rem);
+    padding: 0.22rem 0.52rem;
     white-space: nowrap;
     flex-shrink: 0;
   }
 
   .badge-sub {
-    font-size: clamp(0.64rem, 2.4vw, 0.78rem);
-    white-space: nowrap;
+    font-size: clamp(0.6rem, 2.3vw, 0.74rem);
+    white-space: normal;
+    line-height: 1.25;
     margin-left: auto;
     text-align: right;
   }
