@@ -256,4 +256,28 @@ document.addEventListener('DOMContentLoaded', () => {
       closeVideoModal();
     }
   });
+
+  // 9. Autoplay / Auto-load Featured Reel when scrolled into view
+  const featuredReelBox = document.getElementById('featuredReelShowcase');
+  const featuredReelIframe = document.getElementById('featuredReelIframe');
+
+  if (featuredReelBox && featuredReelIframe) {
+    const reelObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const embedSrc = featuredReelIframe.getAttribute('data-src');
+          if (embedSrc && (!featuredReelIframe.src || featuredReelIframe.src === 'about:blank')) {
+            featuredReelIframe.src = embedSrc;
+          }
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      root: null,
+      threshold: 0.15,
+      rootMargin: '0px 0px 50px 0px'
+    });
+
+    reelObserver.observe(featuredReelBox);
+  }
 });

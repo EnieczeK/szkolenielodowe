@@ -1,0 +1,1274 @@
+[
+  {
+    "lp": "1",
+    "woj_raw": "DOLNOŚLĄSKIE WOPR WE WROCŁAWIU",
+    "unit": "ODDZIAŁ REJONOWY WOPR W JELENIEJ GÓRZE",
+    "postal": "58-533",
+    "city": "MYSŁAKOWICE",
+    "street": "JELENIOGÓRSKA"
+  },
+  {
+    "lp": "2",
+    "woj_raw": "50-421 WROCŁAW, UL. NA GROBLI 40-44",
+    "unit": "DOLNOŚLĄSKIE WOPR WE WROCŁAWIU ODDZIAŁ POWIATOWY W LEGNICY",
+    "postal": "59-216",
+    "city": "KUNICE",
+    "street": "SŁONECZNA"
+  },
+  {
+    "lp": "3",
+    "woj_raw": "",
+    "unit": "ODDZIAŁ POWIATOWY WOPR W LUBINIE",
+    "postal": "59-300",
+    "city": "LUBIN",
+    "street": "ODRODZENIA"
+  },
+  {
+    "lp": "4",
+    "woj_raw": "",
+    "unit": "KŁODZKI ODDZIAŁ WOPR IM. WIESŁAWA PIASECZNEGO W KŁODZKU",
+    "postal": "57-300",
+    "city": "KŁODZKO",
+    "street": "BOHATERÓW GETTA"
+  },
+  {
+    "lp": "5",
+    "woj_raw": "",
+    "unit": "WAŁBRZYSKIE WOPR",
+    "postal": "58-306",
+    "city": "WAŁBRZYCH",
+    "street": "WROCŁAWSKA"
+  },
+  {
+    "lp": "6",
+    "woj_raw": "MAŁOPOLSKIE WOPR",
+    "unit": "SĄDECKIE WOPR W NOWYM SĄCZU",
+    "postal": "33-300",
+    "city": "NOWY SĄCZ",
+    "street": "WYSPIAŃSKIEGO"
+  },
+  {
+    "lp": "7",
+    "woj_raw": "30-105 KRAKÓW, UL. DOJAZDOWA 4",
+    "unit": "TARNOWSKIE WOPR W TARNOWIE",
+    "postal": "33-100",
+    "city": "TARNÓW",
+    "street": "RYNEK"
+  },
+  {
+    "lp": "8",
+    "woj_raw": "",
+    "unit": "GORLICKIE WOPR",
+    "postal": "38-312",
+    "city": "KLIMKÓWKA",
+    "street": "KLIMKÓWKA"
+  },
+  {
+    "lp": "9",
+    "woj_raw": "",
+    "unit": "MIEJSKIE WOPR W CHRZANOWIE",
+    "postal": "32-500",
+    "city": "CHRZANÓW",
+    "street": "MYDLANA"
+  },
+  {
+    "lp": "10",
+    "woj_raw": "",
+    "unit": "MIEJSKIE WOPR W OŚWIĘCIUMIU",
+    "postal": "32-600",
+    "city": "OŚWIĘCIM",
+    "street": "GEN. JAROSŁAWA DĄBROWSKIEGO"
+  },
+  {
+    "lp": "11",
+    "woj_raw": "ŚLĄSKIE WOPR",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ REJONOWY BĘDZIN",
+    "postal": "42-460",
+    "city": "PRZECZYCE",
+    "street": "21 STYCZNIA"
+  },
+  {
+    "lp": "12",
+    "woj_raw": "40-560 KATOWICE, UL. GRZYŚKI 16",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI BYTOM",
+    "postal": "41-902",
+    "city": "BYTOM",
+    "street": "POWSTAŃCÓW WARSZAWSKICH"
+  },
+  {
+    "lp": "13",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI CHORZÓW",
+    "postal": "41-506",
+    "city": "CHORZÓW",
+    "street": "GRANICZNA"
+  },
+  {
+    "lp": "14",
+    "woj_raw": "",
+    "unit": "WOPR W DĄBROWIE GÓRNICZEJ",
+    "postal": "31-300",
+    "city": "DĄBROWA GÓRNICZA",
+    "street": "3-GO MAJA"
+  },
+  {
+    "lp": "15",
+    "woj_raw": "",
+    "unit": "WOPR GLIWICE",
+    "postal": "44-100",
+    "city": "GLIWICE",
+    "street": "GROTTGERA"
+  },
+  {
+    "lp": "16",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ REJONOWY JASTRZĘBIE ZDRÓJ",
+    "postal": "44-335",
+    "city": "JASTRZĘBIE ZDRÓJ",
+    "street": "MIODOWA"
+  },
+  {
+    "lp": "17",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI KATOWICE",
+    "postal": "40-560",
+    "city": "KATOWICE",
+    "street": "GRZYŚKI"
+  },
+  {
+    "lp": "18",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - DRUŻYNA AWF KATOWICE",
+    "postal": "40-074",
+    "city": "KATOWICE",
+    "street": "MIKOŁOWSKA"
+  },
+  {
+    "lp": "19",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI KNURÓW",
+    "postal": "44-190",
+    "city": "KNURÓW",
+    "street": "SZPITALNA"
+  },
+  {
+    "lp": "20",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - LUBLINIECKIE WOPR",
+    "postal": "42-700",
+    "city": "LUBLINIEC",
+    "street": "JANA III SOBIESKIEGO"
+  },
+  {
+    "lp": "21",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - DRUŻYNA MYSŁOWICE",
+    "postal": "40-560",
+    "city": "KATOWICE",
+    "street": "GRZYŚKI"
+  },
+  {
+    "lp": "22",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ POWIATOWY PIEKARY ŚLĄSKI",
+    "postal": "41-94-",
+    "city": "PIEKARY ŚLĄSKIE",
+    "street": "ŻWIRKI"
+  },
+  {
+    "lp": "23",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ POWIATOWY RACIBÓRZ",
+    "postal": "47-400",
+    "city": "RACIBÓRZ",
+    "street": "ŚLĄSKA"
+  },
+  {
+    "lp": "24",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁA MIEJSKI RUDA ŚLĄSKA",
+    "postal": "41-709",
+    "city": "RUDA ŚLĄSKA",
+    "street": "LWA TOŁSTOJA"
+  },
+  {
+    "lp": "25",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ REJONOWY RYBNIK",
+    "postal": "44-200",
+    "city": "RYBNIK",
+    "street": "POWSTAŃCÓW ŚLĄSKICH"
+  },
+  {
+    "lp": "26",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI SIEMIANOWICE ŚLĄSKIE",
+    "postal": "41-100",
+    "city": "SIEMIANOWICE ŚLĄSKIE",
+    "street": "ŚNIADECKIEGO"
+  },
+  {
+    "lp": "27",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - DRUŻYNA ŚWIĘTOCHŁOWICE",
+    "postal": "41-600",
+    "city": "ŚWIĘTOCHŁOWICE",
+    "street": "SZKOLNA"
+  },
+  {
+    "lp": "28",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - TARNOGÓRSKIE WOPR",
+    "postal": "42-600",
+    "city": "TARNOWSKIE GÓRY",
+    "street": "OBWODNICA"
+  },
+  {
+    "lp": "29",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ REJONOWY TYCHY",
+    "postal": "43-100",
+    "city": "TYCHY",
+    "street": "EDUKACJI"
+  },
+  {
+    "lp": "30",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ POWIATOWY WODZISŁAW ŚLĄSKI",
+    "postal": "44-300",
+    "city": "WODZISŁAW ŚLĄSKI",
+    "street": "PSZOWSKA"
+  },
+  {
+    "lp": "31",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI ZABRZE",
+    "postal": "41-800",
+    "city": "ZABRZE",
+    "street": "KAZIMIERZA BRODZIŃSKIEGO"
+  },
+  {
+    "lp": "32",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ POWIATOWY ZAWIERCIE",
+    "postal": "42-400",
+    "city": "ZAWIERCIE",
+    "street": "WENECKA"
+  },
+  {
+    "lp": "33",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - DRUŻYNA ŻORY",
+    "postal": "44-240",
+    "city": "ŻORY",
+    "street": "FOLWARECKA"
+  },
+  {
+    "lp": "34",
+    "woj_raw": "",
+    "unit": "CHRZANOWSKIE WOPR",
+    "postal": "32-500",
+    "city": "CHRZANÓW",
+    "street": "KUSOCIŃSKIEGO"
+  },
+  {
+    "lp": "35",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - ODDZIAŁ REJONOWY OLKUSZ",
+    "postal": "32-300",
+    "city": "OLKUSZ",
+    "street": "ADAMA MICKIEWICZA"
+  },
+  {
+    "lp": "36",
+    "woj_raw": "",
+    "unit": "OŚWIĘCIMSKIE WOPR",
+    "postal": "32-600",
+    "city": "OŚWIĘCIM",
+    "street": "GEN. JAROSŁAWA DĄBROWSKIEGO"
+  },
+  {
+    "lp": "37",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR- DRUŻYNA WOPR SOSNOWIEC",
+    "postal": "41-200",
+    "city": "SOSNOWIEC",
+    "street": "PLAC KOŚCIUSZKI"
+  },
+  {
+    "lp": "38",
+    "woj_raw": "",
+    "unit": "ŚLĄSKIE WOPR - DRUŻYNA SPECJALISTYCZNA AWF ZAŁEŻE",
+    "postal": "33-300",
+    "city": "NOWY SĄCZ",
+    "street": "1 MAJA"
+  },
+  {
+    "lp": "39",
+    "woj_raw": "WOPR WOJEWÓDZKIE W KIELCACH",
+    "unit": "WOPR WOJEWÓDZKIE W KIELCACH",
+    "postal": "25-029",
+    "city": "KIELCE",
+    "street": "KRAKOWSKA"
+  },
+  {
+    "lp": "40",
+    "woj_raw": "25-029 KIELCE, UL. KRAKOWSKA 2",
+    "unit": "",
+    "postal": "",
+    "city": "",
+    "street": ""
+  },
+  {
+    "lp": "41",
+    "woj_raw": "WOPR WOJEWÓDZTWA KUJAWSKO-POMORSKIEGO",
+    "unit": "NADGOPLAŃSKIE WOPR W KRUSZWICY",
+    "postal": "88-150",
+    "city": "KRUSZWICA",
+    "street": "POPIELA"
+  },
+  {
+    "lp": "42",
+    "woj_raw": "85-88- BYDGOSZCZ, UL. TORUŃSKA 157",
+    "unit": "LIPNOWSKIE WOPR W LIPNIE",
+    "postal": "87-600",
+    "city": "LIPNO",
+    "street": "PLAC 11 LISTOPADA"
+  },
+  {
+    "lp": "43",
+    "woj_raw": "",
+    "unit": "WDECKIE WOPR W TLENIU",
+    "postal": "86-150",
+    "city": "TLEŃ",
+    "street": "CZERSKA"
+  },
+  {
+    "lp": "44",
+    "woj_raw": "",
+    "unit": "WŁOCŁAWSKIE WOPR",
+    "postal": "87-800",
+    "city": "WŁOCŁAWEK",
+    "street": "CHOPINA"
+  },
+  {
+    "lp": "45",
+    "woj_raw": "",
+    "unit": "WOPR ZARZĄD REJONOWY W TORUNIU",
+    "postal": "87-100",
+    "city": "TORUŃ",
+    "street": "POPIEŁUSZKI"
+  },
+  {
+    "lp": "46",
+    "woj_raw": "",
+    "unit": "REJONOWE WOPR W BYDGOSZCZY",
+    "postal": "85-880",
+    "city": "BYDGOSZCZ",
+    "street": "TORUŃSKA"
+  },
+  {
+    "lp": "47",
+    "woj_raw": "",
+    "unit": "PAŁUCKIE WOPR W ŻNINIE",
+    "postal": "88-400",
+    "city": "ŻNIN",
+    "street": "SZKOLANA"
+  },
+  {
+    "lp": "48",
+    "woj_raw": "",
+    "unit": "WOPR W CHEŁMNIE",
+    "postal": "86-200",
+    "city": "CHEŁMNO",
+    "street": "HALLERA"
+  },
+  {
+    "lp": "49",
+    "woj_raw": "WOPR WOJEWÓDZTWA LUBELSKIEGO",
+    "unit": "REJONOWE WOPR W CHEŁMIE",
+    "postal": "22-100",
+    "city": "CHEŁM",
+    "street": "JEDNOŚCI"
+  },
+  {
+    "lp": "50",
+    "woj_raw": "20-101 LUBLIN, ALEJE ZYGMINTOWSKIE 4",
+    "unit": "REJONOWE WOPR W LUBLINIE",
+    "postal": "20-101",
+    "city": "LUBLIN",
+    "street": "ALEJE ZYGMUNTOWSKIE"
+  },
+  {
+    "lp": "51",
+    "woj_raw": "",
+    "unit": "REJONOWE WOPR (ZAMOŚĆ)",
+    "postal": "22-400",
+    "city": "ZAMOŚĆ",
+    "street": "ZAMOYSKIEGO"
+  },
+  {
+    "lp": "52",
+    "woj_raw": "WOPR WOJEWÓDZTWA LUBUSKIEGO",
+    "unit": "REJONOWY ODDZIAŁ WOPR Z SIEDZIBĄ W GUBINIE",
+    "postal": "66-620",
+    "city": "GUBIN",
+    "street": "II ARMI WOJSKA POLSKIEGO"
+  },
+  {
+    "lp": "53",
+    "woj_raw": "65-072 ZIELONA GÓRA, UL. LISOWSKIEGO 1",
+    "unit": "POWIATOWY ODDZIAŁ WOPR ŚWIEBODZIN",
+    "postal": "66-200",
+    "city": "ŚWIEBODZIN",
+    "street": "SOBIESKIEGO"
+  },
+  {
+    "lp": "54",
+    "woj_raw": "",
+    "unit": "ODDZIAŁ WOPR LUBSKO",
+    "postal": "68-200",
+    "city": "LUBSKO",
+    "street": "BRONI PANCERNEJ"
+  },
+  {
+    "lp": "55",
+    "woj_raw": "",
+    "unit": "ŻARSKI ODDZIAŁ WOPR",
+    "postal": "68-200",
+    "city": "ŻARY",
+    "street": "TELEMANNA"
+  },
+  {
+    "lp": "56",
+    "woj_raw": "",
+    "unit": "ODDZIAŁ POWIATOWY WOPR ŻAGAŃ",
+    "postal": "68-103",
+    "city": "ŻAGAŃ",
+    "street": "JANA KOCHANOWSKIEGO"
+  },
+  {
+    "lp": "57",
+    "woj_raw": "",
+    "unit": "WOPR ZIELONA GÓRA",
+    "postal": "65-072",
+    "city": "ZIELONA GÓRA",
+    "street": "LISOWSKIEGO"
+  },
+  {
+    "lp": "58",
+    "woj_raw": "",
+    "unit": "WOPR NOWA SÓL",
+    "postal": "67-100",
+    "city": "NOWA SÓL",
+    "street": "ALEJA WOLNOŚCI"
+  },
+  {
+    "lp": "59",
+    "woj_raw": "",
+    "unit": "ODDZIAŁ POWIATOWY WOPR WSCHOWA",
+    "postal": "67-410",
+    "city": "WSCHOWA",
+    "street": "OGRODOWA"
+  },
+  {
+    "lp": "60",
+    "woj_raw": "",
+    "unit": "WOPR LUBNIEWICE",
+    "postal": "69-210",
+    "city": "LUBNIEWICE",
+    "street": "RATUSZOWA"
+  },
+  {
+    "lp": "61",
+    "woj_raw": "",
+    "unit": "WOPR GORZÓW WIELKOPOLSKI",
+    "postal": "66-400",
+    "city": "GORZÓW WIELKOPOLSKI",
+    "street": "BOHATERÓW WESTERPLATTE"
+  },
+  {
+    "lp": "62",
+    "woj_raw": "",
+    "unit": "NADODRZAŃSKI ODDZIAŁ WOPR",
+    "postal": "69-100",
+    "city": "SŁUBICE",
+    "street": "WOJSKA POLSKIEGO"
+  },
+  {
+    "lp": "63",
+    "woj_raw": "",
+    "unit": "WOPR PRZYSTAŃ GORZÓW WIELKOPOLSKI",
+    "postal": "66-400",
+    "city": "GORZÓW WIELKOPOLSKI",
+    "street": "WŁADYSŁAWA ŁOKIETKA"
+  },
+  {
+    "lp": "64",
+    "woj_raw": "",
+    "unit": "WOPR KOSTRZYŃ NAD ODRĄ",
+    "postal": "66-470",
+    "city": "KOSTRZYŃ NAD ODRĄ",
+    "street": "KOMISJI EDUKACJI NARODOWEJ"
+  },
+  {
+    "lp": "65",
+    "woj_raw": "",
+    "unit": "WOPR W GŁOGOWIE",
+    "postal": "67-200",
+    "city": "GŁOGÓW",
+    "street": "TOPOLOWA"
+  },
+  {
+    "lp": "66",
+    "woj_raw": "WOPR WOJEWÓDZTWA ŁÓDZIEGO",
+    "unit": "WOPR W TOMASZOWIE MAZOWIECKIM",
+    "postal": "97-200",
+    "city": "TOMASZÓW MAZOWIECKI",
+    "street": "PCK"
+  },
+  {
+    "lp": "67",
+    "woj_raw": "98-220 ZDUŃSKA WOLA, UL. SREBRNA 1",
+    "unit": "ZGIERSKO-ŁĘCZYCKIE WOPR",
+    "postal": "95-035",
+    "city": "OZORKÓW",
+    "street": "LOTNICZA"
+  },
+  {
+    "lp": "68",
+    "woj_raw": "",
+    "unit": "ŁÓDZKIE WOPR",
+    "postal": "90-251",
+    "city": "ŁÓDŹ",
+    "street": "ROOSVELTA"
+  },
+  {
+    "lp": "69",
+    "woj_raw": "",
+    "unit": "WOPR W RAWIE MAZOWIECKIEJ",
+    "postal": "96-200",
+    "city": "RAWA MAZOWIECKA",
+    "street": "KATOWICKA"
+  },
+  {
+    "lp": "70",
+    "woj_raw": "",
+    "unit": "WOPR ODDZIAŁ W SKIERNIEWICACH",
+    "postal": "96-100",
+    "city": "SKIERNIEWICE",
+    "street": "PRUSA"
+  },
+  {
+    "lp": "71",
+    "woj_raw": "",
+    "unit": "REJONOWE WOPR W PIOTRKOWIE TRYBUNALSKIM",
+    "postal": "97-300",
+    "city": "PIOTRKÓW TRYBUNALSKI",
+    "street": "DZIAŁKOWA"
+  },
+  {
+    "lp": "72",
+    "woj_raw": "",
+    "unit": "ZDUŃSKOWOLSKIE WOPR",
+    "postal": "98-220",
+    "city": "ZDUŃSKA WOLA",
+    "street": "SREBRNA"
+  },
+  {
+    "lp": "73",
+    "woj_raw": "",
+    "unit": "ŁASKIE WOPR",
+    "postal": "98-100",
+    "city": "ŁASK",
+    "street": "SZKOLNA"
+  },
+  {
+    "lp": "74",
+    "woj_raw": "",
+    "unit": "POWIATOWE WOPR W RADOMSKU",
+    "postal": "97-500",
+    "city": "RADOMSKO",
+    "street": "LESZKA CZARNEGO"
+  },
+  {
+    "lp": "75",
+    "woj_raw": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO",
+    "unit": "CIECHANOWSKIE WOPR W CIECHANOWIE",
+    "postal": "06-400",
+    "city": "CIECHANÓW",
+    "street": "17 STYCZNIA"
+  },
+  {
+    "lp": "76",
+    "woj_raw": "00-777 WARSZAWA, UL. PYTLASIŃSKIEGO 17",
+    "unit": "WOPR W RADOMIU",
+    "postal": "26-600",
+    "city": "RADOM",
+    "street": "FILTROWA"
+  },
+  {
+    "lp": "77",
+    "woj_raw": "",
+    "unit": "STOŁECZNE WOPR",
+    "postal": "00-777",
+    "city": "WARSZAWA",
+    "street": "PYTLASIŃSKIEGO"
+  },
+  {
+    "lp": "78",
+    "woj_raw": "",
+    "unit": "PIASECZYŃSKIE WOPR",
+    "postal": "05-500",
+    "city": "PIASECZNO",
+    "street": "SIKORSKIEGO"
+  },
+  {
+    "lp": "79",
+    "woj_raw": "",
+    "unit": "POWIATOWE WOPR (BIAŁOBRZEGI)",
+    "postal": "26-800",
+    "city": "BIAŁOBRZEGI",
+    "street": "KRAKOWSKA"
+  },
+  {
+    "lp": "80",
+    "woj_raw": "",
+    "unit": "NOWODOWORSKIE WOPR",
+    "postal": "05-100",
+    "city": "NOWY DWÓR MAZOWIECKI",
+    "street": "SUKIENNA"
+  },
+  {
+    "lp": "81",
+    "woj_raw": "",
+    "unit": "REJONOWE PŁOCKIE WOPR W PŁOCKU",
+    "postal": "09-402",
+    "city": "PŁOCK",
+    "street": "WYSZOGRODZKA"
+  },
+  {
+    "lp": "82",
+    "woj_raw": "",
+    "unit": "SOCHACZEWSKIE WOPR",
+    "postal": "96-500",
+    "city": "SOCHACZEW",
+    "street": "OLIMPIJSKA"
+  },
+  {
+    "lp": "83",
+    "woj_raw": "",
+    "unit": "LEGIONOWSKIE WOPR",
+    "postal": "05-130",
+    "city": "ZEGRZE POLUDNIOWE",
+    "street": "WARSZAWSKA"
+  },
+  {
+    "lp": "84",
+    "woj_raw": "",
+    "unit": "WOPR - OS W SOTROŁECE",
+    "postal": "07-410",
+    "city": "OSTROŁEKA",
+    "street": "BOHATERÓW WARSZAWY"
+  },
+  {
+    "lp": "85",
+    "woj_raw": "",
+    "unit": "PUŁTUSKIE WOPR",
+    "postal": "06-100",
+    "city": "PUŁTUSK",
+    "street": "STARE MIASTO"
+  },
+  {
+    "lp": "86",
+    "woj_raw": "",
+    "unit": "ŻYRARDOWSKIE POWIATOWE WOPR",
+    "postal": "96-300",
+    "city": "ŻYRARDÓW",
+    "street": "PILECKIEGO"
+  },
+  {
+    "lp": "87",
+    "woj_raw": "",
+    "unit": "WOPR PRUSZKÓW",
+    "postal": "05-800",
+    "city": "PRUSZKÓW",
+    "street": "ANDRZEJA"
+  },
+  {
+    "lp": "88",
+    "woj_raw": "",
+    "unit": "WOPR GRODZISK MAZOWIECKI",
+    "postal": "96-314",
+    "city": "GRODZISK MAZOWIECKI",
+    "street": "ARMII KRAJOWEJ"
+  },
+  {
+    "lp": "89",
+    "woj_raw": "",
+    "unit": "WOPR BŁONIE",
+    "postal": "05-870",
+    "city": "BŁONIE",
+    "street": "ŁĄKI"
+  },
+  {
+    "lp": "90",
+    "woj_raw": "",
+    "unit": "WOPR W SIEDLCACH",
+    "postal": "08-110",
+    "city": "SIEDLCE",
+    "street": "ŚWIĘTOJAŃSKA"
+  },
+  {
+    "lp": "91",
+    "woj_raw": "WOPR WOJEWÓDZTWA OPOLSKIEGO",
+    "unit": "WOPR WOJEWÓDZTWA OPOLSKIEGO ODDZIAŁ REJONOWY W OPOLU",
+    "postal": "45-332",
+    "city": "OPOLE",
+    "street": "REJTANA"
+  },
+  {
+    "lp": "92",
+    "woj_raw": "45-332 OPOLE, UL. REJTANA 7",
+    "unit": "WOPR WOJEWÓDZTWA OPOLSKIEGO ODDZIAŁ REJONOWY W NYSIE",
+    "postal": "48-300",
+    "city": "NYSA",
+    "street": "ORZECHOWA"
+  },
+  {
+    "lp": "93",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA OPOLSKIEGO ODDZIAŁ REJONOWY W KĘDZIERZYNIE - KOŹLU",
+    "postal": "47-220",
+    "city": "KĘDZIERZYN-KOŹLE",
+    "street": "JANA PAWŁA II"
+  },
+  {
+    "lp": "94",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA OPOLSKIEGO ODDZIAŁ POWIATOWY W PRUDNIKU",
+    "postal": "48-200",
+    "city": "PRUDNIK",
+    "street": "WĄSKA"
+  },
+  {
+    "lp": "95",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA OPOLSKIEGO DRUŻYNA WOPR W BRZEGU",
+    "postal": "49-300",
+    "city": "BRZEG",
+    "street": "GROBLI"
+  },
+  {
+    "lp": "96",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA OPOLSKIEGO DRUŻYNA ŚRODOWISKOWA MEDYK RESCUE W PRUDNIKU",
+    "postal": "48-200",
+    "city": "PRUDNIK",
+    "street": "PIASTOWASKA"
+  },
+  {
+    "lp": "97",
+    "woj_raw": "WOPR WOJEWÓDZTWA PODKARPACKIEGO",
+    "unit": "RZESZOWSKIE WOPR",
+    "postal": "35-005",
+    "city": "RZESZÓW",
+    "street": "BARDOWSKIEGO"
+  },
+  {
+    "lp": "98",
+    "woj_raw": "35-005 RZECZÓW, UL. BARDOWSKIEGO 2",
+    "unit": "BIESZCZADZKIE WOPR Z SIEDZIBĄ W KROŚNIE",
+    "postal": "38-400",
+    "city": "KROSNO",
+    "street": "NIEPODLEGŁOŚCI"
+  },
+  {
+    "lp": "",
+    "woj_raw": "",
+    "unit": "REJONOWE WOPR W TARNOBRZEGU",
+    "postal": "39-400",
+    "city": "TARNOBRZEG",
+    "street": "AL..NIEPODLEGŁOŚCI"
+  },
+  {
+    "lp": "99",
+    "woj_raw": "",
+    "unit": "PREMYSKIE WOPR",
+    "postal": "37-700",
+    "city": "PRZEMYŚL",
+    "street": "22 STYCZNIA"
+  },
+  {
+    "lp": "100",
+    "woj_raw": "WOPR WOJEWÓDZTWA PODLASKIEGO",
+    "unit": "BIAŁOSTOCKIE WOPR",
+    "postal": "15-465",
+    "city": "BIAŁYSTOK",
+    "street": "WŁÓKIENNICZA"
+  },
+  {
+    "lp": "101",
+    "woj_raw": "15-465 BIAŁYSTOK, UL. WŁÓKIENNICZA 4",
+    "unit": "SUWALSKIE WOPR",
+    "postal": "16-400",
+    "city": "SUWAŁKI",
+    "street": "WOJSKA POLSKIEGO"
+  },
+  {
+    "lp": "102",
+    "woj_raw": "",
+    "unit": "AUGUSTOWSKIE WOPR W AUGUSTOWIE",
+    "postal": "16-300",
+    "city": "AUGUSTÓW",
+    "street": "SUCHARSKIEGO"
+  },
+  {
+    "lp": "103",
+    "woj_raw": "",
+    "unit": "OKRĘGOWE WOPR W ŁOMŻY",
+    "postal": "18-400",
+    "city": "ŁOMŻA",
+    "street": "ZJAZD"
+  },
+  {
+    "lp": "104",
+    "woj_raw": "WOPR WOJEWÓDZTWA POMORSKIEGO",
+    "unit": "CHOJNICKIE WOPR",
+    "postal": "89-606",
+    "city": "CHARZYKOWY",
+    "street": "JEZIORNA"
+  },
+  {
+    "lp": "105",
+    "woj_raw": "80-719 GDAŃSK, UL. LITEWSKA 2",
+    "unit": "CZŁUCHOWSKIE WOPR",
+    "postal": "77-300",
+    "city": "CZŁUCHÓW",
+    "street": "GLĘDOWO"
+  },
+  {
+    "lp": "106",
+    "woj_raw": "",
+    "unit": "KOCIEWSKIE WOPR",
+    "postal": "83-250",
+    "city": "SKARSZEWY",
+    "street": "TCZEWSKA"
+  },
+  {
+    "lp": "107",
+    "woj_raw": "",
+    "unit": "KOŚCIERSKIE WOPR ODDZIAŁ WOPR WOJEWÓDZTWA POMORSKIEGO",
+    "postal": "83-406",
+    "city": "WĄGLIKOWICE",
+    "street": "WDZYDZE"
+  },
+  {
+    "lp": "108",
+    "woj_raw": "",
+    "unit": "MALBORSKIE WOPR",
+    "postal": "82-200",
+    "city": "MALBORK",
+    "street": "PL. NARUTOWICZA"
+  },
+  {
+    "lp": "109",
+    "woj_raw": "",
+    "unit": "TCZEWSKIE WOPR",
+    "postal": "83-110",
+    "city": "TCZEW",
+    "street": "DYGASIŃSKIEGO"
+  },
+  {
+    "lp": "110",
+    "woj_raw": "",
+    "unit": "KARTUSKIE WOPR",
+    "postal": "83-333",
+    "city": "CHMIELNO",
+    "street": "GRODZKA"
+  },
+  {
+    "lp": "111",
+    "woj_raw": "",
+    "unit": "KWIDZYŃSKIE WOPR",
+    "postal": "82-500",
+    "city": "KWIDZYŃ",
+    "street": "RAKOWIEC, ROBOTNICZA"
+  },
+  {
+    "lp": "112",
+    "woj_raw": "",
+    "unit": "PUCKIE WOPR",
+    "postal": "84-120",
+    "city": "WŁADYSŁAWOWO",
+    "street": "CEYNOWY"
+  },
+  {
+    "lp": "113",
+    "woj_raw": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO",
+    "unit": "WOPR WOJEWÓDZTWA WARMIŃSKO-MAZURSKIEGO ODDZIAŁ MIEJSKO POWIATOWY W KĘTRZYNIE",
+    "postal": "11-400",
+    "city": "STARA RÓŻANKA",
+    "street": ""
+  },
+  {
+    "lp": "114",
+    "woj_raw": "10-059 OLSZTYN, UL. POLNA 16",
+    "unit": "WOPR WOJEWÓDZTWA WARMIŃSKO-MAZURSKIEGO ODDZIAŁ MIEJSKO POWIATOWY W SZCZYTNIE",
+    "postal": "12-100",
+    "city": "SZCZYTNO",
+    "street": "LEYKA"
+  },
+  {
+    "lp": "115",
+    "woj_raw": "",
+    "unit": "ELBLĄSKIE WOPR",
+    "postal": "82-300",
+    "city": "ELBLĄG",
+    "street": "ROBOTNICZA"
+  },
+  {
+    "lp": "116",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W EŁKU",
+    "postal": "19-300",
+    "city": "EŁK",
+    "street": "PIŁSUDSKIEGO"
+  },
+  {
+    "lp": "117",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W IŁAWIE",
+    "postal": "14-200",
+    "city": "IŁAWA",
+    "street": "WOJSKA POLSKIEGO"
+  },
+  {
+    "lp": "118",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W OSTRÓDZIE",
+    "postal": "14-100",
+    "city": "OSTRÓDA",
+    "street": "SPORTOWA"
+  },
+  {
+    "lp": "119",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W OLSZTYNIE",
+    "postal": "10-059",
+    "city": "OLSZTYN",
+    "street": "POLNA"
+  },
+  {
+    "lp": "120",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W MRĄGOWIE",
+    "postal": "11-700",
+    "city": "MRĄGOWO",
+    "street": "OFICERSKA"
+  },
+  {
+    "lp": "121",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W GOŁDAPI",
+    "postal": "19-500",
+    "city": "GOŁDAP",
+    "street": "PARTYZANTÓW 31"
+  },
+  {
+    "lp": "122",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W OLECKU",
+    "postal": "19-400",
+    "city": "OLECKO",
+    "street": "PARKOWA"
+  },
+  {
+    "lp": "123",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W PISZU Z SIEDZIBĄ W OKARTOWIE",
+    "postal": "12-250",
+    "city": "ORZYSZ",
+    "street": ""
+  },
+  {
+    "lp": "124",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W DZIAŁDOWIE Z SIEDZIBĄ W LIDZBARKU",
+    "postal": "13-230",
+    "city": "LIDZBARK",
+    "street": "MARII DĄBROWSKIEJ"
+  },
+  {
+    "lp": "125",
+    "woj_raw": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W  POZNANIU",
+    "postal": "61-553",
+    "city": "POZNAŃ",
+    "street": "SPYCHALSKIEGO"
+  },
+  {
+    "lp": "126",
+    "woj_raw": "61-553 POZNAŃ, UL. SPYCHALSKIEGO 38",
+    "unit": "WOPR WOPJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ ŚRODOWISKOWY GOŁUCHOWIE",
+    "postal": "63-323",
+    "city": "GOŁUCHÓW",
+    "street": "GROCHOLEWSKIEGO"
+  },
+  {
+    "lp": "127",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO-POWIATOWY \"ANIOŁY\" W TRZCIANCE",
+    "postal": "64-980",
+    "city": "TRZCIANKA",
+    "street": "KOPERNIKA"
+  },
+  {
+    "lp": "128",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ZARZĄD REJONOWY W KONINIE",
+    "postal": "62-510",
+    "city": "KONIN",
+    "street": "SZYMANOWSKIEGO"
+  },
+  {
+    "lp": "129",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W WOLSZTYNIE",
+    "postal": "64-200",
+    "city": "WOLSZTYN",
+    "street": "DWORCOWA"
+  },
+  {
+    "lp": "130",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO  ODDZIAŁ MIEJSKO - POWIATOWY W MIĘDZYCHODZIE",
+    "postal": "64-400",
+    "city": "MIĘDZYCHÓD",
+    "street": "SZPITALNA"
+  },
+  {
+    "lp": "131",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓŽZTWA WIELKOPOLSKIEGO ODDZIAŁ POWIATOWY WĄGROWCU",
+    "postal": "62-100",
+    "city": "WĄGROWIEC",
+    "street": "RATOWNICZA"
+  },
+  {
+    "lp": "132",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W ŚREMIE",
+    "postal": "63-100",
+    "city": "ŚREM",
+    "street": "JEZIORNA"
+  },
+  {
+    "lp": "133",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W PLESZEWIE",
+    "postal": "63-300",
+    "city": "PLESZEW",
+    "street": "POZNAŃSKA"
+  },
+  {
+    "lp": "134",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W ROGOŹNIE",
+    "postal": "64-610",
+    "city": "ROGOŹNO",
+    "street": "WSCHODNIA"
+  },
+  {
+    "lp": "135",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ POWIATOWY W  GNIEŹNIE",
+    "postal": "62-200",
+    "city": "GNIEZNO",
+    "street": "JOLENTY"
+  },
+  {
+    "lp": "136",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ REJONOWY W KALISZU",
+    "postal": "62-800",
+    "city": "KALISZ",
+    "street": "ŁODZKA"
+  },
+  {
+    "lp": "137",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W OSTROWIE WIELKOPOLSKIM",
+    "postal": "63-400",
+    "city": "OSTRÓW WIELKOPOLSKI",
+    "street": "WOLNOŚCI"
+  },
+  {
+    "lp": "138",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W  ZŁOTOWIE",
+    "postal": "77-400",
+    "city": "ZŁOTÓW",
+    "street": "STAWNICA"
+  },
+  {
+    "lp": "139",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W TURKU",
+    "postal": "62-700",
+    "city": "TUREK",
+    "street": "WOJSKA POLSKIEGO"
+  },
+  {
+    "lp": "140",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKI W CHODZIEŻY",
+    "postal": "64-800",
+    "city": "CHODZIEŻ",
+    "street": "STASZICA"
+  },
+  {
+    "lp": "141",
+    "woj_raw": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO",
+    "unit": "SZCZECIŃSKIE WOPR",
+    "postal": "70-631",
+    "city": "SZCZECIN",
+    "street": "HEYKI NAD KANAŁEM ZIELONYM"
+  },
+  {
+    "lp": "142",
+    "woj_raw": "70-383 SZCZECIN, UL. MICKIEWICZA 18",
+    "unit": "WOPR  ODDZIAŁ POWIATOWY W MYŚLIBORZU",
+    "postal": "74-300",
+    "city": "MYŚLIBÓRZ",
+    "street": "SZARYCH SZEREGÓW"
+  },
+  {
+    "lp": "143",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W GOLENIOWIE",
+    "postal": "72-100",
+    "city": "GOLENIÓW",
+    "street": "NIEPODLEGŁOŚCI"
+  },
+  {
+    "lp": "144",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W POLICACH",
+    "postal": "72-100",
+    "city": "POLICE",
+    "street": "KONOPNICKIEJ"
+  },
+  {
+    "lp": "145",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W CHOSZCZNIE",
+    "postal": "73-200",
+    "city": "CHOSZCZNO",
+    "street": "PROMENADA"
+  },
+  {
+    "lp": "146",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W DRAWSKU POMORSKIM",
+    "postal": "78-520",
+    "city": "ZŁOCIENIEC",
+    "street": "STARY RYNEK"
+  },
+  {
+    "lp": "147",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W KAMIENIU POMORSKIM",
+    "postal": "72-400",
+    "city": "KAMIEŃ POMORSKI",
+    "street": "WILKÓW MORSKICH"
+  },
+  {
+    "lp": "148",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W WAŁCZU",
+    "postal": "78-600",
+    "city": "WAŁCZ",
+    "street": "PLAC POLSKI"
+  },
+  {
+    "lp": "149",
+    "woj_raw": "",
+    "unit": "WOPR  ODDZIAŁ GRODZKI ŚWINOUJŚCIE",
+    "postal": "72-600",
+    "city": "ŚWINOUJŚCIE",
+    "street": "ŻEROMSKIEGO"
+  },
+  {
+    "lp": "150",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W GRYFINIE",
+    "postal": "74-100",
+    "city": "GRYFINO",
+    "street": "NADODRZEŃSKA"
+  },
+  {
+    "lp": "151",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W STARGARDZIE",
+    "postal": "73-100",
+    "city": "STARGARD",
+    "street": "OSIEDLE ZACHÓW"
+  },
+  {
+    "lp": "152",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W SZCZECINKU",
+    "postal": "78-400",
+    "city": "SZCZECINEK",
+    "street": "MICKIEWICZA"
+  },
+  {
+    "lp": "153",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY KOŁOBRZEG",
+    "postal": "78-100",
+    "city": "KOŁOBNRZEG",
+    "street": "ŁOPUSKIEGO"
+  },
+  {
+    "lp": "154",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY GRYFICE",
+    "postal": "72-300",
+    "city": "GRYFICE",
+    "street": "STANKIEWICZA"
+  },
+  {
+    "lp": "155",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W ŚWIDWINIE",
+    "postal": "78-300",
+    "city": "ŚWIDNIN",
+    "street": "PLAC SYBIRAKÓW"
+  },
+  {
+    "lp": "156",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W KOSZALINIE",
+    "postal": "75-736",
+    "city": "KOSZALIN",
+    "street": "GNIEŹDZIEŃSKA"
+  },
+  {
+    "lp": "157",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W BIAŁOGARDZIE",
+    "postal": "78-200",
+    "city": "BIAŁOGARD",
+    "street": "1 MAJA"
+  },
+  {
+    "lp": "158",
+    "woj_raw": "",
+    "unit": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W SŁAWNIE",
+    "postal": "76-150",
+    "city": "DARŁOWO",
+    "street": "DARŁOWSKA"
+  }
+]

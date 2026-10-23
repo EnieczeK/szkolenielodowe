@@ -1,0 +1,792 @@
+[
+  {
+    "name": "ODDZIAŁ REJONOWY WOPR W JELENIEJ GÓRZE",
+    "city": "MYSŁAKOWICE",
+    "woj": "DOLNOŚLĄSKIE WOPR WE WROCŁAWIU"
+  },
+  {
+    "name": "DOLNOŚLĄSKIE WOPR WE WROCŁAWIU ODDZIAŁ POWIATOWY W LEGNICY",
+    "city": "KUNICE",
+    "woj": "DOLNOŚLĄSKIE WOPR WE WROCŁAWIU"
+  },
+  {
+    "name": "ODDZIAŁ POWIATOWY WOPR W LUBINIE",
+    "city": "LUBIN",
+    "woj": "DOLNOŚLĄSKIE WOPR WE WROCŁAWIU"
+  },
+  {
+    "name": "KŁODZKI ODDZIAŁ WOPR IM. WIESŁAWA PIASECZNEGO W KŁODZKU",
+    "city": "KŁODZKO",
+    "woj": "DOLNOŚLĄSKIE WOPR WE WROCŁAWIU"
+  },
+  {
+    "name": "WAŁBRZYSKIE WOPR",
+    "city": "WAŁBRZYCH",
+    "woj": "DOLNOŚLĄSKIE WOPR WE WROCŁAWIU"
+  },
+  {
+    "name": "SĄDECKIE WOPR W NOWYM SĄCZU",
+    "city": "NOWY SĄCZ",
+    "woj": "MAŁOPOLSKIE WOPR"
+  },
+  {
+    "name": "TARNOWSKIE WOPR W TARNOWIE",
+    "city": "TARNÓW",
+    "woj": "MAŁOPOLSKIE WOPR"
+  },
+  {
+    "name": "GORLICKIE WOPR",
+    "city": "KLIMKÓWKA",
+    "woj": "MAŁOPOLSKIE WOPR"
+  },
+  {
+    "name": "MIEJSKIE WOPR W CHRZANOWIE",
+    "city": "CHRZANÓW",
+    "woj": "MAŁOPOLSKIE WOPR"
+  },
+  {
+    "name": "MIEJSKIE WOPR W OŚWIĘCIUMIU",
+    "city": "OŚWIĘCIM",
+    "woj": "MAŁOPOLSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ REJONOWY BĘDZIN",
+    "city": "PRZECZYCE",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI BYTOM",
+    "city": "BYTOM",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI CHORZÓW",
+    "city": "CHORZÓW",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "WOPR W DĄBROWIE GÓRNICZEJ",
+    "city": "DĄBROWA GÓRNICZA",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "WOPR GLIWICE",
+    "city": "GLIWICE",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ REJONOWY JASTRZĘBIE ZDRÓJ",
+    "city": "JASTRZĘBIE ZDRÓJ",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI KATOWICE",
+    "city": "KATOWICE",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - DRUŻYNA AWF KATOWICE",
+    "city": "KATOWICE",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI KNURÓW",
+    "city": "KNURÓW",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - LUBLINIECKIE WOPR",
+    "city": "LUBLINIEC",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - DRUŻYNA MYSŁOWICE",
+    "city": "KATOWICE",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ POWIATOWY PIEKARY ŚLĄSKI",
+    "city": "PIEKARY ŚLĄSKIE",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ POWIATOWY RACIBÓRZ",
+    "city": "RACIBÓRZ",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁA MIEJSKI RUDA ŚLĄSKA",
+    "city": "RUDA ŚLĄSKA",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ REJONOWY RYBNIK",
+    "city": "RYBNIK",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI SIEMIANOWICE ŚLĄSKIE",
+    "city": "SIEMIANOWICE ŚLĄSKIE",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - DRUŻYNA ŚWIĘTOCHŁOWICE",
+    "city": "ŚWIĘTOCHŁOWICE",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - TARNOGÓRSKIE WOPR",
+    "city": "TARNOWSKIE GÓRY",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ REJONOWY TYCHY",
+    "city": "TYCHY",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ POWIATOWY WODZISŁAW ŚLĄSKI",
+    "city": "WODZISŁAW ŚLĄSKI",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ MIEJSKI ZABRZE",
+    "city": "ZABRZE",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ POWIATOWY ZAWIERCIE",
+    "city": "ZAWIERCIE",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - DRUŻYNA ŻORY",
+    "city": "ŻORY",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "CHRZANOWSKIE WOPR",
+    "city": "CHRZANÓW",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - ODDZIAŁ REJONOWY OLKUSZ",
+    "city": "OLKUSZ",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "OŚWIĘCIMSKIE WOPR",
+    "city": "OŚWIĘCIM",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR- DRUŻYNA WOPR SOSNOWIEC",
+    "city": "SOSNOWIEC",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "ŚLĄSKIE WOPR - DRUŻYNA SPECJALISTYCZNA AWF ZAŁEŻE",
+    "city": "NOWY SĄCZ",
+    "woj": "ŚLĄSKIE WOPR"
+  },
+  {
+    "name": "WOPR WOJEWÓDZKIE W KIELCACH",
+    "city": "KIELCE",
+    "woj": "WOPR WOJEWÓDZKIE W KIELCACH"
+  },
+  {
+    "name": "NADGOPLAŃSKIE WOPR W KRUSZWICY",
+    "city": "KRUSZWICA",
+    "woj": "WOPR WOJEWÓDZTWA KUJAWSKO-POMORSKIEGO"
+  },
+  {
+    "name": "LIPNOWSKIE WOPR W LIPNIE",
+    "city": "LIPNO",
+    "woj": "WOPR WOJEWÓDZTWA KUJAWSKO-POMORSKIEGO"
+  },
+  {
+    "name": "WDECKIE WOPR W TLENIU",
+    "city": "TLEŃ",
+    "woj": "WOPR WOJEWÓDZTWA KUJAWSKO-POMORSKIEGO"
+  },
+  {
+    "name": "WŁOCŁAWSKIE WOPR",
+    "city": "WŁOCŁAWEK",
+    "woj": "WOPR WOJEWÓDZTWA KUJAWSKO-POMORSKIEGO"
+  },
+  {
+    "name": "WOPR ZARZĄD REJONOWY W TORUNIU",
+    "city": "TORUŃ",
+    "woj": "WOPR WOJEWÓDZTWA KUJAWSKO-POMORSKIEGO"
+  },
+  {
+    "name": "REJONOWE WOPR W BYDGOSZCZY",
+    "city": "BYDGOSZCZ",
+    "woj": "WOPR WOJEWÓDZTWA KUJAWSKO-POMORSKIEGO"
+  },
+  {
+    "name": "PAŁUCKIE WOPR W ŻNINIE",
+    "city": "ŻNIN",
+    "woj": "WOPR WOJEWÓDZTWA KUJAWSKO-POMORSKIEGO"
+  },
+  {
+    "name": "WOPR W CHEŁMNIE",
+    "city": "CHEŁMNO",
+    "woj": "WOPR WOJEWÓDZTWA KUJAWSKO-POMORSKIEGO"
+  },
+  {
+    "name": "REJONOWE WOPR W CHEŁMIE",
+    "city": "CHEŁM",
+    "woj": "WOPR WOJEWÓDZTWA LUBELSKIEGO"
+  },
+  {
+    "name": "REJONOWE WOPR W LUBLINIE",
+    "city": "LUBLIN",
+    "woj": "WOPR WOJEWÓDZTWA LUBELSKIEGO"
+  },
+  {
+    "name": "REJONOWE WOPR (ZAMOŚĆ)",
+    "city": "ZAMOŚĆ",
+    "woj": "WOPR WOJEWÓDZTWA LUBELSKIEGO"
+  },
+  {
+    "name": "REJONOWY ODDZIAŁ WOPR Z SIEDZIBĄ W GUBINIE",
+    "city": "GUBIN",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "POWIATOWY ODDZIAŁ WOPR ŚWIEBODZIN",
+    "city": "ŚWIEBODZIN",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "ODDZIAŁ WOPR LUBSKO",
+    "city": "LUBSKO",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "ŻARSKI ODDZIAŁ WOPR",
+    "city": "ŻARY",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "ODDZIAŁ POWIATOWY WOPR ŻAGAŃ",
+    "city": "ŻAGAŃ",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "WOPR ZIELONA GÓRA",
+    "city": "ZIELONA GÓRA",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "WOPR NOWA SÓL",
+    "city": "NOWA SÓL",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "ODDZIAŁ POWIATOWY WOPR WSCHOWA",
+    "city": "WSCHOWA",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "WOPR LUBNIEWICE",
+    "city": "LUBNIEWICE",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "WOPR GORZÓW WIELKOPOLSKI",
+    "city": "GORZÓW WIELKOPOLSKI",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "NADODRZAŃSKI ODDZIAŁ WOPR",
+    "city": "SŁUBICE",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "WOPR PRZYSTAŃ GORZÓW WIELKOPOLSKI",
+    "city": "GORZÓW WIELKOPOLSKI",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "WOPR KOSTRZYŃ NAD ODRĄ",
+    "city": "KOSTRZYŃ NAD ODRĄ",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "WOPR W GŁOGOWIE",
+    "city": "GŁOGÓW",
+    "woj": "WOPR WOJEWÓDZTWA LUBUSKIEGO"
+  },
+  {
+    "name": "WOPR W TOMASZOWIE MAZOWIECKIM",
+    "city": "TOMASZÓW MAZOWIECKI",
+    "woj": "WOPR WOJEWÓDZTWA ŁÓDZIEGO"
+  },
+  {
+    "name": "ZGIERSKO-ŁĘCZYCKIE WOPR",
+    "city": "OZORKÓW",
+    "woj": "WOPR WOJEWÓDZTWA ŁÓDZIEGO"
+  },
+  {
+    "name": "ŁÓDZKIE WOPR",
+    "city": "ŁÓDŹ",
+    "woj": "WOPR WOJEWÓDZTWA ŁÓDZIEGO"
+  },
+  {
+    "name": "WOPR W RAWIE MAZOWIECKIEJ",
+    "city": "RAWA MAZOWIECKA",
+    "woj": "WOPR WOJEWÓDZTWA ŁÓDZIEGO"
+  },
+  {
+    "name": "WOPR ODDZIAŁ W SKIERNIEWICACH",
+    "city": "SKIERNIEWICE",
+    "woj": "WOPR WOJEWÓDZTWA ŁÓDZIEGO"
+  },
+  {
+    "name": "REJONOWE WOPR W PIOTRKOWIE TRYBUNALSKIM",
+    "city": "PIOTRKÓW TRYBUNALSKI",
+    "woj": "WOPR WOJEWÓDZTWA ŁÓDZIEGO"
+  },
+  {
+    "name": "ZDUŃSKOWOLSKIE WOPR",
+    "city": "ZDUŃSKA WOLA",
+    "woj": "WOPR WOJEWÓDZTWA ŁÓDZIEGO"
+  },
+  {
+    "name": "ŁASKIE WOPR",
+    "city": "ŁASK",
+    "woj": "WOPR WOJEWÓDZTWA ŁÓDZIEGO"
+  },
+  {
+    "name": "POWIATOWE WOPR W RADOMSKU",
+    "city": "RADOMSKO",
+    "woj": "WOPR WOJEWÓDZTWA ŁÓDZIEGO"
+  },
+  {
+    "name": "CIECHANOWSKIE WOPR W CIECHANOWIE",
+    "city": "CIECHANÓW",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "WOPR W RADOMIU",
+    "city": "RADOM",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "STOŁECZNE WOPR",
+    "city": "WARSZAWA",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "PIASECZYŃSKIE WOPR",
+    "city": "PIASECZNO",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "POWIATOWE WOPR (BIAŁOBRZEGI)",
+    "city": "BIAŁOBRZEGI",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "NOWODOWORSKIE WOPR",
+    "city": "NOWY DWÓR MAZOWIECKI",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "REJONOWE PŁOCKIE WOPR W PŁOCKU",
+    "city": "PŁOCK",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "SOCHACZEWSKIE WOPR",
+    "city": "SOCHACZEW",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "LEGIONOWSKIE WOPR",
+    "city": "ZEGRZE POLUDNIOWE",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "WOPR - OS W SOTROŁECE",
+    "city": "OSTROŁEKA",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "PUŁTUSKIE WOPR",
+    "city": "PUŁTUSK",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "ŻYRARDOWSKIE POWIATOWE WOPR",
+    "city": "ŻYRARDÓW",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "WOPR PRUSZKÓW",
+    "city": "PRUSZKÓW",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "WOPR GRODZISK MAZOWIECKI",
+    "city": "GRODZISK MAZOWIECKI",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "WOPR BŁONIE",
+    "city": "BŁONIE",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "WOPR W SIEDLCACH",
+    "city": "SIEDLCE",
+    "woj": "WOPR WOJEWÓDZTWA MAZOWIECKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA OPOLSKIEGO ODDZIAŁ REJONOWY W OPOLU",
+    "city": "OPOLE",
+    "woj": "WOPR WOJEWÓDZTWA OPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA OPOLSKIEGO ODDZIAŁ REJONOWY W NYSIE",
+    "city": "NYSA",
+    "woj": "WOPR WOJEWÓDZTWA OPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA OPOLSKIEGO ODDZIAŁ REJONOWY W KĘDZIERZYNIE - KOŹLU",
+    "city": "KĘDZIERZYN-KOŹLE",
+    "woj": "WOPR WOJEWÓDZTWA OPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA OPOLSKIEGO ODDZIAŁ POWIATOWY W PRUDNIKU",
+    "city": "PRUDNIK",
+    "woj": "WOPR WOJEWÓDZTWA OPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA OPOLSKIEGO DRUŻYNA WOPR W BRZEGU",
+    "city": "BRZEG",
+    "woj": "WOPR WOJEWÓDZTWA OPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA OPOLSKIEGO DRUŻYNA ŚRODOWISKOWA MEDYK RESCUE W PRUDNIKU",
+    "city": "PRUDNIK",
+    "woj": "WOPR WOJEWÓDZTWA OPOLSKIEGO"
+  },
+  {
+    "name": "RZESZOWSKIE WOPR",
+    "city": "RZESZÓW",
+    "woj": "WOPR WOJEWÓDZTWA PODKARPACKIEGO"
+  },
+  {
+    "name": "BIESZCZADZKIE WOPR Z SIEDZIBĄ W KROŚNIE",
+    "city": "KROSNO",
+    "woj": "WOPR WOJEWÓDZTWA PODKARPACKIEGO"
+  },
+  {
+    "name": "REJONOWE WOPR W TARNOBRZEGU",
+    "city": "TARNOBRZEG",
+    "woj": "WOPR WOJEWÓDZTWA PODKARPACKIEGO"
+  },
+  {
+    "name": "PREMYSKIE WOPR",
+    "city": "PRZEMYŚL",
+    "woj": "WOPR WOJEWÓDZTWA PODKARPACKIEGO"
+  },
+  {
+    "name": "BIAŁOSTOCKIE WOPR",
+    "city": "BIAŁYSTOK",
+    "woj": "WOPR WOJEWÓDZTWA PODLASKIEGO"
+  },
+  {
+    "name": "SUWALSKIE WOPR",
+    "city": "SUWAŁKI",
+    "woj": "WOPR WOJEWÓDZTWA PODLASKIEGO"
+  },
+  {
+    "name": "AUGUSTOWSKIE WOPR W AUGUSTOWIE",
+    "city": "AUGUSTÓW",
+    "woj": "WOPR WOJEWÓDZTWA PODLASKIEGO"
+  },
+  {
+    "name": "OKRĘGOWE WOPR W ŁOMŻY",
+    "city": "ŁOMŻA",
+    "woj": "WOPR WOJEWÓDZTWA PODLASKIEGO"
+  },
+  {
+    "name": "CHOJNICKIE WOPR",
+    "city": "CHARZYKOWY",
+    "woj": "WOPR WOJEWÓDZTWA POMORSKIEGO"
+  },
+  {
+    "name": "CZŁUCHOWSKIE WOPR",
+    "city": "CZŁUCHÓW",
+    "woj": "WOPR WOJEWÓDZTWA POMORSKIEGO"
+  },
+  {
+    "name": "KOCIEWSKIE WOPR",
+    "city": "SKARSZEWY",
+    "woj": "WOPR WOJEWÓDZTWA POMORSKIEGO"
+  },
+  {
+    "name": "KOŚCIERSKIE WOPR ODDZIAŁ WOPR WOJEWÓDZTWA POMORSKIEGO",
+    "city": "WĄGLIKOWICE",
+    "woj": "WOPR WOJEWÓDZTWA POMORSKIEGO"
+  },
+  {
+    "name": "MALBORSKIE WOPR",
+    "city": "MALBORK",
+    "woj": "WOPR WOJEWÓDZTWA POMORSKIEGO"
+  },
+  {
+    "name": "TCZEWSKIE WOPR",
+    "city": "TCZEW",
+    "woj": "WOPR WOJEWÓDZTWA POMORSKIEGO"
+  },
+  {
+    "name": "KARTUSKIE WOPR",
+    "city": "CHMIELNO",
+    "woj": "WOPR WOJEWÓDZTWA POMORSKIEGO"
+  },
+  {
+    "name": "KWIDZYŃSKIE WOPR",
+    "city": "KWIDZYŃ",
+    "woj": "WOPR WOJEWÓDZTWA POMORSKIEGO"
+  },
+  {
+    "name": "PUCKIE WOPR",
+    "city": "WŁADYSŁAWOWO",
+    "woj": "WOPR WOJEWÓDZTWA POMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIŃSKO-MAZURSKIEGO ODDZIAŁ MIEJSKO POWIATOWY W KĘTRZYNIE",
+    "city": "STARA RÓŻANKA",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIŃSKO-MAZURSKIEGO ODDZIAŁ MIEJSKO POWIATOWY W SZCZYTNIE",
+    "city": "SZCZYTNO",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "ELBLĄSKIE WOPR",
+    "city": "ELBLĄG",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W EŁKU",
+    "city": "EŁK",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W IŁAWIE",
+    "city": "IŁAWA",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W OSTRÓDZIE",
+    "city": "OSTRÓDA",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W OLSZTYNIE",
+    "city": "OLSZTYN",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W MRĄGOWIE",
+    "city": "MRĄGOWO",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W GOŁDAPI",
+    "city": "GOŁDAP",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W OLECKU",
+    "city": "OLECKO",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W PISZU Z SIEDZIBĄ W OKARTOWIE",
+    "city": "ORZYSZ",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WARMIOŃSKO-MAZORSKIEGO ODDZIAL MIEJSKO-POWIATOWY W DZIAŁDOWIE Z SIEDZIBĄ W LIDZBARKU",
+    "city": "LIDZBARK",
+    "woj": "WOPR WOJEWÓDZTWA WARMIŃSKO MAZURSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W  POZNANIU",
+    "city": "POZNAŃ",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOPJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ ŚRODOWISKOWY GOŁUCHOWIE",
+    "city": "GOŁUCHÓW",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO-POWIATOWY \"ANIOŁY\" W TRZCIANCE",
+    "city": "TRZCIANKA",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ZARZĄD REJONOWY W KONINIE",
+    "city": "KONIN",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W WOLSZTYNIE",
+    "city": "WOLSZTYN",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO  ODDZIAŁ MIEJSKO - POWIATOWY W MIĘDZYCHODZIE",
+    "city": "MIĘDZYCHÓD",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓŽZTWA WIELKOPOLSKIEGO ODDZIAŁ POWIATOWY WĄGROWCU",
+    "city": "WĄGROWIEC",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W ŚREMIE",
+    "city": "ŚREM",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W PLESZEWIE",
+    "city": "PLESZEW",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W ROGOŹNIE",
+    "city": "ROGOŹNO",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ POWIATOWY W  GNIEŹNIE",
+    "city": "GNIEZNO",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ REJONOWY W KALISZU",
+    "city": "KALISZ",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W OSTROWIE WIELKOPOLSKIM",
+    "city": "OSTRÓW WIELKOPOLSKI",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W  ZŁOTOWIE",
+    "city": "ZŁOTÓW",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKO - POWIATOWY W TURKU",
+    "city": "TUREK",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO ODDZIAŁ MIEJSKI W CHODZIEŻY",
+    "city": "CHODZIEŻ",
+    "woj": "WOPR WOJEWÓDZTWA WIELKOPOLSKIEGO"
+  },
+  {
+    "name": "SZCZECIŃSKIE WOPR",
+    "city": "SZCZECIN",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR  ODDZIAŁ POWIATOWY W MYŚLIBORZU",
+    "city": "MYŚLIBÓRZ",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W GOLENIOWIE",
+    "city": "GOLENIÓW",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W POLICACH",
+    "city": "POLICE",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W CHOSZCZNIE",
+    "city": "CHOSZCZNO",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W DRAWSKU POMORSKIM",
+    "city": "ZŁOCIENIEC",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W KAMIENIU POMORSKIM",
+    "city": "KAMIEŃ POMORSKI",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W WAŁCZU",
+    "city": "WAŁCZ",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR  ODDZIAŁ GRODZKI ŚWINOUJŚCIE",
+    "city": "ŚWINOUJŚCIE",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W GRYFINIE",
+    "city": "GRYFINO",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W STARGARDZIE",
+    "city": "STARGARD",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W SZCZECINKU",
+    "city": "SZCZECINEK",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY KOŁOBRZEG",
+    "city": "KOŁOBNRZEG",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY GRYFICE",
+    "city": "GRYFICE",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W ŚWIDWINIE",
+    "city": "ŚWIDNIN",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W KOSZALINIE",
+    "city": "KOSZALIN",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W BIAŁOGARDZIE",
+    "city": "BIAŁOGARD",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  },
+  {
+    "name": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO ODDZIAŁ POWIATOWY W SŁAWNIE",
+    "city": "DARŁOWO",
+    "woj": "WOPR WOJEWÓDZTWA ZACHODNIOPOMORSKIEGO"
+  }
+]

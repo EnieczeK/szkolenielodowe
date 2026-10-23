@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centralne Szkolenie Specjalistyczne Lodowe | Śląskie WOPR</title>
+  <meta name="description"
+    content="Oficjalna strona naboru na Centralne Szkolenie Specjalistyczne (CSS) z zakresu ratownictwa lodowego Śląskiego WOPR. Poziom A (Stażysta) oraz Poziom B (Ratownik). Baza Chełm Śląski / Zalew Dziećkowice.">
+  <link rel="preload" as="image" href="logo_wopr.webp" type="image/webp">
+  <link rel="stylesheet" href="style.css?v=3.0">
+  <link rel="icon" type="image/png" href="logo_wopr.png">
+</head>
+
+<body class="apple-style">
+
+  <!-- ======================================================== -->
+  <!-- 1. NAGŁÓWEK W STYLU 1:1 JAK NA STRONIE WOPR.ORG.PL       -->
+  <!-- ======================================================== -->
+  <header class="wopr-header-wrapper" id="topHeader">
+    <div class="wopr-header-container">
+
+      <!-- Logo WOPR (oryginalne zachodzące na pasek menu jak na wopr.org.pl) -->
+      <a href="#hero" class="c-logo-link" aria-label="WOPR Strona Główna">
+        <img class="c-logo" src="logo_wopr.webp" width="78" height="78" alt="Herb Wodne Ochotnicze Pogotowie Ratunkowe">
+      </a>
+
+      <!-- Górny wiersz paska: Tytuł organizacji + e-WOPR + Panel Organizatora + Social Icons -->
+      <div class="c-top-navbar">
+        <div class="c-top-navbar-branding">
+          <span class="wopr-org-title">WODNE OCHOTNICZE POGOTOWIE RATUNKOWE</span>
+          <span class="wopr-org-subtitle">ŚLĄSKIE WOPR • CENTRALNE SZKOLENIE SPECJALISTYCZNE LODOWE</span>
+        </div>
+
+        <div class="c-top-navbar-actions">
+          <a href="https://e.wopr.org.pl" target="_blank" rel="noopener" class="c-top-navbar-item c-highlight"
+            title="System e-WOPR">
+            e-WOPR
+          </a>
+
+          <button id="adminBtn" class="c-top-navbar-item c-admin-badge" title="Podgląd zgłoszonych ratowników">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            <span>Panel Organizatora</span>
+          </button>
+
+          <!-- Social media & telefony jak na wopr.org.pl -->
+          <div class="c-social-links">
+            <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=100088566796446"
+              class="c-top-navbar-item-icon" title="Facebook - Śląskie WOPR">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <a target="_blank" rel="noopener" href="https://www.instagram.com/wopr.katowice/"
+              class="c-top-navbar-item-icon" title="Instagram - WOPR Katowice">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dolny wiersz paska: Zaokrąglona kapsuła menu .c-menu (1:1 wopr.org.pl) -->
+      <nav class="c-menu" id="cMainMenu">
+        <ul class="c-menu-list" id="cMenuList">
+          <li class="c-menu-item active"><a href="#hero">Strona główna</a></li>
+          <li class="c-menu-item"><a href="#poziomy">Poziomy A & B</a></li>
+          <li class="c-menu-item"><a href="#o-szkoleniu">O szkoleniu</a></li>
+          <li class="c-menu-item"><a href="#termin">Termin: 17–18.01.2027</a></li>
+          <li class="c-menu-item"><a href="#portfolio">Galeria & Manewry</a></li>
+          <li class="c-menu-item"><a href="#kruche-zycie">Kruche Życie</a></li>
+          <li class="c-menu-item"><a href="#wymagania">Wymagania</a></li>
+          <li class="c-menu-item c-menu-cta"><a href="#zapisy">Zapisz się</a></li>
+        </ul>
+
+        <button class="mobile-nav-toggle" id="mobileMenuBtn" aria-label="Menu mobilne">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================== -->
+    <!-- 2. HERO Z FILMEM W TLE (film_w_tle.mp4) ORAZ PŁYNNY MORPH -->
+    <!-- ======================================================== -->
+    <section class="hero-cinematic" id="hero">
+
+      <!-- Tło Wideo z wyciszonym autoodtwarzaniem i pętlą -->
+      <div class="video-background-layer">
+        <video class="hero-video" id="heroBgVideo" autoplay muted loop playsinline preload="metadata" poster="hero_poster.webp">
+          <source src="film_w_tle.mp4" type="video/mp4">
+          Twoja przeglądarka nie obsługuje znacznika wideo.
+        </video>
+        <!-- Morficzny gradient Apple: od głębokiej nocy do delikatnej przezroczystości -->
+        <div class="video-vignette-overlay"></div>
+      </div>
+
+      <!-- Zawartość Hero -->
+      <div class="hero-inner-container">
+
+        <div class="hero-typography-card">
+          <div class="editorial-kicker">
+            CENTRALNE SZKOLENIE SPECJALISTYCZNE • ŚLĄSKIE WOPR
+          </div>
+
+          <h1 class="apple-hero-headline">
+            Gdy lód pęka pod stopami,<br>
+            <span class="headline-gradient">decydują sekundy.</span>
+          </h1>
+
+          <p class="apple-hero-subhead">
+            Oficjalny, ujednolicony system szkoleniowy WOPR od 2008 roku. Intensywny zjazd manewrowy na akwenie zimowym.
+            Praca w suchych kombinezonach wypornościowych, sanie lodowe, samoratownictwo i zaawansowane procedury
+            asekuracyjne.
+          </p>
+
+          <!-- Przyciski akcji (Apple Style Pills) -->
+          <div class="hero-action-row">
+            <a href="#zapisy" class="btn-apple-primary">
+              <span>Zgłoś udział w szkoleniu</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="#portfolio" class="btn-apple-secondary">
+              <span>Zobacz zdjęcia i relacje z drona</span>
+            </a>
+          </div>
+
+          <!-- Pasek dostępności turnusu -->
+          <div class="hero-glass-counter" id="heroSpotsCard">
+            <div class="counter-header">
+              <span class="counter-label">Status naboru na turnus zimowy:</span>
+              <span class="counter-val"><strong id="heroSpotsLeft">6</strong> wolnych miejsc z
+                <strong>20</strong></span>
+            </div>
+            <div class="counter-track">
+              <div class="counter-bar" id="heroSpotsFill" style="width: 70%;"></div>
+            </div>
+            <div class="counter-meta">
+              Zalew Dziećkowice / Chełm Śląski • Kwalifikacja wg kolejności zgłoszeń
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- 3. BENTO GRID: KLUCZOWE FAKTY I POZIOMY SZKOLENIA        -->
+    <!-- ======================================================== -->
+    <section class="section-morphic" id="poziomy">
+      <div class="content-wrapper">
+
+        <div class="section-lead-block text-center">
+          <h2 class="display-title">Dwa Poziomy. Jeden Cel: Bezpieczeństwo.</h2>
+          <p class="lead-paragraph">
+            Zgodnie z ujednoliconym programem Komisji Szkoleniowej WOPR szkolenia lodowe dzielą się na dwa stopnie
+            zaawansowania.
+          </p>
+        </div>
+
+        <!-- Apple-like Bento Grid -->
+        <div class="bento-grid">
+
+          <!-- Karta Poziom B (Główna, podświetlona) -->
+          <div class="bento-card bento-card-large card-glass-elevated">
+            <div class="bento-card-header">
+              <span class="badge-tag tag-kruche">POZIOM B • RATOWNIK</span>
+              <span class="badge-sub">Działania w warunkach realnych</span>
+            </div>
+
+            <h3 class="bento-title">Ratownictwo w Sytuacjach Realnych</h3>
+            <p class="bento-desc">
+              Szkolenie przeznaczone dla pełnoletnich ratowników WOPR z ważnym KPP. Przygotowuje do bezpośrednich
+              działań w zespole z wykorzystaniem sań lodowych, desek lodowych oraz suchych skafandrów wypornościowych w
+              najtrudniejszych warunkach pogodowych.
+            </p>
+
+            <div class="bento-specs-list">
+              <div class="spec-row">
+                <span class="spec-bullet"></span>
+                <span><strong>Sanie lodowe:</strong> dojazd do przerębla, techniki podejmowania poszkodowanych i
+                  rolling-out.</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-bullet"></span>
+                <span><strong>Praca w sucharach:</strong> bezpieczne bezpośrednie wejścia do wody i przełamywanie szoku
+                  termicznego.</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-bullet"></span>
+                <span><strong>Medycyna w hipotermii:</strong> zjawisko afterdrop, protokoły KPP, pakiet termiczny i
+                  tlenoterapia.</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-bullet"></span>
+                <span><strong>Zarządzanie akcją:</strong> dowodzenie z brzegu, asekuracja linowa, łączność
+                  podlodowa.</span>
+              </div>
+            </div>
+
+            <div class="bento-action-footer">
+              <button class="btn-apple-primary btn-sm" onclick="selectLevel('Poziom B')">Wybierz Poziom B w zapisach</button>
+            </div>
+          </div>
+
+          <!-- Karta Poziom A (Podstawowa, od 14 lat) -->
+          <div class="bento-card bento-card-large card-glass-subtle">
+            <div class="bento-card-header">
+              <span class="badge-tag tag-blue">POZIOM A • STAŻYSTA</span>
+              <span class="badge-sub">Od 14. roku życia</span>
+            </div>
+
+            <h3 class="bento-title">Samoratownictwo i Podstawy Bezpieczeństwa</h3>
+            <p class="bento-desc">
+              Poziom podstawowy, odpowiednik idei stopnia Młodszego Ratownika WOPR. Stanowi wprowadzenie do ratownictwa
+              lodowego i buduje fundament wiedzy oraz umiejętności niezbędnych do bezpiecznego przebywania i reagowania
+              na akwenach zimowych.
+            </p>
+
+            <div class="bento-specs-list">
+              <div class="spec-row">
+                <span class="spec-bullet"></span>
+                <span><strong>Autoratownictwo:</strong> technika wyjścia z przerębla przy użyciu kolców lodowych i
+                  techniki foki.</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-bullet"></span>
+                <span><strong>Ocena nośności pokrywy:</strong> lód czarny, śniegolód, strefy prądowe i niebezpieczne
+                  przewężenia.</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-bullet"></span>
+                <span><strong>Asekuracja i pomoc z brzegu:</strong> posługiwanie się rzutkami rękawowymi, żerdziami i
+                  pasami asekuracyjnymi.</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-bullet"></span>
+                <span><strong>Wstęp do specjalizacji:</strong> fundament wiedzy do dalszego rozwoju w strukturach
+                  WOPR.</span>
+              </div>
+            </div>
+
+            <div class="bento-action-footer">
+              <button class="btn-apple-outline btn-sm" onclick="selectLevel('Poziom A')">Wybierz Poziom A w
+                zapisach</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- 4. HISTORIA & STANDARD SYSTEMU WOPR (Od 2008 roku)       -->
+    <!-- ======================================================== -->
+    <section class="section-morphic section-frost" id="o-szkoleniu">
+      <div class="content-wrapper">
+
+        <div class="editorial-split-block">
+
+          <div class="editorial-text-col">
+            <h2 class="display-title">Czym jest Centralne Szkolenie Lodowe WOPR?</h2>
+
+            <p class="text-body-large">
+              To element ogólnopolskiego systemu szkoleniowego WOPR, którego celem jest przygotowanie ratowników do
+              bezpiecznego i skutecznego działania na obszarach pokrytych lodem. Szkolenia te odpowiadają na realne
+              zagrożenia występujące zimą na akwenach i stanowią istotny etap rozwoju kompetencji ratowniczych.
+            </p>
+
+            <p class="text-body-normal">
+              System szkoleń z ratownictwa lodowego został sklasyfikowany i ujednolicony w <strong>2008 roku</strong>.
+              Część elementów szkolenia pozostaje niezmienna jako fundament technik ratowniczych, natomiast inne są na
+              bieżąco modyfikowane i dostosowywane do rozwoju sprzętu oraz zmieniających się realiów działań
+              ratowniczych na śląskich i ogólnopolskich akwenach.
+            </p>
+
+            <div class="stats-pills-row" id="statsRow">
+              <div class="mini-stat-item">
+                <span class="stat-big" data-target="18" data-suffix="">0</span>
+                <span class="stat-caption">Lat ujednoliconego standardu CSS</span>
+              </div>
+              <div class="mini-stat-item">
+                <span class="stat-big" data-target="100" data-suffix="%">0%</span>
+                <span class="stat-caption">Praktyki w realnych warunkach wodnych</span>
+              </div>
+              <div class="mini-stat-item">
+                <span class="stat-big" data-target="4" data-prefix="1:">1:0</span>
+                <span class="stat-caption">Maksymalny stosunek instruktorów do kursantów</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="editorial-media-col">
+            <div class="apple-photo-card">
+              <img src="hero_rescuer.webp" alt="Ratownik WOPR w pełnym suchym skafandrze lodowym"
+                class="photo-retina" loading="lazy" decoding="async">
+              <div class="photo-info-bar">
+                <span class="bar-title">Ekwipunek i Bezpieczeństwo</span>
+                <span class="bar-sub">Skafandry ratownicze, kaski, rzutki, raki, kolce lodowe</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- 5. OFICJALNY TERMIN ŚLĄSKIEGO WOPR: 17–18 STYCZNIA 2027   -->
+    <!-- ======================================================== -->
+    <section class="section-morphic" id="termin">
+      <div class="content-wrapper">
+
+        <div class="section-lead-block text-center">
+          <h2 class="display-title">Najbliższy Zjazd Zimowy</h2>
+          <p class="lead-paragraph">Dedykowane Centralne Szkolenie Specjalistyczne na akwenie zimowym organizowane przez
+            Śląskie WOPR.</p>
+        </div>
+
+        <div class="event-single-card">
+          <div class="event-single-grid">
+            <div class="event-date-block">
+              <div class="event-calendar-pill">
+                <span class="cal-month">STYCZEŃ 2027</span>
+                <span class="cal-days">17–18</span>
+                <span class="cal-desc">Sobota – Niedziela • Zjazd dwudniowy</span>
+              </div>
+            </div>
+
+            <div class="event-details-block">
+              <div class="event-tag-row">
+                <span class="badge-status-active">TRWAJĄ ZAPISY</span>
+                <span class="badge-accent-blue">ŚLĄSKIE WOPR</span>
+                <span class="badge-accent-slate">POZIOM A & B</span>
+              </div>
+
+              <h3 class="event-card-title">Centralne Szkolenie Specjalistyczne z Zakresu Ratownictwa Lodowego</h3>
+
+              <div class="event-specs-list">
+                <div class="event-spec-item">
+                  <span class="spec-label">Baza Operacyjna:</span>
+                  <span class="spec-value">Baza Śląskiego WOPR – Chełm Śląski (Zalew Dziećkowice)</span>
+                </div>
+                <div class="event-spec-item">
+                  <span class="spec-label">Dostępne Poziomy:</span>
+                  <span class="spec-value">Poziom A (Stażysta, od 14 lat) oraz Poziom B (Ratownik, od 18 lat)</span>
+                </div>
+                <div class="event-spec-item">
+                  <span class="spec-label">Zakres Ćwiczeń:</span>
+                  <span class="spec-value">Sanie lodowe, samoratownictwo, praca w suchych kombinezonach, asekuracja z
+                    brzegu</span>
+                </div>
+                <div class="event-spec-item">
+                  <span class="spec-label">Certyfikacja:</span>
+                  <span class="spec-value">Wpis do oficjalnego rejestru wyszkolenia WOPR i zaświadczenie Zarządu
+                    Wojewódzkiego</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="event-cta-block">
+              <div class="cta-inner-box">
+                <span class="spots-alert-title">Liczba miejsc ograniczona</span>
+                <p class="spots-alert-desc">Wymóg posiadania własnego skafandra. Zapewniamy profesjonalny sprzęt lodowy,
+                  asekurację instruktorską oraz ciepłą bazę socjalną.</p>
+                <a href="#zapisy" class="btn-apple-primary btn-block">
+                  <span>Zapisz się na ten termin</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- 6. PORTFOLIO & GALERIA: PRAWDZIWE ZDJĘCIA Z MANEWRÓW    -->
+    <!-- ======================================================== -->
+    <section class="section-morphic section-dark-gallery" id="portfolio">
+      <div class="content-wrapper">
+
+        <div class="section-lead-block text-center text-white">
+          <h2 class="display-title title-white">Poligon Lodowy w Obiektywie</h2>
+          <p class="lead-paragraph paragraph-muted">
+            Unikalne kadry z lotu ptaka i manewrów na lodzie wykonane podczas ćwiczeń jednostek Śląskiego WOPR.
+          </p>
+        </div>
+
+        <!-- Galeria Apple Masonry / Bento -->
+        <div class="gallery-apple-grid">
+
+          <!-- Zdjęcie 1: Duże rozpoznanie z drona (item-span-2) -->
+          <div class="gallery-item item-span-2">
+            <div class="gallery-img-box">
+              <img src="gallery_kra.webp" alt="Płynięcie w przerębli między krami lodu"
+                class="gallery-retina-img" loading="lazy" decoding="async">
+              <div class="gallery-caption-overlay">
+                <span class="cap-tag">DJI mini 4 pro</span>
+                <h4>Płynięcie w przerębli między krami lodu</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 2: Sanie / system woda-lód -->
+          <div class="gallery-item">
+            <div class="gallery-img-box">
+              <img src="gallery_woda_lod.webp" alt="Praca na systemie WODA-LÓD" class="gallery-retina-img" loading="lazy" decoding="async">
+              <div class="gallery-caption-overlay">
+                <span class="cap-tag">Techniki Dynamiczne</span>
+                <h4>Praca na systemie WODA-LÓD</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 3: Asekuracja linowa -->
+          <div class="gallery-item">
+            <div class="gallery-img-box">
+              <img src="gallery_asekuracja.webp" alt="Asekuracja linowa zespołu" class="gallery-retina-img"
+                loading="lazy" decoding="async">
+              <div class="gallery-caption-overlay">
+                <span class="cap-tag">Asekuracja Linowa</span>
+                <h4>Koordynacja zespołu wprowadzającego i brzegowego</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 4: Symulacja wypadku -->
+          <div class="gallery-item">
+            <div class="gallery-img-box">
+              <img src="gallery_symulacja.webp" alt="Działania zespołowe na lodzie" class="gallery-retina-img"
+                loading="lazy" decoding="async">
+              <div class="gallery-caption-overlay">
+                <span class="cap-tag">Działania Zespołowe</span>
+                <h4>Symulacja wypadku masowego</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 5: Wyjście z przerębla -->
+          <div class="gallery-item">
+            <div class="gallery-img-box">
+              <img src="gallery_wyjscie.webp" alt="Procedury wyjścia z przerębla" class="gallery-retina-img"
+                loading="lazy" decoding="async">
+              <div class="gallery-caption-overlay">
+                <span class="cap-tag">Zimna Woda</span>
+                <h4>Procedury wyjścia z przerębla</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 6: Instruktorzy WOPR -->
+          <div class="gallery-item">
+            <div class="gallery-img-box">
+              <img src="gallery_instruktorzy.webp" alt="Instruktorzy Śląskiego WOPR" class="gallery-retina-img"
+                loading="lazy" decoding="async">
+              <div class="gallery-caption-overlay">
+                <span class="cap-tag">Kadra & Certyfikaty</span>
+                <h4>Instruktorzy Śląskiego WOPR</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- 7. WYMAGANIA I CO ZAPEWNIA ŚLĄSKIE WOPR                  -->
+    <!-- ======================================================== -->
+    <section class="section-morphic" id="wymagania">
+      <div class="content-wrapper">
+
+        <div class="section-lead-block text-center">
+          <h2 class="display-title">Wymagania i Logistyka</h2>
+          <p class="lead-paragraph">Przejrzyste zasady naboru i wyposażenie gwarantowane przez organizatora.</p>
+        </div>
+
+        <div class="requirements-apple-grid">
+
+          <div class="req-apple-card">
+            <div class="req-card-top">
+              <span class="req-card-badge">A</span>
+              <h3>Wymagania Poziom A (Stażysta)</h3>
+            </div>
+            <ul class="clean-check-list">
+              <li>Ukończony <strong>14. rok życia</strong> przed rozpoczęciem manewrów.</li>
+              <li>Przynależność do jednostki WOPR (lub status stażysty/kandydata).</li>
+              <li>Pisemna zgoda opiekunów prawnych dla osób poniżej 18 roku życia.</li>
+              <li>Brak przeciwwskazań zdrowotnych do wysiłku fizycznego.</li>
+            </ul>
+          </div>
+
+          <div class="req-apple-card">
+            <div class="req-card-top">
+              <span class="req-card-badge badge-orange">B</span>
+              <h3>Wymagania Poziom B (Ratownik)</h3>
+            </div>
+            <ul class="clean-check-list">
+              <li>Ukończone <strong>18 lat</strong>.</li>
+              <li>Uprawnienia co najmniej <strong>Ratownika WOPR</strong>.</li>
+              <li>Ważne zaświadczenie <strong>KPP (Kwalifikowana Pierwsza Pomoc)</strong>.</li>
+              <li>Aktualne badania lekarskie lub oświadczenie o stanie zdrowia.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Co zapewnia Śląskie WOPR -->
+        <div class="logistics-apple-box">
+          <div class="logistics-header">
+            <h4>Organizator zapewnia uczestnikom:</h4>
+          </div>
+          <div class="logistics-items-grid">
+            <div class="log-item">
+              <div class="log-graphic-box">
+                <img src="kilof.png" alt="Sprzęt lodowy" class="log-item-graphic">
+              </div>
+              <div>
+                <strong>Sprzęt lodowy</strong>
+                <p>Profesjonalne sanie lodowe, system woda-lód, JACEK lodowy, deski lodowe, rzutki, kolce lodowe.</p>
+              </div>
+            </div>
+            <div class="log-item">
+              <div class="log-graphic-box">
+                <img src="baza.png" alt="Ciepła baza socjalna" class="log-item-graphic">
+              </div>
+              <div>
+                <strong>Ciepła baza socjalna</strong>
+                <p>Ciepłe posiłki regeneracyjne, kawa, herbata i zaplecze sanitarne.</p>
+              </div>
+            </div>
+            <div class="log-item">
+              <div class="log-graphic-box">
+                <img src="certyfikat.png" alt="Oficjalny certyfikat" class="log-item-graphic">
+              </div>
+              <div>
+                <strong>Oficjalny certyfikat</strong>
+                <p>Certyfikat ukończenia szkolenia oraz naszywka.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- 8. KAMPANIA SPOŁECZNA: KRUCHE ŻYCIE (kruchezycie.pl)     -->
+    <!-- ======================================================== -->
+    <section class="section-morphic section-campaign" id="kruche-zycie">
+      <div class="content-wrapper">
+
+        <div class="campaign-apple-card">
+          <div class="campaign-grid">
+
+            <div class="campaign-media-col">
+              <div class="campaign-img-container">
+                <img src="campaign_dji.webp"
+                  alt="Ratownicy Śląskiego WOPR i baner ogólnopolskiej kampanii Kruche Życie" class="campaign-img"
+                  loading="lazy" decoding="async">
+                <div class="photo-info-bar">
+                  <span class="bar-title">OGÓLNOPOLSKA KAMPANIA SPOŁECZNA</span>
+                  <span class="bar-sub">KRUCHE ŻYCIE</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="campaign-text-col">
+              <div class="editorial-kicker kicker-kruche">
+                KAMPANIA SPOŁECZNA WOPR • KRUCHE ŻYCIE
+              </div>
+
+              <h2 class="campaign-headline">
+                „Lód jest kruchy.<br>
+                <span class="headline-gradient-kruche">Życie również.”</span>
+              </h2>
+
+              <p class="campaign-lead">
+                Centralne Szkolenia Lodowe Śląskiego WOPR są nierozerwalnie połączone z ogólnopolską kampanią
+                profilaktyczno-edukacyjną <strong>Kruche Życie</strong>. Każdego sezonu uświadamiamy tysiące
+                mieszkańców: <em>nie ma bezpiecznego lodu naturalnego</em>.
+              </p>
+
+              <div class="campaign-pillars-list">
+                <div class="pillar-item">
+                  <span class="pillar-number">01</span>
+                  <div>
+                    <strong>Zero Złudzeń o Grubości Pokrywy</strong>
+                    <p>Prądy podwodne, odwilże i trzcinowiska osłabiają pokrywę lodową w niewidoczny z góry sposób.</p>
+                  </div>
+                </div>
+
+                <div class="pillar-item">
+                  <span class="pillar-number">02</span>
+                  <div>
+                    <strong>Praktyka Samoratownictwa</strong>
+                    <p>Kolce lodowe, opanowanie paniki i technika wyczołgiwania się po własnych śladach ratują życie
+                      przed hipotermią.</p>
+                  </div>
+                </div>
+
+                <div class="pillar-item">
+                  <span class="pillar-number">03</span>
+                  <div>
+                    <strong>Natychmiastowy Alarm: 601 100 100</strong>
+                    <p>Szybkie wezwanie ratowników WOPR i asekuracja z bezpiecznej odległości przedmiotami zastępczymi
+                      (gałąź, lina, szalik).</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="campaign-cta-row">
+                <a href="https://kruchezycie.pl/" target="_blank" rel="noopener" class="btn-apple-primary btn-kruche">
+                  <span>Dowiedz się więcej na kruchezycie.pl</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- ======================================================== -->
+    <!-- 8. FORMULARZ ZAPISÓW (Rejestracja Poziom A & B)          -->
+    <!-- ======================================================== -->
+    <section class="section-morphic section-form" id="zapisy">
+      <div class="content-wrapper">
+
+        <div class="section-lead-block text-center">
+          <h2 class="display-title">Formularz Zgłoszeniowy CSS Lodowe</h2>
+          <p class="lead-paragraph">Wypełnij formularz. Zgłoszenie trafia bezpośrednio do bazy organizatora Śląskiego
+            WOPR.</p>
+        </div>
+
+        <div class="form-container-card" id="registrationCard">
+          <form id="registrationForm" novalidate>
+            <div class="form-apple-grid">
+
+              <!-- Krok 1: Wybór Poziomu i Turnusu -->
+              <div class="form-group full-width">
+                <label for="courseLevel">Wybierz Poziom Szkolenia <span class="required">*</span></label>
+                <select id="courseLevel" name="courseLevel" required>
+                  <option value="" disabled selected>Wybierz poziom szkolenia...</option>
+                  <option value="Poziom B – Ratownik (działania realne, pełnoletni)">Poziom B – Ratownik (działania w
+                    sytuacjach realnych, od 18 lat)</option>
+                  <option value="Poziom A – Stażysta (samoratownictwo, od 14 lat)">Poziom A – Stażysta (samoratownictwo
+                    i bezpieczeństwo, od 14 lat)</option>
+                </select>
+                <span class="field-error" id="courseLevelError"></span>
+              </div>
+
+              <div class="form-group full-width">
+                <label>Termin i Baza Szkoleniowa <span class="required">*</span></label>
+                <div class="fixed-date-container">
+                  <div class="fixed-date-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                  </div>
+                  <div class="fixed-date-text">
+                    <span class="fixed-date-title">17–18 stycznia 2027 r. – Śląskie WOPR</span>
+                    <span class="fixed-date-sub">Baza Chełm Śląski (Zalew Dziećkowice) • Dwudniowy zjazd
+                      manewrowy</span>
+                  </div>
+                  <span class="fixed-date-badge">Jedyny termin w sezonie</span>
+                </div>
+                <input type="hidden" id="courseDate" name="courseDate"
+                  value="17–18 stycznia 2027 r. – Śląskie WOPR (Chełm Śląski, Zalew Dziećkowice)">
+              </div>
+
+              <!-- Krok 2: Dane Osobowe -->
+              <div class="form-group">
+                <label for="firstName">Imię <span class="required">*</span></label>
+                <input type="text" id="firstName" name="firstName" placeholder="np. Tomasz" required>
+                <span class="field-error" id="firstNameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="lastName">Nazwisko <span class="required">*</span></label>
+                <input type="text" id="lastName" name="lastName" placeholder="np. Nowak" required>
+                <span class="field-error" id="lastNameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Adres E-mail <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="np. tomasz.nowak@wopr.pl" required>
+                <span class="field-error" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Numer Telefonu <span class="required">*</span></label>
+                <input type="tel" id="phone" name="phone" placeholder="np. 600600600" required>
+                <span class="field-error" id="phoneError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="pesel">PESEL (do ubezpieczenia NNW) <span class="required">*</span></label>
+                <input type="text" id="pesel" name="pesel" maxlength="11" placeholder="11 cyfr" required>
+                <span class="field-error" id="peselError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="city">Miejscowość zamieszkania <span class="required">*</span></label>
+                <input type="text" id="city" name="city" placeholder="np. Katowice" required>
+                <span class="field-error" id="cityError"></span>
+              </div>
+
+              <!-- Krok 3: Kwalifikacje WOPR (Searchable Combobox z oficjalnego rejestru) -->
+              <div class="form-group">
+                <label for="woprUnitSearch">Jednostka / Oddział WOPR <span class="required">*</span></label>
+                <div class="unit-combobox-wrapper" id="unitComboboxWrapper">
+                  <div class="unit-input-inner">
+                    <svg class="unit-search-svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2.2">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="woprUnitSearch"
+                      placeholder="Zacznij pisać... (np. Katowice, Dąbrowa, Śląskie)" autocomplete="off"
+                      spellcheck="false">
+                    <button type="button" class="unit-clear-btn" id="woprUnitClearBtn" style="display:none;"
+                      title="Wyczyść wybór" aria-label="Wyczyść wybór">✕</button>
+                  </div>
+
+                  <!-- Ukryte pole zawierające oficjalną jednostkę z rejestru -->
+                  <input type="hidden" id="woprUnit" name="woprUnit" required>
+
+                  <!-- Dynamiczna lista podpowiedzi wyciągnięta z Jednostki-WOPR-2026.08.15.xlsx -->
+                  <div class="wopr-unit-dropdown" id="woprUnitDropdown" style="display: none;" role="listbox"></div>
+                </div>
+
+                <!-- Potwierdzenie wyboru z rejestru -->
+                <div class="unit-verified-pill" id="woprUnitBadge" style="display: none;">
+                  <span class="verified-icon">✓</span>
+                  <span class="verified-text" id="woprUnitBadgeText">Wybrano z oficjalnego rejestru WOPR</span>
+                </div>
+
+                <span class="field-error" id="woprUnitError"></span>
+                <span class="field-hint">Wpisz nazwę jednostki lub miasto i <strong>zaznacz pozycję z
+                    listy</strong>.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="woprRank">Stopień WOPR <span class="required">*</span></label>
+                <select id="woprRank" name="woprRank" required>
+                  <option value="" disabled selected>Wybierz stopień...</option>
+                  <option value="Młodszy Ratownik WOPR">Młodszy Ratownik WOPR</option>
+                  <option value="Ratownik WOPR">Ratownik WOPR</option>
+                  <option value="Starszy Ratownik Wodny">Starszy Ratownik Wodny</option>
+                  <option value="Młodszy Instruktor WOPR">Młodszy Instruktor WOPR</option>
+                  <option value="Instruktor WOPR">Instruktor WOPR</option>
+                  <option value="Instruktor Wykładowca WOPR">Instruktor Wykładowca WOPR</option>
+                </select>
+                <span class="field-error" id="woprRankError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="kppValid">Ważność KPP <span class="required">*</span></label>
+                <select id="kppValid" name="kppValid" required>
+                  <option value="" disabled selected>Wybierz status...</option>
+                  <option value="Tak - aktualne zaświadczenie">Tak – aktualne zaświadczenie KPP</option>
+                  <option value="Ratownik Medyczny / Lekarz / Pielęgniarz">Ratownik Medyczny / Personel Medyczny
+                  </option>
+                  <option value="W trakcie recertyfikacji">W trakcie recertyfikacji</option>
+                  <option value="Nie dotyczy (Poziom A - Stażysta)">Nie dotyczy (Poziom A - Stażysta)</option>
+                </select>
+                <span class="field-error" id="kppValidError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="licenseNo">Numer legitymacji WOPR <span class="required">*</span></label>
+                <input type="text" id="licenseNo" name="licenseNo" placeholder="np. S/12345" required>
+                <span class="field-error" id="licenseNoError"></span>
+              </div>
+
+              <!-- Krok 4: Ekwipunek i Suchy Skafander (Wymóg posiadania własnego sprzętu) -->
+              <div class="form-group">
+                <span class="field-hint"><strong>Ważna informacja:</strong> Organizator nie zapewnia wypożyczenia
+                  skafandrów. Każdy uczestnik zobowiązany jest posiadać własny sprawny sprzęt osobisty.</span>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="notes">Uwagi, pytania lub przebyte szkolenia specjalistyczne (opcjonalnie)</label>
+                <textarea id="notes" name="notes" rows="3"
+                  placeholder="Wpisz ewentualne uwagi lub preferencje..."></textarea>
+              </div>
+
+              <!-- Zgody Formalne -->
+              <div class="form-group full-width consent-card">
+                <label class="checkbox-container">
+                  <input type="checkbox" id="consentHealth" name="consentHealth" required>
+                  <span class="custom-checkmark"></span>
+                  <span>Oświadczam, że mój stan zdrowia pozwala na intensywny udział w manewrach w warunkach zimowych na
+                    akwenie wodnym. <span class="required">*</span></span>
+                </label>
+                <span class="field-error" id="consentHealthError"></span>
+
+                <label class="checkbox-container">
+                  <input type="checkbox" id="consentRodo" name="consentRodo" required>
+                  <span class="custom-checkmark"></span>
+                  <span>Wyrażam zgodę na przetwarzanie moich danych osobowych przez Śląskie WOPR w celach organizacji
+                    szkolenia i ubezpieczenia NNW. <span class="required">*</span></span>
+                </label>
+                <span class="field-error" id="consentRodoError"></span>
+              </div>
+
+            </div>
+
+            <div class="form-submit-wrapper">
+              <button type="submit" class="btn-apple-primary btn-submit-large" id="submitFormBtn">
+                <span>Wyślij zgłoszenie na szkolenie</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </button>
+              <span class="form-lock-note">Poświadczenie rejestracji w ewidencji szkoleniowej Śląskiego WOPR</span>
+            </div>
+          </form>
+
+          <!-- Ekran Sukcesu -->
+          <div class="registration-success-card" id="registrationSuccessCard" style="display: none;">
+            <div class="success-apple-badge">
+              <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#6e91c5" stroke-width="2.5">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3 class="success-headline">Zgłoszenie Zostało Zarejestrowane</h3>
+            <p class="success-lead">
+              Dziękujemy, <strong id="successApplicantName">Ratowniku</strong>. Twoje zgłoszenie na Centralne Szkolenie
+              Lodowe zostało zapisane w bazie organizatora.
+            </p>
+            <div class="success-receipt-box">
+              <div class="receipt-row">
+                <span>ID zgłoszenia:</span>
+                <strong id="successRegId">CSS-LOD/015</strong>
+              </div>
+              <div class="receipt-row">
+                <span>Poziom:</span>
+                <strong id="successRegLevel">-</strong>
+              </div>
+              <div class="receipt-row">
+                <span>Jednostka:</span>
+                <strong id="successRegUnit">-</strong>
+              </div>
+              <div class="receipt-row">
+                <span>Status:</span>
+                <span class="badge-status-pending">Oczekuje na weryfikację</span>
+              </div>
+            </div>
+            <div class="success-btn-group">
+              <button class="btn-apple-secondary btn-sm" id="registerAnotherBtn">Zarejestruj kolejną osobę</button>
+              <button class="btn-apple-primary btn-sm" id="openAdminFromSuccessBtn">Otwórz Panel Organizatora</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- STOPKA (FOOTER ZGODNA Z WOPR.ORG.PL I APPLE AESTHETICS) -->
+  <!-- ======================================================== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <div class="footer-top-row">
+        <div class="footer-col-brand">
+          <div class="footer-brand-header">
+            <img src="logo_wopr.webp" width="56" height="56" alt="WOPR" class="footer-crest" loading="lazy" decoding="async">
+            <div>
+              <span class="footer-legal-title">WODNE OCHOTNICZE POGOTOWIE RATUNKOWE</span>
+              <span class="footer-legal-sub">ŚLĄSKIE WOPR • CENTRALNE SZKOLENIE SPECJALISTYCZNE LODOWE</span>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Centralne Szkolenia Specjalistyczne (CSS) z zakresu ratownictwa lodowego są oficjalnym elementem systemu
+            kształcenia ratowników WOPR ujednoliconego w 2008 roku.
+          </p>
+          <div class="footer-emergency-box">
+            <span class="em-number">601 100 100 / 112</span>
+            <span class="em-label">Alarmowe numery ratunkowe nad wodą</span>
+          </div>
+        </div>
+
+        <div class="footer-col-nav">
+          <h5>Nawigacja Szkolenia</h5>
+          <ul class="footer-nav-list">
+            <li><a href="#hero">Strona główna</a></li>
+            <li><a href="#poziomy">Poziomy A & B</a></li>
+            <li><a href="#o-szkoleniu">O systemie szkoleń</a></li>
+            <li><a href="#termin">Termin: 17–18.01.2027</a></li>
+            <li><a href="#portfolio">Galeria zdjęć z drona</a></li>
+            <li><a href="#kruche-zycie">Kampania Kruche Życie</a></li>
+            <li><a href="#wymagania">Wymagania kwalifikacyjne</a></li>
+            <li><a href="#zapisy">Formularz rejestracji</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col-contact">
+          <h5>Śląskie WOPR – Dane & Kontakt</h5>
+          <p class="footer-company-name"><strong>Śląskie Wodne Ochotnicze Pogotowie Ratunkowe</strong></p>
+          <p class="footer-address">ul. Grzyśki 16, 40-560 Katowice</p>
+          <p class="footer-phones">
+            <strong>Tel. kom.:</strong>
+            <a href="tel:+48500543210">500 543 210</a>,
+            <a href="tel:+48793292929">793 292 929</a>
+          </p>
+          <p class="footer-emails">
+            <strong>E-mail:</strong>
+            <a href="mailto:biuro@slaskiewopr.pl">biuro@slaskiewopr.pl</a>,
+            <a href="mailto:slaskiewopr@o2.pl">slaskiewopr@o2.pl</a>
+          </p>
+          <p class="footer-website">
+            <strong>Strona WWW:</strong>
+            <a href="http://www.slaskiewopr.pl/" target="_blank" rel="noopener">www.slaskiewopr.pl</a>
+          </p>
+          <div class="footer-registry-numbers">
+            <span><strong>NIP:</strong> 634-17-91-767</span> |
+            <span><strong>REGON:</strong> 000824675</span> |
+            <span><strong>KRS:</strong> 0000070512</span>
+          </div>
+          <div class="footer-contact-links">
+            <p><strong>Partner motoryzacyjny:</strong> <a href="https://autoboss.omodajaecoo.pl/" target="_blank"
+                rel="noopener">OMODA & JAECOO Auto-Boss</a></p>
+            <p><strong>Kampania społeczna:</strong> <a href="https://kruchezycie.pl/" target="_blank"
+                rel="noopener">kruchezycie.pl</a></p>
+            <p><strong>Baza operacyjna:</strong> Chełm Śląski / Zalew Dziećkowice</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Partner Motoryzacyjny w stopce: OMODA & JAECOO Auto-Boss (logo 1:1, bez czarnego tła) -->
+      <div class="footer-partner-bar">
+        <div class="footer-partner-logo-wrap">
+          <a href="https://autoboss.omodajaecoo.pl/" target="_blank" rel="noopener" class="footer-partner-link"
+            title="OMODA & JAECOO Auto-Boss Bielsko-Biała / Śląsk">
+            <img src="omoda_transparent.png" alt="OMODA & JAECOO Auto-Boss" class="footer-partner-img">
+          </a>
+        </div>
+        <div class="footer-partner-content">
+          <div class="footer-partner-badge">OFICJALNY PARTNER MOTORYZACYJNY</div>
+          <h4 class="footer-partner-name">
+            <a href="https://autoboss.omodajaecoo.pl/" target="_blank" rel="noopener"
+              class="footer-partner-name-link">OMODA & JAECOO Auto-Boss</a>
+          </h4>
+          <p class="footer-partner-desc">
+            Partner zimowych manewrów Śląskiego WOPR. Dealer Auto-Boss aktywnie wspiera mobilność ratowników, transport
+            instruktorów oraz logistykę specjalistycznego sprzętu wypornościowego na poligon lodowy.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>© 2026 Wodne Ochotnicze Pogotowie Ratunkowe – Śląskie WOPR. Wszelkie prawa zastrzeżone.</div>
+        <div>Projekt przygotowany pod demonstrację GitHub Pages oraz serwer produkcyjny IIS</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ======================================================== -->
+  <!-- PANEL ORGANIZATORA (MODAL APPLE-STYLE)                   -->
+  <!-- ======================================================== -->
+  <div class="admin-modal-overlay" id="adminModalOverlay" style="display: none;">
+    <div class="admin-modal-window">
+
+      <div class="admin-modal-header">
+        <div class="admin-header-title">
+          <img src="logo_wopr.webp" width="48" height="48" alt="WOPR" class="admin-header-crest" loading="lazy" decoding="async">
+          <div>
+            <h3>Panel Organizatora • Lista Uczestników CSS Lodowe</h3>
+            <span class="admin-subtitle">Śląskie WOPR • Zarządzanie zgłoszeniami Poziomu A & B oraz eksport CSV</span>
+          </div>
+        </div>
+
+        <button class="close-modal-btn" id="closeAdminModalBtn" aria-label="Zamknij panel">✕</button>
+      </div>
+
+      <!-- Ekran logowania hasłem -->
+      <div class="admin-auth-view" id="adminAuthView">
+        <div class="auth-box-apple">
+          <div class="auth-shield-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+          </div>
+          <h4>Autoryzacja Dostępu</h4>
+          <p>Wprowadź kod organizatora, aby wyświetlić listę ratowników i pobrać arkusz CSV.</p>
+          <div class="auth-input-row">
+            <input type="password" id="adminPasswordInput" placeholder="Hasło demo: wopr2026" autofocus>
+            <button class="btn-apple-primary btn-sm" id="adminLoginBtn">Zaloguj</button>
+          </div>
+          <span class="auth-error-msg" id="adminAuthError"></span>
+          <div class="auth-hint-pill">
+            Hasło podglądu demonstracyjnego: <strong>wopr2026</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Widok Dashboardu po zalogowaniu -->
+      <div class="admin-dashboard-view" id="adminDashboardView" style="display: none;">
+
+        <div class="admin-kpi-grid">
+          <div class="kpi-card-apple">
+            <span class="kpi-tag">ŁĄCZNIE ZGŁOSZEŃ</span>
+            <span class="kpi-num" id="kpiTotalCount">0</span>
+            <span class="kpi-desc">Limit grupy: 20 osób</span>
+          </div>
+          <div class="kpi-card-apple">
+            <span class="kpi-tag text-orange">POZIOM B (RATOWNIK)</span>
+            <span class="kpi-num" id="kpiLevelBCount">0</span>
+            <span class="kpi-desc">Działania w warunkach realnych</span>
+          </div>
+          <div class="kpi-card-apple">
+            <span class="kpi-tag text-blue">POZIOM A (STAŻYSTA)</span>
+            <span class="kpi-num" id="kpiLevelACount">0</span>
+            <span class="kpi-desc">Od 14. roku życia</span>
+          </div>
+          <div class="kpi-card-apple">
+            <span class="kpi-tag text-dark">WŁASNY SKAFANDER</span>
+            <span class="kpi-num" id="kpiDrysuitCount">0</span>
+            <span class="kpi-desc">Zadeklarowany własny sprzęt</span>
+          </div>
+        </div>
+
+        <div class="admin-toolbar-apple">
+          <div class="toolbar-search-box">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="adminSearchInput" placeholder="Szukaj po nazwisku, jednostce, PESEL...">
+          </div>
+
+          <div class="toolbar-selects">
+            <select id="adminLevelFilter">
+              <option value="all">Wszystkie poziomy</option>
+              <option value="Poziom B">Poziom B (Ratownik)</option>
+              <option value="Poziom A">Poziom A (Stażysta)</option>
+            </select>
+
+            <select id="adminStatusFilter">
+              <option value="all">Wszystkie statusy</option>
+              <option value="Oczekujący">Oczekujący</option>
+              <option value="Potwierdzony">Potwierdzony</option>
+              <option value="Opłacony">Opłacony</option>
+              <option value="Lista rezerwowa">Lista rezerwowa</option>
+            </select>
+          </div>
+
+          <div class="toolbar-buttons">
+            <button class="btn-apple-primary btn-micro" id="exportCsvBtn"
+              title="Pobierz tabelę do pliku CSV dla Excela">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Eksportuj do CSV (Excel)</span>
+            </button>
+            <button class="btn-apple-outline btn-micro" id="reloadDemoDataBtn" title="Przywróć dane przykładowe">
+              <span>Przywróć demo</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="admin-table-wrapper">
+          <table class="apple-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Poziom</th>
+                <th>Imię i Nazwisko</th>
+                <th>Jednostka WOPR</th>
+                <th>Stopień / KPP</th>
+                <th>Kontakt</th>
+                <th>Skafander</th>
+                <th>Status</th>
+                <th>Akcje</th>
+              </tr>
+            </thead>
+            <tbody id="adminTableBody">
+              <!-- Wiersze generowane dynamicznie w app.js -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="admin-table-footer-apple">
+          <div>Wyświetlono: <strong id="visibleCount">0</strong> z <span id="totalDbCount">0</span> zgłoszeń</div>
+          <div class="footer-tip">Kliknij w status (np. Potwierdzony), aby go przełączyć.</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="wopr-units.js?v=2.2" defer></script>
+  <script src="app.js?v=3.0" defer></script>
+</body>
+
+</html>

@@ -1337,6 +1337,238 @@ button {
   padding: 16px;
 }
 
+/* --- Featured Reel Autoplay Showcase (100 lat WOPR) --- */
+.featured-reel-showcase {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 36px;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(41, 151, 255, 0.08);
+}
+
+.featured-reel-player-box {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  height: 520px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #000000;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.8);
+}
+
+.featured-reel-player-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  background: #000000;
+}
+
+.featured-reel-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-reel-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #2997ff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+.featured-reel-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-accent);
+  line-height: 1.3;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.featured-reel-subtitle {
+  font-size: 1.05rem;
+  color: #5ab0ff;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.featured-reel-desc {
+  font-size: 0.94rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 24px;
+}
+
+.featured-reel-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 900px) {
+  .featured-reel-showcase {
+    grid-template-columns: 1fr;
+    padding: 24px 18px;
+    gap: 24px;
+  }
+
+  .featured-reel-player-box {
+    max-width: 100%;
+    height: 480px;
+    margin: 0 auto;
+  }
+}
+
+/* --- Web Projects & IT Systems Section --- */
+.web-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 24px;
+}
+
+.web-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition-smooth), border-color var(--transition-smooth), box-shadow var(--transition-smooth);
+}
+
+.web-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.7), 0 0 30px rgba(41, 151, 255, 0.12);
+}
+
+.web-card-header {
+  padding: 28px 28px 16px;
+  border-bottom: 1px solid var(--border-subtle);
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.web-card-badge-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.web-badge-system {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #5ab0ff;
+  background: rgba(41, 151, 255, 0.15);
+  border: 1px solid rgba(41, 151, 255, 0.3);
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.web-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: #30d158;
+  font-weight: 600;
+}
+
+.web-card-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-accent);
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.web-card-role {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.web-card-body {
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.web-card-desc {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.web-features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.web-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  line-height: 1.45;
+}
+
+.web-feature-icon {
+  color: #2997ff;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.web-tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.web-tech-chip {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-accent);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-subtle);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+}
+
+.web-card-footer {
+  padding: 18px 28px 24px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 /* --- Graphics Grid (Graphic Design) --- */
 .graphics-grid {
   display: grid;
