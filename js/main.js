@@ -194,6 +194,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Forward declarations for background audio ducking
+  let handleMediaPlayStart = () => {};
+  let handleMediaPlayEnd = () => {};
+
   // 8. Video Player Modal (Interactive In-Page Instagram Reel Player)
   const videoModal = document.getElementById('videoModal');
   const videoModalBackdrop = document.getElementById('videoModalBackdrop');
@@ -205,6 +209,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const openVideoModal = () => {
     if (!videoModal || !videoModalIframe) return;
+
+    handleMediaPlayStart();
 
     // Lazy load the Instagram embed iframe only on click
     const embedUrl = videoModalIframe.getAttribute('data-src');
@@ -230,6 +236,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Reset iframe src so video audio immediately stops
     videoModalIframe.src = '';
     if (videoLoadingIndicator) videoLoadingIndicator.classList.remove('loaded');
+
+    handleMediaPlayEnd();
   };
 
   videoTriggers.forEach(trigger => {
@@ -280,4 +288,272 @@ document.addEventListener('DOMContentLoaded', () => {
 
     reelObserver.observe(featuredReelBox);
   }
+
+  // 10. Graphics Filtering (Category Filter Buttons)
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const graphicCards = document.querySelectorAll('.graphic-card');
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.getAttribute('data-filter');
+
+      filterButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      graphicCards.forEach(card => {
+        const cat = card.getAttribute('data-category');
+        if (filter === 'all' || cat === filter) {
+          card.classList.remove('is-hidden');
+        } else {
+          card.classList.add('is-hidden');
+        }
+      });
+    });
+  });
+
+  // 11. Lightbox Modal for Graphics & Video Projects
+  const lightboxModal = document.getElementById('lightboxModal');
+  const lightboxBackdrop = document.getElementById('lightboxBackdrop');
+  const closeLightboxBtn = document.getElementById('closeLightboxBtn');
+  const lightboxMediaContainer = document.getElementById('lightboxMediaContainer');
+  const lightboxTitle = document.getElementById('lightboxTitle');
+  const lightboxDesc = document.getElementById('lightboxDesc');
+
+  if (lightboxModal) {
+    lightboxModal.setAttribute('hidden', '');
+  }
+
+  const openLightbox = (card) => {
+    if (!lightboxModal || !lightboxMediaContainer) return;
+
+    const fullSrc = card.getAttribute('data-full-src');
+    const type = card.getAttribute('data-type');
+    const title = card.getAttribute('data-title') || '';
+    const desc = card.getAttribute('data-desc') || '';
+
+    lightboxMediaContainer.innerHTML = '';
+
+    if (type === 'video') {
+      const videoEl = document.createElement('video');
+      videoEl.src = fullSrc;
+      videoEl.controls = true;
+      videoEl.autoplay = true;
+      videoEl.playsInline = true;
+      lightboxMediaContainer.appendChild(videoEl);
+
+      // Pause background music for lightbox video
+      if (typeof handleMediaPlayStart === 'function') {
+        handleMediaPlayStart();
+      }
+    } else {
+      const imgEl = document.createElement('img');
+      imgEl.src = fullSrc;
+      imgEl.alt = title;
+      lightboxMediaContainer.appendChild(imgEl);
+    }
+
+    if (lightboxTitle) lightboxTitle.textContent = title;
+    if (lightboxDesc) lightboxDesc.textContent = desc;
+
+    lightboxModal.removeAttribute('hidden');
+    document.body.classList.add('modal-open');
+  };
+
+  const closeLightbox = () => {
+    if (!lightboxModal) return;
+    lightboxModal.setAttribute('hidden', '');
+    document.body.classList.remove('modal-open');
+    if (lightboxMediaContainer) {
+      const video = lightboxMediaContainer.querySelector('video');
+      if (video) video.pause();
+      lightboxMediaContainer.innerHTML = '';
+    }
+
+    // Resume background music if it was paused for video
+    if (typeof handleMediaPlayEnd === 'function') {
+      handleMediaPlayEnd();
+    }
+  };
+
+  graphicCards.forEach(card => {
+    card.addEventListener('click', () => openLightbox(card));
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openLightbox(card);
+      }
+    });
+  });
+
+  if (closeLightboxBtn) closeLightboxBtn.addEventListener('click', closeLightbox);
+  if (lightboxBackdrop) lightboxBackdrop.addEventListener('click', closeLightbox);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightboxModal && !lightboxModal.hasAttribute('hidden')) {
+      closeLightbox();
+    }
+  });
+
+  // 12. Background Audio Controller (song_background.mp3) with Auto-ducking for Videos
+  const bgMusic = document.getElementById('bgMusic');
+  const audioToggleBtn = document.getElementById('audioToggleBtn');
+  const audioBtnLabel = document.getElementById('audioBtnLabel');
+
+  let isAudioPlaying = false;
+  let userPausedManually = false;
+  let wasPlayingBeforeVideo = false;
+
+  const audioHintBubble = document.getElementById('audioHintBubble');
+
+  const updateAudioUI = (playing) => {
+    isAudioPlaying = playing;
+    if (audioToggleBtn) {
+      audioToggleBtn.classList.toggle('is-playing', playing);
+      audioToggleBtn.setAttribute('aria-pressed', playing ? 'true' : 'false');
+    }
+    if (audioBtnLabel) {
+      audioBtnLabel.textContent = playing ? 'Wstrzymaj muzykę' : 'Muzyka w tle';
+    }
+    if (audioHintBubble && playing) {
+      audioHintBubble.style.opacity = '0';
+      audioHintBubble.style.pointerEvents = 'none';
+      setTimeout(() => { audioHintBubble.style.display = 'none'; }, 300);
+    }
+  };
+
+  const playBackgroundMusic = () => {
+    if (!bgMusic) return;
+    bgMusic.muted = false;
+    bgMusic.volume = 0.30; // Pleasant ambient volume
+    const playPromise = bgMusic.play();
+    if (playPromise !== undefined) {
+      playPromise.then(() => {
+        updateAudioUI(true);
+      }).catch(() => {
+        // Autoplay policy prevented immediate unmuted playback.
+        // Start playback muted so the audio pipeline starts running immediately,
+        // and unmute on the very first user interaction anywhere on the screen.
+        bgMusic.muted = true;
+        bgMusic.play().then(() => {
+          updateAudioUI(false);
+        }).catch(() => {});
+      });
+    }
+  };
+
+  const pauseBackgroundMusic = () => {
+    if (!bgMusic) return;
+    bgMusic.pause();
+    updateAudioUI(false);
+  };
+
+  handleMediaPlayStart = () => {
+    if (isAudioPlaying) {
+      wasPlayingBeforeVideo = true;
+      pauseBackgroundMusic();
+    }
+  };
+
+  handleMediaPlayEnd = () => {
+    if (wasPlayingBeforeVideo && !userPausedManually) {
+      wasPlayingBeforeVideo = false;
+      playBackgroundMusic();
+    }
+  };
+
+  if (bgMusic && audioToggleBtn) {
+    // Toggle button handler
+    audioToggleBtn.addEventListener('click', () => {
+      if (isAudioPlaying) {
+        userPausedManually = true;
+        wasPlayingBeforeVideo = false;
+        pauseBackgroundMusic();
+      } else {
+        userPausedManually = false;
+        wasPlayingBeforeVideo = false;
+        bgMusic.muted = false;
+        playBackgroundMusic();
+      }
+    });
+
+    // 1. Attempt unmuted autoplay immediately on script execution
+    playBackgroundMusic();
+
+    // 2. Also try on window load in case browser state changes
+    window.addEventListener('load', () => {
+      if (!isAudioPlaying && !userPausedManually) {
+        playBackgroundMusic();
+      }
+    });
+
+    // 3. Instant unmute and play on ANY user micro-interaction (scroll, click, touch, key, wheel)
+    const gestureEvents = ['pointerdown', 'mousedown', 'touchstart', 'touchend', 'click', 'keydown', 'wheel', 'scroll'];
+    const unlockOnGesture = () => {
+      if (!userPausedManually) {
+        if (bgMusic.muted) {
+          bgMusic.muted = false;
+        }
+        bgMusic.volume = 0.30;
+        if (bgMusic.paused) {
+          bgMusic.play().then(() => updateAudioUI(true)).catch(() => {});
+        } else {
+          updateAudioUI(true);
+        }
+      }
+      gestureEvents.forEach(evt => {
+        window.removeEventListener(evt, unlockOnGesture, { capture: true });
+        document.removeEventListener(evt, unlockOnGesture, { capture: true });
+      });
+    };
+
+    gestureEvents.forEach(evt => {
+      window.addEventListener(evt, unlockOnGesture, { capture: true, passive: true });
+      document.addEventListener(evt, unlockOnGesture, { capture: true, passive: true });
+    });
+
+    // Ducking for all embedded HTML5 <video> elements (e.g. final.mp4)
+    document.querySelectorAll('video').forEach(video => {
+      video.addEventListener('play', handleMediaPlayStart);
+      video.addEventListener('pause', handleMediaPlayEnd);
+      video.addEventListener('ended', handleMediaPlayEnd);
+    });
+
+    // Ducking for links opening external videos (YouTube, TikTok, direct video links)
+    document.querySelectorAll('a[href*="youtube.com"], a[href*="youtu.be"], a[href*="tiktok.com"], a[href*="final.mp4"]').forEach(link => {
+      link.addEventListener('click', () => {
+        handleMediaPlayStart();
+      });
+    });
+  }
+
+  // 13. Coordinate HTML5 Video Playback across all video cards
+  const allVideos = document.querySelectorAll('video');
+  allVideos.forEach(v => {
+    v.addEventListener('play', () => {
+      // Pause any other video that might be playing
+      allVideos.forEach(other => {
+        if (other !== v && !other.paused) {
+          other.pause();
+        }
+      });
+      if (typeof handleMediaPlayStart === 'function') {
+        handleMediaPlayStart();
+      }
+    });
+
+    v.addEventListener('pause', () => {
+      // If no video is playing, allow background music to resume
+      const anyStillPlaying = Array.from(allVideos).some(item => !item.paused);
+      if (!anyStillPlaying && typeof handleMediaPlayEnd === 'function') {
+        handleMediaPlayEnd();
+      }
+    });
+
+    v.addEventListener('ended', () => {
+      const anyStillPlaying = Array.from(allVideos).some(item => !item.paused);
+      if (!anyStillPlaying && typeof handleMediaPlayEnd === 'function') {
+        handleMediaPlayEnd();
+      }
+    });
+  });
 });
