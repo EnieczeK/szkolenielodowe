@@ -161,14 +161,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      copyToClipboard(discordValue, `Skopiowano Discord ID: ${discordValue}`);
+      copyToClipboard(discordValue, `Skopiowano nick Discord: ${discordValue}`);
     });
 
     // Keyboard support (Enter / Space for interactive card)
     btn.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
-        copyToClipboard(discordValue, `Skopiowano Discord ID: ${discordValue}`);
+        copyToClipboard(discordValue, `Skopiowano nick Discord: ${discordValue}`);
       }
     });
   });
@@ -192,5 +192,68 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
     });
+  });
+
+  // 8. Video Player Modal (Interactive In-Page Instagram Reel Player)
+  const videoModal = document.getElementById('videoModal');
+  const videoModalBackdrop = document.getElementById('videoModalBackdrop');
+  const videoModalIframe = document.getElementById('videoModalIframe');
+  const closeVideoModalBtn = document.getElementById('closeVideoModalBtn');
+  const closeVideoModalBottomBtn = document.getElementById('closeVideoModalBottomBtn');
+  const videoLoadingIndicator = document.getElementById('videoLoadingIndicator');
+  const videoTriggers = document.querySelectorAll('.video-preview-trigger');
+
+  const openVideoModal = () => {
+    if (!videoModal || !videoModalIframe) return;
+
+    // Lazy load the Instagram embed iframe only on click
+    const embedUrl = videoModalIframe.getAttribute('data-src');
+    if (videoModalIframe.src !== embedUrl) {
+      if (videoLoadingIndicator) videoLoadingIndicator.classList.remove('loaded');
+      videoModalIframe.src = embedUrl;
+
+      videoModalIframe.onload = () => {
+        if (videoLoadingIndicator) videoLoadingIndicator.classList.add('loaded');
+      };
+    }
+
+    videoModal.removeAttribute('hidden');
+    document.body.classList.add('modal-open');
+  };
+
+  const closeVideoModal = () => {
+    if (!videoModal || !videoModalIframe) return;
+
+    videoModal.setAttribute('hidden', '');
+    document.body.classList.remove('modal-open');
+
+    // Reset iframe src so video audio immediately stops
+    videoModalIframe.src = '';
+    if (videoLoadingIndicator) videoLoadingIndicator.classList.remove('loaded');
+  };
+
+  videoTriggers.forEach(trigger => {
+    trigger.addEventListener('click', (e) => {
+      e.preventDefault();
+      openVideoModal();
+    });
+
+    trigger.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openVideoModal();
+      }
+    });
+  });
+
+  if (closeVideoModalBtn) closeVideoModalBtn.addEventListener('click', closeVideoModal);
+  if (closeVideoModalBottomBtn) closeVideoModalBottomBtn.addEventListener('click', closeVideoModal);
+  if (videoModalBackdrop) videoModalBackdrop.addEventListener('click', closeVideoModal);
+
+  // Close modal on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && videoModal && !videoModal.hasAttribute('hidden')) {
+      closeVideoModal();
+    }
   });
 });
