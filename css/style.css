@@ -331,6 +331,103 @@ button {
   max-width: 860px;
 }
 
+/* Hero Avatar — EnieczeK Official Persona */
+.hero-avatar-wrap {
+  width: clamp(170px, 22vw, 220px);
+  height: clamp(170px, 22vw, 220px);
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.45), rgba(41, 151, 255, 0.55), rgba(255, 255, 255, 0.08));
+  margin-bottom: 28px;
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.8), 0 0 55px rgba(41, 151, 255, 0.35);
+  transition: transform var(--transition-smooth), box-shadow var(--transition-smooth);
+  position: relative;
+}
+
+.hero-avatar-wrap:hover {
+  transform: scale(1.05);
+  box-shadow: 0 22px 54px rgba(0, 0, 0, 0.9), 0 0 70px rgba(41, 151, 255, 0.5);
+}
+
+.hero-avatar-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 30%, #282836 0%, #0d0d12 85%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-avatar-img {
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+  object-position: center 15%;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.7));
+  transition: transform var(--transition-smooth);
+}
+
+.hero-avatar-wrap:hover .hero-avatar-img {
+  transform: scale(1.04);
+}
+
+/* Bio With Real Photo (Mikołaj Skorupa) */
+.bio-with-photo {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.bio-photo-card {
+  width: 120px;
+  flex-shrink: 0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  background: var(--bg-surface-elevated);
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.bio-photo-img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+.bio-photo-caption {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 6px 4px;
+  background: rgba(0, 0, 0, 0.6);
+  border-top: 1px solid var(--border-subtle);
+  letter-spacing: 0.02em;
+}
+
+.bio-text-wrap {
+  flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+  .bio-with-photo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bio-photo-card {
+    width: 100px;
+    margin-bottom: 12px;
+  }
+}
+
 /* Status Badge */
 .status-badge {
   display: inline-flex;
