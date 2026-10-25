@@ -161,14 +161,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      copyToClipboard(discordValue, `Skopiowano nick Discord: ${discordValue}`);
+      const msg = document.documentElement.lang === 'en'
+        ? `Copied Discord username: ${discordValue}`
+        : `Skopiowano nick Discord: ${discordValue}`;
+      copyToClipboard(discordValue, msg);
     });
 
     // Keyboard support (Enter / Space for interactive card)
     btn.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
-        copyToClipboard(discordValue, `Skopiowano nick Discord: ${discordValue}`);
+        const msg = document.documentElement.lang === 'en'
+          ? `Copied Discord username: ${discordValue}`
+          : `Skopiowano nick Discord: ${discordValue}`;
+        copyToClipboard(discordValue, msg);
       }
     });
   });

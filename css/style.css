@@ -205,6 +205,53 @@ button {
   transform: scale(1.03);
 }
 
+/* Header Actions & Language Switcher */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lang-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius-pill);
+  padding: 4px 11px;
+  color: var(--text-secondary);
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  user-select: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.lang-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.28);
+  color: var(--text-accent);
+  transform: scale(1.02);
+}
+
+.lang-toggle-btn .lang-code {
+  transition: color var(--transition-fast), font-weight var(--transition-fast);
+  color: var(--text-tertiary);
+}
+
+.lang-toggle-btn .lang-code.active {
+  color: #2997ff;
+  font-weight: 700;
+}
+
+.lang-toggle-btn .lang-divider {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 0.7rem;
+}
+
 /* Mobile Toggle Hamburger */
 .menu-toggle {
   display: none;

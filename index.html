@@ -7,19 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- SEO & Social Media Metadata -->
-  <title>EnieczeK — Portfolio & CV | IT, AI & Content Creator (Mikołaj Skorupa)</title>
+  <title data-i18n="pageTitle">EnieczeK — Portfolio & CV | Mikołaj Skorupa</title>
   <meta name="description"
-    content="Oficjalne portfolio i CV twórcy EnieczeK (Mikołaj Skorupa). Starszy Ratownik Wodny WOPR, Technik Informatyk, student Informatyki i AI na Politechnice Śląskiej, Szef Działu IT i Social Media Manager.">
+    content="Portfolio i CV Mikołaja Skorupy (EnieczeK). Programowanie, wideo, drony i ratownictwo wodne. Szef IT w WOPR Katowice, student Politechniki Śląskiej.">
   <meta name="author" content="Mikołaj Skorupa (EnieczeK)">
   <meta name="theme-color" content="#000000">
   <meta name="referrer" content="origin">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="EnieczeK — IT, AI & Content Creator | Portfolio & CV">
+  <meta property="og:title" content="EnieczeK — IT, Video & Content Creator | Mikołaj Skorupa">
   <meta property="og:description"
-    content="Oficjalne portfolio i CV twórcy EnieczeK (Mikołaj Skorupa). Inżynieria IT, AI, drony, montaż wideo oraz nowoczesny marketing.">
-  <meta property="og:url" content="https://enieczek.github.io/">
+    content="Portfolio i CV Mikołaja Skorupy (EnieczeK). Programowanie, montaż wideo, licencjonowane loty dronem i ratownictwo wodne.">
+  <meta property="og:url" content="https://enieczek.pl/">
 
   <!-- Google Fonts (Inter: modern, crisp Apple SF Pro alternative) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,23 +45,32 @@
       <!-- Desktop Navigation -->
       <nav class="main-nav" id="mainNav" aria-label="Nawigacja główna">
         <ul class="nav-list">
-          <li><a href="#about" class="nav-link">O mnie</a></li>
-          <li><a href="#experience" class="nav-link">Kariera</a></li>
-          <li><a href="#education" class="nav-link">Edukacja</a></li>
-          <li><a href="#web-projects" class="nav-link">Strony & IT</a></li>
-          <li><a href="#video" class="nav-link">Wideo</a></li>
-          <li><a href="#graphics" class="nav-link">Grafika</a></li>
-          <li><a href="#social-work" class="nav-link">Social Media</a></li>
-          <li><a href="#social-hub" class="nav-link">Profile</a></li>
-          <li><a href="#contact" class="nav-cta">Kontakt</a></li>
+          <li><a href="#about" class="nav-link" data-i18n="navAbout">O mnie</a></li>
+          <li><a href="#experience" class="nav-link" data-i18n="navExperience">Doświadczenie</a></li>
+          <li><a href="#education" class="nav-link" data-i18n="navEducation">Edukacja</a></li>
+          <li><a href="#web-projects" class="nav-link" data-i18n="navWeb">Strony & IT</a></li>
+          <li><a href="#video" class="nav-link" data-i18n="navVideo">Wideo</a></li>
+          <li><a href="#graphics" class="nav-link" data-i18n="navGraphics">Grafika</a></li>
+          <li><a href="#social-work" class="nav-link" data-i18n="navSocial">Social Media</a></li>
+          <li><a href="#social-hub" class="nav-link" data-i18n="navHub">Profile</a></li>
+          <li><a href="#contact" class="nav-cta" data-i18n="navContact">Kontakt</a></li>
         </ul>
       </nav>
 
-      <!-- Mobile Hamburger Toggle -->
-      <button class="menu-toggle" id="menuToggle" aria-label="Otwórz menu" aria-expanded="false">
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
+      <!-- Header Actions (Language Switcher & Mobile Menu Toggle) -->
+      <div class="header-actions">
+        <button id="langToggleBtn" class="lang-toggle-btn" aria-label="Przełącz język (PL / EN)" title="Przełącz język / Switch language">
+          <span class="lang-code pl active">PL</span>
+          <span class="lang-divider">/</span>
+          <span class="lang-code en">EN</span>
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Otwórz menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -69,15 +78,15 @@
   <div class="mobile-menu-overlay" id="mobileMenuOverlay">
     <nav class="mobile-nav" aria-label="Nawigacja mobilna">
       <ul>
-        <li><a href="#about" class="mobile-link">O mnie</a></li>
-        <li><a href="#experience" class="mobile-link">Doświadczenie zawodowe</a></li>
-        <li><a href="#education" class="mobile-link">Edukacja & Certyfikaty</a></li>
-        <li><a href="#web-projects" class="mobile-link">Strony & Systemy IT</a></li>
-        <li><a href="#video" class="mobile-link">Projekty Wideo</a></li>
-        <li><a href="#graphics" class="mobile-link">Projekty Graficzne</a></li>
-        <li><a href="#social-work" class="mobile-link">Zarządzanie Mediami & Profile</a></li>
-        <li><a href="#social-hub" class="mobile-link">Wszystkie Profile</a></li>
-        <li><a href="#contact" class="mobile-link mobile-cta">Kontakt bezpośredni</a></li>
+        <li><a href="#about" class="mobile-link" data-i18n="mobileAbout">O mnie</a></li>
+        <li><a href="#experience" class="mobile-link" data-i18n="mobileExperience">Doświadczenie</a></li>
+        <li><a href="#education" class="mobile-link" data-i18n="mobileEducation">Edukacja & Certyfikaty</a></li>
+        <li><a href="#web-projects" class="mobile-link" data-i18n="mobileWeb">Strony & Systemy IT</a></li>
+        <li><a href="#video" class="mobile-link" data-i18n="mobileVideo">Projekty Wideo</a></li>
+        <li><a href="#graphics" class="mobile-link" data-i18n="mobileGraphics">Projekty Graficzne</a></li>
+        <li><a href="#social-work" class="mobile-link" data-i18n="mobileSocial">Social Media & Partnerzy</a></li>
+        <li><a href="#social-hub" class="mobile-link" data-i18n="mobileHub">Wszystkie Profile</a></li>
+        <li><a href="#contact" class="mobile-link mobile-cta" data-i18n="mobileContact">Napisz do mnie</a></li>
       </ul>
     </nav>
   </div>
@@ -97,19 +106,17 @@
         </div>
 
         <h1 class="hero-title reveal-fade">
-          EnieczeK.
-          <span class="hero-title-accent">Informatyka, AI & Kreacja Wizualna.</span>
+          <span data-i18n="heroTitlePre">EnieczeK.</span>
+          <span class="hero-title-accent" data-i18n="heroTitleAccent">IT, wideo i kreacja cyfrowa.</span>
         </h1>
 
-        <p class="hero-description reveal-fade">
-          Twórca internetowy, montażysta wideo i grafik z twardym fundamentem inżynieryjnym w IT oraz sztucznej
-          inteligencji. Łączę technologie cyfrowe, ujęcia z drona i postprodukcję filmową z nowoczesną strategią
-          komunikacji.
+        <p class="hero-description reveal-fade" data-i18n="heroDescription">
+          Nazywam się Mikołaj Skorupa, a w sieci działam jako Enieczek. Programuję, montuję filmy, latam dronem i tworzę grafiki. Na co dzień łączę technologie z ratownictwem wodnym i mediami społecznościowymi.
         </p>
 
         <div class="hero-actions reveal-fade">
-          <a href="#experience" class="btn btn-primary">Doświadczenie & Projekty</a>
-          <a href="#contact" class="btn btn-secondary">Kontakt bezpośredni</a>
+          <a href="#experience" class="btn btn-primary" data-i18n="heroBtnProjects">Zobacz projekty</a>
+          <a href="#contact" class="btn btn-secondary" data-i18n="heroBtnContact">Napisz do mnie</a>
         </div>
 
         <!-- Direct Contact Badges in Hero -->
@@ -141,13 +148,13 @@
               <path
                 d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
             </svg>
-            <span>Mikołów / Zabrze / Katowice</span>
+            <span data-i18n="heroLocation">Mikołów / Katowice / Zabrze</span>
           </span>
         </div>
 
         <!-- Quick Social Shortcuts in Hero -->
         <div class="hero-socials reveal-fade">
-          <span class="hero-socials-label">Profile & Kanały:</span>
+          <span class="hero-socials-label" data-i18n="heroSocialLabel">Profile & Kanały:</span>
           <div class="hero-social-icons">
             <a href="https://github.com/EnieczeK" target="_blank" rel="noopener noreferrer" title="GitHub"
               class="social-chip">
@@ -190,7 +197,7 @@
               <span>Instagram</span>
             </a>
             <button class="social-chip discord-chip" id="discordHeroBtn" title="Kliknij, aby skopiować nick: enieczek"
-              data-clipboard="enieczek">
+              data-i18n-title="discordCopyTip" data-clipboard="enieczek">
               <svg viewBox="0 0 24 24" class="icon" fill="currentColor">
                 <path
                   d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.893.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
@@ -214,11 +221,10 @@
     <section class="section" id="about">
       <div class="container">
         <div class="section-header reveal-fade">
-          <span class="section-tag">Profil Zawodowy</span>
-          <h2 class="section-title">Synergia technologii i marketingu.</h2>
-          <p class="section-subtitle">
-            Łączę twarde kompetencje techniczne z nowoczesną narracją wizualną, tworząc skuteczne projekty w ekosystemie
-            cyfrowym.
+          <span class="section-tag" data-i18n="aboutTag">O mnie</span>
+          <h2 class="section-title" data-i18n="aboutTitle">Technologia, wideo i ratownictwo.</h2>
+          <p class="section-subtitle" data-i18n="aboutSubtitle">
+            Zajmuję się informatyką, montażem filmów i grafiką. Działam też aktywnie w ratownictwie wodnym.
           </p>
         </div>
 
@@ -239,21 +245,12 @@
                       <line x1="12" y1="17" x2="12" y2="21"></line>
                     </svg>
                   </div>
-                  <h3 class="bento-title">EnieczeK od kulis. Kim jestem?</h3>
-                  <p class="bento-text">
-                    W sieci i działalności kreatywnej tworzę jako <strong>EnieczeK</strong>, a oficjalnie nazywam się
-                    <strong>Mikołaj Skorupa</strong>. Posiadam państwowy tytuł <strong>Technika Informatyka</strong>
-                    oraz studiuję na <strong>Politechnice Śląskiej</strong> na kierunku <em>Inżynieria Biomedyczna</em>
-                    ze specjalizacją <strong>Informatyka i Sztuczna Inteligencja w Medycynie</strong>.
+                  <h3 class="bento-title" data-i18n="aboutBioTitle">Kim jestem?</h3>
+                  <p class="bento-text" data-i18n-html="aboutBioP1">
+                    Nazywam się <strong>Mikołaj Skorupa</strong>, a w sieci tworzę jako <strong>Enieczek</strong>. Jestem <strong>technikiem informatykiem</strong> i studiuję <em>Inżynierię Biomedyczną</em> na <strong>Politechnice Śląskiej</strong> (specjalność: informatyka i sztuczna inteligencja w medycynie).
                   </p>
-                  <p class="bento-text">
-                    W strukturach Wodnego Ochotniczego Pogotowia Ratunkowego posiadam stopień <strong>Starszego
-                      Ratownika Wodnego</strong>. Pełnię odpowiedzialną funkcję <strong>Szefa Działu
-                      Informatycznego</strong> oraz <strong>Social Media Managera w OM WOPR Katowice</strong>, a także
-                    jestem oficjalnie nominowanym członkiem <strong>Komisji Profilaktyki i Komunikacji Społecznej
-                      Zarządu Głównego WOPR</strong> (kadencja 2025–2028). Posiadam państwowe i europejskie uprawnienia
-                    pilota drona (STS-01 & A1/A2/A3), patent sternika motorowodnego (PZMWiNW) oraz świadectwo
-                    radiooperatora SRC (UKE).
+                  <p class="bento-text" data-i18n-html="aboutBioP2">
+                    W strukturach WOPR jestem <strong>Starszym Ratownikiem Wodnym</strong>. W <strong>WOPR Katowice</strong> kieruję działem IT i prowadzę media społecznościowe, a w Zarządzie Głównym WOPR działam w Komisji Profilaktyki i Komunikacji Społecznej. Latam dronami ze świadectwem kwalifikacji <strong>STS-01</strong>, mam patent sternika motorowodnego oraz uprawnienia radiooperatora SRC.
                   </p>
                   <div class="tags-cluster">
                     <span class="tag tag-highlight">Starszy Ratownik Wodny WOPR</span>
@@ -279,25 +276,25 @@
             <div class="bento-card-inner">
               <div class="metric-block">
                 <span class="metric-number">IT + Media</span>
-                <span class="metric-label">100% spójności pomiędzy technologią a marketingiem cyfrowym</span>
+                <span class="metric-label" data-i18n="aboutMetricLabel">Od kodu i administracji serwerami po montaż wideo i grafikę.</span>
               </div>
               <div class="metric-divider"></div>
 
-              <h4
+              <h4 data-i18n="aboutLangHeading"
                 style="font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-tertiary); margin-bottom: 8px;">
-                Języki obce:</h4>
+                Języki:</h4>
               <div class="lang-container">
                 <div class="lang-item">
-                  <span class="lang-name">Polski</span>
-                  <span class="lang-level">Ojczysty (Native)</span>
+                  <span class="lang-name" data-i18n="langPlName">Polski</span>
+                  <span class="lang-level" data-i18n="langPlLevel">Ojczysty</span>
                 </div>
                 <div class="lang-item">
-                  <span class="lang-name">Angielski</span>
-                  <span class="lang-level">B2 / Branżowy IT & Tech</span>
+                  <span class="lang-name" data-i18n="langEnName">Angielski</span>
+                  <span class="lang-level" data-i18n="langEnLevel">B2 / branżowy IT & Tech</span>
                 </div>
                 <div class="lang-item">
-                  <span class="lang-name">Włoski</span>
-                  <span class="lang-level">Komunikatywny (Staż Riccione)</span>
+                  <span class="lang-name" data-i18n="langItName">Włoski</span>
+                  <span class="lang-level" data-i18n="langItLevel">Komunikatywny (staż Riccione)</span>
                 </div>
               </div>
             </div>
@@ -306,77 +303,76 @@
           <!-- Bento 3: Dokładny Stack Technologiczny i Narzędzia -->
           <div class="bento-card bento-span-3 reveal-fade">
             <div class="bento-card-inner">
-              <h3 class="bento-title">Środowisko Pracy & Rzeczywiste Narzędzia</h3>
-              <p class="bento-text">Programy i technologie, w których pracuję na co dzień przy projektach IT, wideo i
-                grafice:</p>
+              <h3 class="bento-title" data-i18n="aboutToolsTitle">Programy i narzędzia</h3>
+              <p class="bento-text" data-i18n="aboutToolsSubtitle">Narzędzia, z których korzystam na co dzień przy projektach IT, wideo i grafice:</p>
 
               <div class="tools-dual-container">
                 <!-- IT, Biuro & Hardware -->
                 <div>
-                  <h4 class="tools-column-title">💻 IT, Systemy & Pakiet Biurowy</h4>
+                  <h4 class="tools-column-title" data-i18n="toolsColIt">💻 IT, Sprzęt & Systemy</h4>
                   <div class="tools-grid">
                     <div class="tool-item">
-                      <span class="tool-name">Pakiet MS Office</span>
-                      <span class="tool-category">Word, Excel, PowerPoint, 365</span>
+                      <span class="tool-name" data-i18n="toolOfficeName">Pakiet MS Office</span>
+                      <span class="tool-category" data-i18n="toolOfficeCat">Word, Excel, PowerPoint, 365</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">Serwery & Backup</span>
-                      <span class="tool-category">Kopie zapasowe & bezpieczeństwo</span>
+                      <span class="tool-name" data-i18n="toolBackupName">Serwery & Backup</span>
+                      <span class="tool-category" data-i18n="toolBackupCat">Kopie zapasowe i bezpieczeństwo</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">Custom PC Build</span>
-                      <span class="tool-category">Dobór podzespołów & montaż</span>
+                      <span class="tool-name" data-i18n="toolPcName">Składanie komputerów</span>
+                      <span class="tool-category" data-i18n="toolPcCat">Dobór podzespołów i montaż</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">Serwis GSM / PC</span>
-                      <span class="tool-category">Diagnostyka & odzyskiwanie danych</span>
+                      <span class="tool-name" data-i18n="toolGsmName">Serwis GSM & PC</span>
+                      <span class="tool-category" data-i18n="toolGsmCat">Diagnostyka i naprawa sprzętu</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">Informatyka & AI</span>
-                      <span class="tool-category">Politechnika Śląska (studia)</span>
+                      <span class="tool-name" data-i18n="toolAiName">Informatyka & AI</span>
+                      <span class="tool-category" data-i18n="toolAiCat">Politechnika Śląska (studia)</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">Audio & Radiowęzeł</span>
-                      <span class="tool-category">Sprzęt nagłośnieniowy & miksery</span>
+                      <span class="tool-name" data-i18n="toolAudioName">Sprzęt audio</span>
+                      <span class="tool-category" data-i18n="toolAudioCat">Nagłośnienie i miksery</span>
                     </div>
                   </div>
                 </div>
 
                 <!-- Video, Grafika & Streaming -->
                 <div>
-                  <h4 class="tools-column-title">🎨 Wideo, Grafika & Kreacja</h4>
+                  <h4 class="tools-column-title" data-i18n="toolsColMedia">🎨 Wideo, Grafika & Dźwięk</h4>
                   <div class="tools-grid">
                     <div class="tool-item">
-                      <span class="tool-name">DaVinci Resolve</span>
-                      <span class="tool-category">Główny montaż & color grading</span>
+                      <span class="tool-name" data-i18n="toolDavinciName">DaVinci Resolve</span>
+                      <span class="tool-category" data-i18n="toolDavinciCat">Główny montaż i color grading</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">CapCut</span>
-                      <span class="tool-category">Dynamiczne reels & napisy</span>
+                      <span class="tool-name" data-i18n="toolCapcutName">CapCut</span>
+                      <span class="tool-category" data-i18n="toolCapcutCat">Rolki, formaty wertykalne i napisy</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">Edits od Instagram</span>
-                      <span class="tool-category">Natywna edycja & trendy IG</span>
+                      <span class="tool-name" data-i18n="toolIgEditsName">Narzędzia Instagram</span>
+                      <span class="tool-category" data-i18n="toolIgEditsCat">Natywna edycja i trendy</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">Pilotaż drona</span>
-                      <span class="tool-category">Ujęcia z powietrza & uprawnienia</span>
+                      <span class="tool-name" data-i18n="toolDroneName">Pilotaż drona (STS-01)</span>
+                      <span class="tool-category" data-i18n="toolDroneCat">Ujęcia lotnicze 4K</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">Canva</span>
-                      <span class="tool-category">Grafika promocyjna & karuzele</span>
+                      <span class="tool-name" data-i18n="toolCanvaName">Canva</span>
+                      <span class="tool-category" data-i18n="toolCanvaCat">Grafika promocyjna i karuzele</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">GIMP</span>
-                      <span class="tool-category">Obróbka rastrowa & retusz</span>
+                      <span class="tool-name" data-i18n="toolGimpName">GIMP</span>
+                      <span class="tool-category" data-i18n="toolGimpCat">Obróbka rastrowa i retusz</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">Blender</span>
-                      <span class="tool-category">Modelowanie & grafika 3D</span>
+                      <span class="tool-name" data-i18n="toolBlenderName">Blender</span>
+                      <span class="tool-category" data-i18n="toolBlenderCat">Grafika i proste modele 3D</span>
                     </div>
                     <div class="tool-item">
-                      <span class="tool-name">OBS Studio</span>
-                      <span class="tool-category">Transmisje live & streaming</span>
+                      <span class="tool-name" data-i18n="toolObsName">OBS Studio</span>
+                      <span class="tool-category" data-i18n="toolObsCat">Transmisje na żywo i nagrania</span>
                     </div>
                   </div>
                 </div>
@@ -392,11 +388,10 @@
     <section class="section section-darker" id="experience">
       <div class="container">
         <div class="section-header reveal-fade">
-          <span class="section-tag">Kariera Zawodowa</span>
-          <h2 class="section-title">Doświadczenie IT & Marketing.</h2>
-          <p class="section-subtitle">
-            Rzeczywiste role zawodowe, odpowiedzialność za infrastrukturę technologiczną oraz kreację wizerunku
-            organizacji.
+          <span class="section-tag" data-i18n="expTag">Kariera</span>
+          <h2 class="section-title" data-i18n="expTitle">Doświadczenie zawodowe.</h2>
+          <p class="section-subtitle" data-i18n="expSubtitle">
+            Stanowiska, projekty i działania ratownicze, w których brałem udział.
           </p>
         </div>
 
@@ -406,17 +401,13 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content">
               <div class="timeline-meta">
-                <span class="timeline-badge current">Nominacja Oficjalna</span>
-                <span class="timeline-badge">Szczebel Ogólnokrajowy</span>
+                <span class="timeline-badge current" data-i18n="expZgBadge">Kadencja 2025 — 2028</span>
                 <span class="timeline-period">2025 — 2028</span>
               </div>
-              <h3 class="timeline-title">Członek Komisji Profilaktyki i Komunikacji Społecznej</h3>
-              <h4 class="timeline-org">Zarząd Główny WOPR (Warszawa / Ogólnopolski)</h4>
-              <p class="timeline-desc">
-                Oficjalna nominacja przez Przewodniczącą Komisji oraz Pełnomocnika Zarządu ds. Profilaktyki i
-                Komunikacji Społecznej ZG WOPR. Współtworzenie ogólnopolskiej strategii komunikacji wizerunkowej i
-                edukacji wodnej, realizacja formatów wideo oraz prowadzenie oficjalnego kanału TikTok
-                <strong>@wopr.official</strong> docierającego viralowo do setek tysięcy odbiorców w całej Polsce.
+              <h3 class="timeline-title" data-i18n="expZgTitle">Członek Komisji Profilaktyki i Komunikacji Społecznej</h3>
+              <h4 class="timeline-org" data-i18n="expZgOrg">Zarząd Główny WOPR (ogólnopolski)</h4>
+              <p class="timeline-desc" data-i18n="expZgDesc">
+                Działam w komisji profilaktyki i komunikacji o bezpieczeństwie nad wodą. Nagrywam i montuję filmy na kanał TikTok @wopr.official, które docierają do setek tysięcy odbiorców w całej Polsce.
               </p>
               <div class="tags-cluster">
                 <span class="tag">Zarząd Główny WOPR</span>
@@ -433,19 +424,14 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content">
               <div class="timeline-meta">
-                <span class="timeline-badge current">Obecnie</span>
-                <span class="timeline-badge">Zarządzanie & IT</span>
+                <span class="timeline-badge current" data-i18n="expKatBadgeCurrent">Obecnie</span>
+                <span class="timeline-badge" data-i18n="expKatBadgeRole">IT & Media</span>
                 <span class="timeline-period">2023 — Teraz</span>
               </div>
-              <h3 class="timeline-title">Szef Działu Informatycznego & Social Media Manager</h3>
-              <h4 class="timeline-org">Oddział Miejski WOPR w Katowicach</h4>
-              <p class="timeline-desc">
-                Łączę dwie kluczowe funkcje w strukturze organizacji:
-                <br>• <strong>Szef Działu IT:</strong> Nadzór nad infrastrukturą teleinformatyczną, serwerami, bazami
-                danych, łącznością radiową (SRC) i bezpieczeństwem danych jednostki.
-                <br>• <strong>Social Media & Content:</strong> Kompleksowe prowadzenie oficjalnych profili (Instagram
-                @wopr.katowice, Facebook), produkcja dynamicznych rolek wideo, ujęcia z drona (STS-01) oraz relacje
-                sponsorskie B2B.
+              <h3 class="timeline-title" data-i18n="expKatTitle">Szef Działu IT & Social Media Manager</h3>
+              <h4 class="timeline-org" data-i18n="expKatOrg">Oddział Miejski WOPR w Katowicach</h4>
+              <p class="timeline-desc" data-i18n-html="expKatDesc">
+                Łączę w jednostce dwa obszary:<br>• <strong>Szef IT:</strong> Opiekuję się sprzętem komputerowym, serwerami, siecią, bazami danych oraz łącznością radiową (SRC).<br>• <strong>Social Media:</strong> Prowadzę profile (Instagram @wopr.katowice, Facebook), montuję rolki, robię ujęcia z drona i rozmawiam z partnerami oraz sponsorami.
               </p>
               <div class="tags-cluster">
                 <span class="tag">Szef Działu IT</span>
@@ -463,18 +449,15 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content">
               <div class="timeline-meta">
-                <span class="timeline-badge"
+                <span class="timeline-badge" data-i18n="expFloodBadge"
                   style="background: rgba(255, 69, 58, 0.2); color: #ff453a; border-color: rgba(255, 69, 58, 0.4);">Stan
                   Klęski Żywiołowej</span>
-                <span class="timeline-period">Wrzesień 2024</span>
+                <span class="timeline-period" data-i18n="expFloodPeriod">Wrzesień 2024</span>
               </div>
-              <h3 class="timeline-title">Działania Ratownicze — Powódź 2024 (Nysa)</h3>
-              <h4 class="timeline-org">Śląskie WOPR / Dyspozycja Sztabu Kryzysowego</h4>
-              <p class="timeline-desc">
-                Oficjalne powołanie przez Prezesa Śląskiego WOPR do działań ratowniczych w Nysie w stanie bezpośredniego
-                zagrożenia życia ludzi. Ewakuacja ludności, działania w nurcie powodziowym z wykorzystaniem kwalifikacji
-                ratownika wód szybkopłynących i powodziowych (CSS WSiP) oraz realizacja reportażu dokumentalnego z
-                pierwszej linii walki z żywiołem.
+              <h3 class="timeline-title" data-i18n="expFloodTitle">Działania ratownicze podczas powodzi (Nysa)</h3>
+              <h4 class="timeline-org" data-i18n="expFloodOrg">Śląskie WOPR / Dyspozycja Sztabu Kryzysowego</h4>
+              <p class="timeline-desc" data-i18n="expFloodDesc">
+                Brałem bezpośredni udział w akcji ratowniczej w Nysie w trakcie powodzi we wrześniu 2024 roku. Uczestniczyłem w ewakuacji mieszkańców i działaniach w nurcie powodziowym, a także nagrałem materiał dokumentujący pracę ratowników z pierwszej linii.
               </p>
               <div class="tags-cluster">
                 <span class="tag">Ratownik WSiP</span>
@@ -490,15 +473,13 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content">
               <div class="timeline-meta">
-                <span class="timeline-badge international">Staż Zagraniczny</span>
-                <span class="timeline-period">Marzec 2023 — Kwiecień 2023</span>
+                <span class="timeline-badge international" data-i18n="expKenovoBadge">Staż Zagraniczny</span>
+                <span class="timeline-period" data-i18n="expKenovoPeriod">Marzec — Kwiecień 2023</span>
               </div>
-              <h3 class="timeline-title">Serwisant w punkcie GSM & IT</h3>
-              <h4 class="timeline-org">Kenovo — Riccione, Włochy</h4>
-              <p class="timeline-desc">
-                Międzynarodowy staż zawodowy w branży IT. Serwisowanie i diagnostyka telefonów oraz komputerów,
-                aktualizacja oprogramowania układowego, zaawansowane odzyskiwanie danych z nośników pamięci oraz
-                precyzyjna wymiana komponentów elektronicznych i podzespołów hardware.
+              <h3 class="timeline-title" data-i18n="expKenovoTitle">Serwisant sprzętu GSM i komputerów</h3>
+              <h4 class="timeline-org" data-i18n="expKenovoOrg">Kenovo — Riccione, Włochy</h4>
+              <p class="timeline-desc" data-i18n="expKenovoDesc">
+                Miesięczny staż zawodowy we Włoszech. Diagnozowałem i naprawiałem laptopy oraz smartfony, wymieniałem komponenty elektroniczne, wgrywałem oprogramowanie i odzyskiwałem dane z uszkodzonych nośników.
               </p>
               <div class="tags-cluster">
                 <span class="tag">Serwis komputerowy</span>
@@ -514,15 +495,13 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content">
               <div class="timeline-meta">
-                <span class="timeline-badge">Gastronomia & Soft Skills</span>
-                <span class="timeline-period">Październik 2023 — Kwiecień 2024</span>
+                <span class="timeline-badge" data-i18n="expCalaveraBadge">Gastronomia</span>
+                <span class="timeline-period" data-i18n="expCalaveraPeriod">Październik 2023 — Kwiecień 2024</span>
               </div>
-              <h3 class="timeline-title">Barman / Barista / Kelner</h3>
-              <h4 class="timeline-org">Restauracja Calavera — Zabrze</h4>
-              <p class="timeline-desc">
-                Obsługa gości według najwyższych standardów, miksologia barowa, planowanie zamówień asortymentu oraz
-                doradztwo. Praca w dynamicznym środowisku gastronomicznym, która stała się również inspiracją do
-                autorskiego projektu artystycznego (Digital Art: CALAVERA).
+              <h3 class="timeline-title" data-i18n="expCalaveraTitle">Barman / Barista / Kelner</h3>
+              <h4 class="timeline-org" data-i18n="expCalaveraOrg">Restauracja Calavera — Zabrze</h4>
+              <p class="timeline-desc" data-i18n="expCalaveraDesc">
+                Obsługa gości za barem i na sali, przygotowywanie napojów oraz organizacja pracy baru. Dobre ćwiczenie odporności na stres, kontaktu z klientem i sprawnego działania pod presją czasu.
               </p>
               <div class="tags-cluster">
                 <span class="tag">Certyfikowany Barman (OSB)</span>
@@ -538,16 +517,13 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content">
               <div class="timeline-meta">
-                <span class="timeline-badge">Staż IT & Media</span>
-                <span class="timeline-period">2021 (Dwie edycje: marzec-kwiecień & czerwiec-lipiec)</span>
+                <span class="timeline-badge" data-i18n="expMbpBadge">Praktyki</span>
+                <span class="timeline-period" data-i18n="expMbpPeriod">2021</span>
               </div>
-              <h3 class="timeline-title">Pomoc informatyczna & Identyfikacja Eventów</h3>
-              <h4 class="timeline-org">Miejska Biblioteka Publiczna w Mikołowie</h4>
-              <p class="timeline-desc">
-                Obsługa i serwisowanie sprzętu biurowego i sieciowego. Bieżąca obsługa serwerów instytucji, w tym
-                tworzenie, wdrażanie i weryfikacja kopii zapasowych (backup). Projektowanie plakatów promocyjnych na
-                wydarzenia kulturalne i literackie (GIMP / Canva). Kompleksowa obsługa techniczna, nagłośnieniowa i
-                multimedialna konferencji oraz koncertów.
+              <h3 class="timeline-title" data-i18n="expMbpTitle">Praktyki informatyczne i obsługa wydarzeń</h3>
+              <h4 class="timeline-org" data-i18n="expMbpOrg">Miejska Biblioteka Publiczna w Mikołowie</h4>
+              <p class="timeline-desc" data-i18n="expMbpDesc">
+                Serwisowałem komputery i drukarki, konfigurowałem kopie zapasowe na serwerach oraz projektowałem plakaty zapowiadające spotkania autorskie. Odpowiadałem też za nagłośnienie i multimedia podczas spotkań oraz koncertów.
               </p>
               <div class="tags-cluster">
                 <span class="tag">Obsługa serwerów</span>
@@ -563,15 +539,13 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content">
               <div class="timeline-meta">
-                <span class="timeline-badge">Działalność Samorządowa</span>
-                <span class="timeline-period">Grudzień 2019 — Grudzień 2022</span>
+                <span class="timeline-badge" data-i18n="expMrmBadge">Samorząd Młodzieżowy</span>
+                <span class="timeline-period" data-i18n="expMrmPeriod">2019 — 2022</span>
               </div>
-              <h3 class="timeline-title">Młodzieżowy Radny Miasta Gminy Mikołów</h3>
-              <h4 class="timeline-org">Młodzieżowa Rada Miejska w Mikołowie</h4>
-              <p class="timeline-desc">
-                Pełnienie 3-letniego mandatu radnego młodzieżowego. Reprezentowanie interesów młodzieży w kontaktach z
-                władzami samorządowymi, inicjowanie projektów miejskich, kulturalnych i edukacyjnych, współpraca z
-                organizacjami pozarządowymi i instytucjami publicznymi.
+              <h3 class="timeline-title" data-i18n="expMrmTitle">Młodzieżowy Radny Miasta</h3>
+              <h4 class="timeline-org" data-i18n="expMrmOrg">Młodzieżowa Rada Miejska w Mikołowie</h4>
+              <p class="timeline-desc" data-i18n="expMrmDesc">
+                Przez 3 lata reprezentowałem młodzież w kontaktach z władzami miasta, współorganizowałem wydarzenia kulturalne i zgłaszałem pomysły na inicjatywy młodzieżowe.
               </p>
               <div class="tags-cluster">
                 <span class="tag">Samorząd terytorialny</span>
@@ -587,15 +561,13 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content">
               <div class="timeline-meta">
-                <span class="timeline-badge">Działalność Autorska</span>
-                <span class="timeline-period">2020 — Obecnie</span>
+                <span class="timeline-badge" data-i18n="expFreeBadge">Twórczość Własna</span>
+                <span class="timeline-period" data-i18n="expFreePeriod">2020 — obecnie</span>
               </div>
-              <h3 class="timeline-title">Twórca wideo, streamer & grafik (marka EnieczeK)</h3>
-              <h4 class="timeline-org">Media Społecznościowe & Klienci Zewnętrzni</h4>
-              <p class="timeline-desc">
-                Produkcja materiałów wideo na platformy YouTube, Twitch, TikTok oraz Instagram przy użyciu DaVinci
-                Resolve, CapCut oraz narzędzi natywnych Instagram. Projektowanie identyfikacji wizualnych, miniatury
-                zoptymalizowane pod wysoki CTR, konfiguracja transmisji strumieniowych na żywo w OBS Studio.
+              <h3 class="timeline-title" data-i18n="expFreeTitle">Twórca wideo, streamer i grafik</h3>
+              <h4 class="timeline-org" data-i18n="expFreeOrg">Działalność własna (marka EnieczeK)</h4>
+              <p class="timeline-desc" data-i18n="expFreeDesc">
+                Tworzę materiały na YouTube, Twitcha, TikToka i Instagrama. Sam nagrywam, montuję w DaVinci Resolve i CapCut, projektuję miniatury oraz konfiguruję transmisje na żywo w OBS Studio.
               </p>
               <div class="tags-cluster">
                 <span class="tag">YouTube & Twitch</span>
@@ -612,19 +584,14 @@
             <div class="timeline-dot"></div>
             <div class="timeline-content">
               <div class="timeline-meta">
-                <span class="timeline-badge current">Obecnie (Sezon letni)</span>
-                <span class="timeline-badge">Służba Morska & Presja</span>
-                <span class="timeline-period">2022 — Obecnie (Sezonowo)</span>
+                <span class="timeline-badge current" data-i18n="expRescueBadgeCurrent">Sezonowo</span>
+                <span class="timeline-badge" data-i18n="expRescueBadgeRole">Służba Morska</span>
+                <span class="timeline-period" data-i18n="expRescuePeriod">2022 — obecnie</span>
               </div>
-              <h3 class="timeline-title">Starszy Ratownik Wodny & Kwalifikowana Pierwsza Pomoc (KPP)</h3>
-              <h4 class="timeline-org">Urząd Miejski Jastarnia (Jurata / Jastarnia — Półwysep Helski) | MOSiR Katowice &
-                Łaziska</h4>
-              <p class="timeline-desc">
-                Ciągła, wielosezonowa służba ratownicza na otwartych kąpieliskach morskich Półwyspu Helskiego — pełniona
-                nieprzerwanie w ubiegłym, bieżącym sezonie jak i w latach poprzednich (Jastarnia, Jurata) oraz na
-                pływalniach krytych. Posiadany stopień organizacyjny w strukturach WOPR: <strong>Starszy Ratownik
-                  Wodny</strong>. Praca w warunkach silnej dynamiki morza i presji czasu, wymagająca natychmiastowego
-                podejmowania decyzji, koordynacji akcji ratowniczych i wzorowej komunikacji z plażowiczami.
+              <h3 class="timeline-title" data-i18n="expRescueTitle">Starszy Ratownik Wodny & Kwalifikowana Pierwsza Pomoc (KPP)</h3>
+              <h4 class="timeline-org" data-i18n="expRescueOrg">Kąpieliska morskie Jastarnia i Jurata | Pływalnie Katowice & Łaziska</h4>
+              <p class="timeline-desc" data-i18n="expRescueDesc">
+                Wielosezonowa praca na bałtyckich plażach w Jastarni i Juracie oraz na krytych basenach na Śląsku. Pilnowanie bezpieczeństwa kąpiących się, koordynacja akcji ratunkowych, praca na falach i natychmiastowe udzielanie kwalifikowanej pierwszej pomocy.
               </p>
               <div class="tags-cluster">
                 <span class="tag tag-highlight">Starszy Ratownik Wodny WOPR</span>
@@ -645,11 +612,10 @@
     <section class="section" id="education">
       <div class="container">
         <div class="section-header reveal-fade">
-          <span class="section-tag">Fundament Wiedzy</span>
-          <h2 class="section-title">Edukacja i certyfikaty.</h2>
-          <p class="section-subtitle">
-            Kierunkowe wykształcenie inżynierskie, tytuł technika oraz certyfikowane uprawnienia państwowe i
-            europejskie.
+          <span class="section-tag" data-i18n="eduTag">Wykształcenie</span>
+          <h2 class="section-title" data-i18n="eduTitle">Edukacja i uprawnienia.</h2>
+          <p class="section-subtitle" data-i18n="eduSubtitle">
+            Studia inżynierskie, ukończona szkoła techniczna oraz certyfikowane uprawnienia.
           </p>
         </div>
 
@@ -661,30 +627,27 @@
                 <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
                 <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
               </svg>
-              <span>Wykształcenie</span>
+              <span data-i18n="eduColSchool">Wykształcenie</span>
             </h3>
 
             <div class="edu-list">
               <!-- Edu 1 -->
               <div class="edu-entry">
-                <span class="edu-period">Październik 2023 — Obecnie</span>
-                <h4 class="edu-school">Politechnika Śląska</h4>
-                <div class="edu-spec">Wydział Inżynierii Biomedycznej</div>
-                <p class="edu-info">
-                  Kierunek: <strong>Inżynieria Biomedyczna</strong> (student 3. semestru)
-                  <br>Specjalizacja: <strong>Informatyka i Sztuczna Inteligencja w Medycynie</strong>
-                  <br>Algorytmy uczenia maszynowego, analiza danych, programowanie i technologie medyczno-informatyczne.
+                <span class="edu-period" data-i18n="eduPolslPeriod">Październik 2023 — obecnie</span>
+                <h4 class="edu-school" data-i18n="eduPolslName">Politechnika Śląska</h4>
+                <div class="edu-spec" data-i18n="eduPolslFaculty">Wydział Inżynierii Biomedycznej</div>
+                <p class="edu-info" data-i18n-html="eduPolslInfo">
+                  Kierunek: <strong>Inżynieria Biomedyczna</strong> (studia inżynierskie)<br>Specjalizacja: <strong>Informatyka i Sztuczna Inteligencja w Medycynie</strong><br>Analiza danych, uczenie maszynowe, programowanie oraz technologie cyfrowe w medycynie.
                 </p>
               </div>
 
               <!-- Edu 2 -->
               <div class="edu-entry">
-                <span class="edu-period">Wrzesień 2019 — Maj 2023</span>
-                <h4 class="edu-school">Zespół Szkół Technicznych w Mikołowie</h4>
-                <div class="edu-spec">Tytuł zawodowy: Technik Informatyk</div>
-                <p class="edu-info">
-                  Architektura systemów komputerowych, administracja sieciami lokalnymi, obsługa baz danych, diagnostyka
-                  i naprawa sprzętu komputerowego.
+                <span class="edu-period" data-i18n="eduZstPeriod">Wrzesień 2019 — Maj 2023</span>
+                <h4 class="edu-school" data-i18n="eduZstName">Zespół Szkół Technicznych w Mikołowie</h4>
+                <div class="edu-spec" data-i18n="eduZstFaculty">Tytuł zawodowy: Technik Informatyk</div>
+                <p class="edu-info" data-i18n-html="eduZstInfo">
+                  Kwalifikacje zawodowe INF.02 i INF.03: sieci komputerowe, administracja systemami, bazy danych, diagnostyka i naprawa sprzętu komputerowego.
                 </p>
               </div>
             </div>
@@ -697,96 +660,92 @@
                 <circle cx="12" cy="8" r="7"></circle>
                 <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
               </svg>
-              <span>Certyfikaty & Uprawnienia</span>
+              <span data-i18n="eduColCerts">Certyfikaty & Uprawnienia</span>
             </h3>
 
             <div class="certs-grid">
               <!-- Cert 1: Dron STS-01 & A1/A2/A3 -->
               <div class="cert-item">
                 <div class="cert-icon">🚁</div>
-                <strong class="cert-name">Pilotaż Dronów STS-01 & A1/A2/A3</strong>
-                <span class="cert-issuer">EASA & Urząd Lotnictwa Cywilnego (ULC) • Certyfikat POL-RP-27vbhd5vtklj</span>
+                <strong class="cert-name" data-i18n="certDroneName">Pilotaż Dronów STS-01 & A1/A2/A3</strong>
+                <span class="cert-issuer" data-i18n="certDroneIssuer">Urząd Lotnictwa Cywilnego (ULC) & EASA • Certyfikat POL-RP-27vbhd5vtklj</span>
               </div>
 
               <!-- Cert 2: Patent Sternika Motorowodnego -->
               <div class="cert-item">
                 <div class="cert-icon">🚤</div>
-                <strong class="cert-name">Patent Sternika Motorowodnego</strong>
-                <span class="cert-issuer">Polski Związek Motorowodny i Narciarstwa Wodnego (PZMWiNW nr 230658)</span>
+                <strong class="cert-name" data-i18n="certBoatName">Patent Sternika Motorowodnego</strong>
+                <span class="cert-issuer" data-i18n="certBoatIssuer">Polski Związek Motorowodny i Narciarstwa Wodnego (PZMWiNW nr 230658)</span>
               </div>
 
               <!-- Cert 3: Radiooperator SRC UKE -->
               <div class="cert-item">
                 <div class="cert-icon">📻</div>
-                <strong class="cert-name">Świadectwo Radiooperatora SRC (VHF/DSC)</strong>
-                <span class="cert-issuer">Prezes Urzędu Komunikacji Elektronicznej (UKE nr GS-37679, SOLAS /
-                  GMDSS)</span>
+                <strong class="cert-name" data-i18n="certSrcName">Świadectwo Radiooperatora SRC (VHF/DSC)</strong>
+                <span class="cert-issuer" data-i18n="certSrcIssuer">Urząd Komunikacji Elektronicznej (UKE nr GS-37679, SOLAS / GMDSS)</span>
               </div>
 
               <!-- Cert 4: Ratownik Wodny MSWiA & ILS -->
               <div class="cert-item">
                 <div class="cert-icon">🛡️</div>
-                <strong class="cert-name">Starszy Ratownik Wodny & ILS</strong>
-                <span class="cert-issuer">Stopień organizacyjny: <strong>Starszy Ratownik Wodny WOPR</strong> •
-                  Zaświadczenie MSWiA nr 72/2020 • ILS Surf, Inland & Pool Lifeguard</span>
+                <strong class="cert-name" data-i18n="certRescueName">Starszy Ratownik Wodny & ILS</strong>
+                <span class="cert-issuer" data-i18n-html="certRescueIssuer">Stopień: <strong>Starszy Ratownik Wodny WOPR</strong> • Zaświadczenie MSWiA nr 72/2020 • ILS Surf Lifeguard</span>
               </div>
 
               <!-- Cert 5: KPP (Aktualne do maja 2028) -->
               <div class="cert-item">
                 <div class="cert-icon">🚑</div>
-                <strong class="cert-name">KPP — Ratownik Państwowy</strong>
-                <span class="cert-issuer">Kwalifikowana Pierwsza Pomoc (Państwowy tytuł, ważny do: <strong>maj
-                    2028</strong>)</span>
+                <strong class="cert-name" data-i18n="certKppName">Kwalifikowana Pierwsza Pomoc (KPP)</strong>
+                <span class="cert-issuer" data-i18n-html="certKppIssuer">Tytuł Ratownika Państwowego (ważny do: <strong>maj 2028</strong>)</span>
               </div>
 
               <!-- Cert 6: CSS WSiP (Powódź & Rzeki Górskie) -->
               <div class="cert-item">
                 <div class="cert-icon">🌊</div>
-                <strong class="cert-name">CSS Ratownik WSiP</strong>
-                <span class="cert-issuer">Ratownictwo na Wodach Szybkopłynących i Powodziowych (Śląskie WOPR /
-                  Gliwice)</span>
+                <strong class="cert-name" data-i18n="certWsipName">Ratownik Wód Szybkopłynących i Powodziowych</strong>
+                <span class="cert-issuer" data-i18n="certWsipIssuer">Certyfikat CSS WSiP (Śląskie WOPR / Gliwice)</span>
               </div>
 
               <!-- Cert 7: CSS Ratownictwo Lodowe -->
               <div class="cert-item">
                 <div class="cert-icon">❄️</div>
-                <strong class="cert-name">CSS Ratownik Ratownictwa Lodowego</strong>
-                <span class="cert-issuer">Centralne Szkolenie Specjalistyczne Ratownictwa Lodowego (Śląskie WOPR)</span>
+                <strong class="cert-name" data-i18n="certIceName">Ratownik Ratownictwa Lodowego</strong>
+                <span class="cert-issuer" data-i18n="certIceIssuer">Centralne Szkolenie Specjalistyczne Ratownictwa Lodowego (Śląskie WOPR)</span>
               </div>
 
               <!-- Cert 8: Technik Informatyk -->
               <div class="cert-item">
                 <div class="cert-icon">💻</div>
-                <strong class="cert-name">Technik Informatyk</strong>
-                <span class="cert-issuer">Państwowy Egzamin Zawodowy CKE (maj 2023)</span>
+                <strong class="cert-name" data-i18n="certItName">Dyplom Technika Informatyka</strong>
+                <span class="cert-issuer" data-i18n="certItIssuer">Państwowy Egzamin Zawodowy CKE (maj 2023)</span>
               </div>
 
               <!-- Cert 9: Szkolenie Taktyczno-Desantowe WOT -->
               <div class="cert-item">
                 <div class="cert-icon">🎖️</div>
-                <strong class="cert-name">Szkolenie Taktyczno-Desantowe WOT</strong>
-                <span class="cert-issuer">112 Batalion Piechoty Lekkiej WOT (desantowanie, ratownictwo wodne)</span>
+                <strong class="cert-name" data-i18n="certWotName">Szkolenie Taktyczno-Desantowe WOT</strong>
+                <span class="cert-issuer" data-i18n="certWotIssuer">112 Batalion Piechoty Lekkiej WOT (desantowanie z łodzi, ratownictwo wodne)</span>
               </div>
 
               <!-- Cert 10: Barman / Soft Skills -->
               <div class="cert-item">
                 <div class="cert-icon">🍸</div>
-                <strong class="cert-name">Kurs Barmański I Stopnia</strong>
-                <span class="cert-issuer">Ogólnopolska Szkoła Barmanów (wrzesień 2023)</span>
+                <strong class="cert-name" data-i18n="certBarmanName">Kurs Barmański I Stopnia</strong>
+                <span class="cert-issuer" data-i18n="certBarmanIssuer">Ogólnopolska Szkoła Barmanów (wrzesień 2023)</span>
               </div>
 
               <!-- Cert 11: Prawo Jazdy -->
               <div class="cert-item">
                 <div class="cert-icon">🚗</div>
-                <strong class="cert-name">Prawo Jazdy Kat. B (AM, B1, B)</strong>
-                <span class="cert-issuer">Wydane przez Starostę Mikołowskiego</span>
+                <strong class="cert-name" data-i18n="certDrivingName">Prawo Jazdy Kat. B (AM, B1, B)</strong>
+                <span class="cert-issuer" data-i18n="certDrivingIssuer">Wydane przez Starostę Mikołowskiego</span>
               </div>
 
               <!-- Cert 12: Badania Sanitarno-Epidemiologiczne & KRK -->
               <div class="cert-item">
                 <div class="cert-icon">📋</div>
-                <strong class="cert-name">Orzeczenie Sanepid & Zaświadczenie KRK</strong>
-                <span class="cert-issuer">Aktualna książeczka do celów sanitarnych + czysta kartoteka karna (KRK)</span>
+                <strong class="cert-name" data-i18n="certSanepidName">Badania Sanepid & Zaświadczenie KRK</strong>
+                <span class="cert-issuer" data-i18n="certSanepidIssuer">Aktualna książeczka do celów sanitarnych + czysta kartoteka karna (KRK)</span>
               </div>
             </div>
           </div>
@@ -798,11 +757,10 @@
     <section class="section" id="web-projects">
       <div class="container">
         <div class="section-header reveal-fade">
-          <span class="section-tag">Strony & Systemy IT</span>
-          <h2 class="section-title">Aplikacje webowe & platformy szkoleniowe.</h2>
-          <p class="section-subtitle">
-            Dedykowane portale internetowe, platformy e-learningowe oraz systemy rejestracji i zarządzania danymi
-            zaprojektowane, wdrożone i administrowane przeze mnie.
+          <span class="section-tag" data-i18n="webTag">Strony & Systemy IT</span>
+          <h2 class="section-title" data-i18n="webTitle">Aplikacje webowe i systemy.</h2>
+          <p class="section-subtitle" data-i18n="webSubtitle">
+            Strony i platformy, które sam zaprojektowałem, wdrożyłem i którymi administruję.
           </p>
         </div>
 
@@ -813,31 +771,27 @@
               <div class="web-card-badge-row">
                 <span class="web-badge-system">LMS • System Centralny</span>
               </div>
-              <h3 class="web-card-title">PZS Śląskie WOPR — Platforma Zdalnego Szkolenia</h3>
-              <div class="web-card-role">Administrator Systemu & Wdrożeniowiec IT • Mikołaj Skorupa</div>
+              <h3 class="web-card-title" data-i18n="webPzsTitle">PZS Śląskie WOPR — Platforma Zdalnego Szkolenia</h3>
+              <div class="web-card-role" data-i18n="webPzsRole">Wdrożenie IT i administracja • Mikołaj Skorupa</div>
             </div>
 
             <div class="web-card-body">
-              <p class="web-card-desc">
-                Wojewódzka platforma e-learningowa i elektroniczny rejestr szkoleń ratowniczych WOPR. Pełna
-                automatyzacja procesu kształcenia ratowników wodnych, obieg dokumentacji i certyfikacja.
+              <p class="web-card-desc" data-i18n="webPzsDesc">
+                Wojewódzka platforma e-learningowa dla ratowników WOPR oparta na systemie Moodle. Umożliwia prowadzenie kursów online, testów wiedzy i obieg dokumentacji szkoleniowej.
               </p>
 
               <ul class="web-features-list">
                 <li class="web-feature-item">
                   <span class="web-feature-icon">✓</span>
-                  <span><strong>Elektroniczny Dziennik Szkoleń:</strong> Rejestr obecności, zaliczeń i postępów
-                    kursantów.</span>
+                  <span data-i18n-html="webPzsF1"><strong>Elektroniczny dziennik szkoleń:</strong> Rejestr obecności, zaliczeń i postępów uczestników kursów.</span>
                 </li>
                 <li class="web-feature-item">
                   <span class="web-feature-icon">✓</span>
-                  <span><strong>Strefa Kursanta i Instruktora:</strong> Dostęp do materiałów dydaktycznych, testów
-                    wiedzy i weryfikacji tożsamości.</span>
+                  <span data-i18n-html="webPzsF2"><strong>Strefa kursanta i instruktora:</strong> Dostęp do materiałów dydaktycznych, sprawdzianów online i weryfikacji tożsamości.</span>
                 </li>
                 <li class="web-feature-item">
                   <span class="web-feature-icon">✓</span>
-                  <span><strong>Administracja & Wsparcie IT:</strong> Pełny nadzór techniczny, baza danych
-                    MariaDB/MySQL, bezpieczeństwo kont i backupy.</span>
+                  <span data-i18n-html="webPzsF3"><strong>Administracja i bezpieczeństwo:</strong> Zarządzanie bazą MariaDB/MySQL, regularne kopie zapasowe i wsparcie techniczne.</span>
                 </li>
               </ul>
 
@@ -853,7 +807,7 @@
 
             <div class="web-card-footer">
               <a href="https://woprkatowice.pl/szkolenia/" target="_blank" rel="noopener noreferrer"
-                class="btn btn-primary" title="Przejdź do oficjalnej platformy szkoleniowej">
+                class="btn btn-primary" title="Przejdź do platformy szkoleniowej" data-i18n="webPzsBtn">
                 Odwiedź platformę ↗
               </a>
             </div>
@@ -865,32 +819,27 @@
               <div class="web-card-badge-row">
                 <span class="web-badge-system">Web App • System Zapisów</span>
               </div>
-              <h3 class="web-card-title">CSS Lodowe — Centralne Szkolenie Specjalistyczne</h3>
-              <div class="web-card-role">Projektant UI/UX, Frontend Developer & Twórca Systemu</div>
+              <h3 class="web-card-title" data-i18n="webLodoweTitle">CSS Lodowe — Zapisy na szkolenie ratownicze</h3>
+              <div class="web-card-role" data-i18n="webLodoweRole">Projekt UI/UX, frontend i panel zaplecza</div>
             </div>
 
             <div class="web-card-body">
-              <p class="web-card-desc">
-                Oficjalna strona naboru i system zgłoszeniowy na specjalistyczne szkolenie ratownictwa lodowego na
-                Zbiorniku Dziećkowice. Projekt One-Page w stylistyce Apple z dynamicznym wideo w tle oraz panelem
-                administracyjnym.
+              <p class="web-card-desc" data-i18n="webLodoweDesc">
+                Strona naboru i system zapisów na specjalistyczne szkolenie ratownictwa lodowego na Zbiorniku Dziećkowice. Projekt One-Page z wideo w tle oraz panelem organizatora.
               </p>
 
               <ul class="web-features-list">
                 <li class="web-feature-item">
                   <span class="web-feature-icon">✓</span>
-                  <span><strong>Interaktywny Formularz Zgłoszeniowy:</strong> Dobór jednostek WOPR, walidacja stopni
-                    ratowniczych i danych kontaktowych.</span>
+                  <span data-i18n-html="webLodoweF1"><strong>Formularz zgłoszeniowy:</strong> Zbieranie zgłoszeń z wyborem jednostki WOPR, stopnia ratowniczego i danych kontaktowych.</span>
                 </li>
                 <li class="web-feature-item">
                   <span class="web-feature-icon">✓</span>
-                  <span><strong>Panel Organizatora (#admin):</strong> Zabezpieczony podgląd zgłoszeń, filtrowanie,
-                    statystyki oraz eksport do pliku CSV/Excel.</span>
+                  <span data-i18n-html="webLodoweF2"><strong>Panel organizatora (#admin):</strong> Zabezpieczony podgląd listy zapisanych osób, statystyki oraz eksport do pliku CSV.</span>
                 </li>
                 <li class="web-feature-item">
                   <span class="web-feature-icon">✓</span>
-                  <span><strong>Nowoczesny Design:</strong> Glassmorphism, tło wideo MP4, pełna responsywność i zgodność
-                    z brandingiem WOPR.</span>
+                  <span data-i18n-html="webLodoweF3"><strong>Dopracowany interfejs:</strong> Przejrzysty układ, wideo w tle i pełne dopasowanie do ekranów telefonów.</span>
                 </li>
               </ul>
 
@@ -905,10 +854,10 @@
             </div>
 
             <div class="web-card-footer">
-              <a href="lodowe/index.html" class="btn btn-primary" title="Uruchom stronę CSS Lodowe">
+              <a href="lodowe/index.html" class="btn btn-primary" title="Uruchom stronę CSS Lodowe" data-i18n="webLodoweBtnLive">
                 Zobacz stronę na żywo ↗
               </a>
-              <a href="lodowe/index.html#admin" class="btn btn-secondary" title="Przejdź do panelu organizatora">
+              <a href="lodowe/index.html#admin" class="btn btn-secondary" title="Przejdź do panelu organizatora" data-i18n="webLodoweBtnAdmin">
                 Panel Organizatora (#admin)
               </a>
             </div>
@@ -921,10 +870,10 @@
     <section class="section section-darker" id="video">
       <div class="container">
         <div class="section-header reveal-fade">
-          <span class="section-tag">Portfolio Filmowe</span>
-          <h2 class="section-title">Wideo, drony & montaż.</h2>
-          <p class="section-subtitle">
-            Wybrane realizacje wideo — od ujęć lotniczych 4K (drony) po dynamiczne trailery i formaty social media.
+          <span class="section-tag" data-i18n="videoTag">Portfolio Filmowe</span>
+          <h2 class="section-title" data-i18n="videoTitle">Montaż wideo i ujęcia z drona.</h2>
+          <p class="section-subtitle" data-i18n="videoSubtitle">
+            Przykłady moich filmów — od rolek na media społecznościowe po trailery, ujęcia z drona 4K i reportaże.
           </p>
         </div>
 
@@ -939,11 +888,10 @@
           </div>
 
           <div class="featured-reel-details">
-            <h3 class="featured-reel-title">100 lat ratownictwa wodnego w Polsce</h3>
-            <div class="featured-reel-subtitle">OMODA & JAECOO Auto-Boss × WOPR Katowice (JAECOO 8)</div>
-            <p class="featured-reel-desc">
-              Oficjalna rolka jubileuszowa z moim bezpośrednim udziałem w roli ratownika wodnego. Połączenie 100-letniej
-              tradycji ratownictwa z Siemianowic Śląskich (1926) z najnowszą technologią motoryzacyjną.
+            <h3 class="featured-reel-title" data-i18n="reel100Title">100 lat ratownictwa wodnego w Polsce</h3>
+            <div class="featured-reel-subtitle" data-i18n="reel100Sub">OMODA & JAECOO Auto-Boss × WOPR Katowice (JAECOO 8)</div>
+            <p class="featured-reel-desc" data-i18n="reel100Desc">
+              Rolka jubileuszowa przygotowana we współpracy z salonem Auto-Boss. Wystąpiłem w niej w roli ratownika wodnego, łącząc historię śląskiego ratownictwa z prezentacją nowego modelu auta.
             </p>
             <div class="featured-reel-pills">
               <span class="web-tech-chip">Rolka Instagram</span>
@@ -954,7 +902,7 @@
             </div>
             <div class="web-card-footer" style="padding: 0; margin-top: 10px;">
               <a href="https://www.instagram.com/p/DeeMPmjj2JQ/" target="_blank" rel="noopener noreferrer"
-                class="btn btn-secondary">
+                class="btn btn-secondary" data-i18n="reel100Btn">
                 Otwórz post na Instagramie ↗
               </a>
             </div>
@@ -975,17 +923,15 @@
             </div>
             <div class="project-content">
               <span class="project-category">DaVinci Resolve & Sound Design (Marvel Style)</span>
-              <h3 class="project-title">Zwiastun Kursu Ratowniczego — Styl Marvel Thunderbolts</h3>
-              <p class="project-desc">
-                Kinowy trailer promocyjny naboru na ratowników wodnych w konwencji zwiastunów Marvel Studios
-                (Thunderbolts). Szybki, bezkompromisowy montaż w DaVinci Resolve, zsynchronizowany z potężnym sound
-                designem i dynamicznym podkładem audio.
+              <h3 class="project-title" data-i18n="vidThunderTitle">Zwiastun kursu ratowniczego (styl Marvel)</h3>
+              <p class="project-desc" data-i18n="vidThunderDesc">
+                Dynamiczny klip rekrutacyjny na kurs ratowników wodnych. Szybki montaż w DaVinci Resolve, zgrany z rytmem mocnego podkładu muzycznego i efektów dźwiękowych.
               </p>
               <div class="project-footer">
                 <span class="project-tag">Montaż DaVinci Resolve</span>
                 <span class="project-tag">Styl Marvel</span>
                 <span class="project-tag">Sound Design</span>
-                <a href="final.mp4" target="_blank" class="project-link-active" title="Otwórz pełny plik wideo">Otwórz
+                <a href="final.mp4" target="_blank" class="project-link-active" title="Otwórz pełny plik wideo" data-i18n="vidThunderBtn">Otwórz
                   plik ↗</a>
               </div>
             </div>
@@ -1003,11 +949,9 @@
             </div>
             <div class="project-content">
               <span class="project-category">Dokument & Reportaż Ratowniczy</span>
-              <h3 class="project-title">Powódź 2024 — Działania Ratownicze (Nysa)</h3>
-              <p class="project-desc">
-                Oficjalny materiał filmowy zrealizowany przeze mnie podczas misji ratowniczej w Nysie w trakcie powodzi
-                we wrześniu 2024 roku. Realne kadry z ewakuacji, pracy w nurcie i walki z żywiołem ratowników Śląskiego
-                WOPR.
+              <h3 class="project-title" data-i18n="vidFloodTitle">Powódź 2024 — Działania ratownicze (Nysa)</h3>
+              <p class="project-desc" data-i18n="vidFloodDesc">
+                Materiał zrealizowany przeze mnie podczas akcji ratunkowej w Nysie we wrześniu 2024 roku. Pokazuje realne kadry z ewakuacji ludzi i pracy ratowników Śląskiego WOPR w nurcie powodziowym.
               </p>
               <div class="project-footer">
                 <span class="project-tag">Powódź 2024</span>
@@ -1030,10 +974,9 @@
             </div>
             <div class="project-content">
               <span class="project-category">Film Jubileuszowy • Polski Związek Pływacki</span>
-              <h3 class="project-title">100 Lat Komisji ds. Ratownictwa Wodnego przy PZP</h3>
-              <p class="project-desc">
-                Oficjalny film stworzony na 100-lecie Komisji ds. Ratownictwa Wodnego przy Polskim Związku Pływackim.
-                Archiwalne materiały, dynamiczny montaż i historyczna narracja podsumowująca wiek tradycji ratowniczej.
+              <h3 class="project-title" data-i18n="vidPzpTitle">100 Lat Komisji ds. Ratownictwa Wodnego przy PZP</h3>
+              <p class="project-desc" data-i18n="vidPzpDesc">
+                Film przygotowany na jubileusz 100-lecia Komisji ds. Ratownictwa Wodnego przy Polskim Związku Pływackim. Łączy archiwalne materiały ze współczesnym montażem.
               </p>
               <div class="project-footer">
                 <span class="project-tag">100-lecie PZP</span>
@@ -1057,10 +1000,9 @@
             </div>
             <div class="project-content">
               <span class="project-category">Visual Loop • Festyny & Pokazy Ratownicze</span>
-              <h3 class="project-title">WOPR Visual Loop — Tło na Wydarzenia & Festyny</h3>
-              <p class="project-desc">
-                Dynamiczna pętla wideo stworzona do wyświetlania na wielkoformatowych ekranach, stoiskach promocyjnych i
-                pokazach ratowniczych podczas festynów oraz wydarzeń plenerowych.
+              <h3 class="project-title" data-i18n="vidLoopTitle">WOPR Visual Loop — wideo na ekrany i stoiska</h3>
+              <p class="project-desc" data-i18n="vidLoopDesc">
+                Pętla wideo stworzona do wyświetlania w tle podczas festynów, pokazów ratowniczych i imprez plenerowych.
               </p>
               <div class="project-footer">
                 <span class="project-tag">Visual Loop</span>
@@ -1084,10 +1026,9 @@
             </div>
             <div class="project-content">
               <span class="project-category">Ujęcia z drona (STS-01) & 4K</span>
-              <h3 class="project-title">Ujęcia lotnicze & dynamiczne kadry z powietrza</h3>
-              <p class="project-desc">
-                Oryginalny materiał wideo zrealizowany z drona w rozdzielczości 4K. Uprawnienia pilota STS-01 (Kategoria
-                Szczególna) oraz A1/A2/A3, płynne prowadzenie kamery, color grading w DaVinci Resolve i ujęcia nad wodą.
+              <h3 class="project-title" data-i18n="vidDroneTitle">Ujęcia z drona 4K (uprawnienia STS-01)</h3>
+              <p class="project-desc" data-i18n="vidDroneDesc">
+                Ujęcia lotnicze nagrane dronem w 4K. Latam legalnie ze świadectwem kwalifikacji STS-01 (kategoria szczególna) oraz uprawnieniami A1/A2/A3.
               </p>
               <div class="project-footer">
                 <span class="project-tag">Pilotaż drona (STS-01)</span>
@@ -1124,10 +1065,9 @@
             </div>
             <div class="project-content">
               <span class="project-category">Instagram Reel • Profil Autorski @enieczek</span>
-              <h3 class="project-title">Formaty Wideo Wertykalne (Reels / TikTok)</h3>
-              <p class="project-desc">
-                Kreatywne formy wideo w formacie wertykalnym tworzone na autorskie profile: dynamiczny montaż pod rytm
-                muzyki, efekty dźwiękowe, trendy wizualne i angażujący storytelling social media.
+              <h3 class="project-title" data-i18n="vidReelTitle">Krótkie formy wideo (Reels / TikTok)</h3>
+              <p class="project-desc" data-i18n="vidReelDesc">
+                Wertykalne wideo na moje autorskie profile i dla klientów: dynamiczny montaż, napisy, trendy dźwiękowe i przyciągający uwagę początek.
               </p>
               <div class="project-footer">
                 <span class="project-tag">Instagram Reels</span>
@@ -1146,20 +1086,19 @@
     <section class="section" id="graphics">
       <div class="container">
         <div class="section-header reveal-fade">
-          <span class="section-tag">Portfolio Graficzne</span>
-          <h2 class="section-title">Design, plakaty, 3D & identyfikacja.</h2>
-          <p class="section-subtitle">
-            Koncepcje wizualne, plakaty na eventy, miniatury zoptymalizowane pod CTR, grafika 3D w Blenderze oraz
-            materiały edukacyjne.
+          <span class="section-tag" data-i18n="graphicsTag">Portfolio Graficzne</span>
+          <h2 class="section-title" data-i18n="graphicsTitle">Plakaty, branding i projekty 3D.</h2>
+          <p class="section-subtitle" data-i18n="graphicsSubtitle">
+            Plakaty na wydarzenia, materiały reklamowe, proste modele 3D oraz identyfikacja wizualna.
           </p>
         </div>
 
         <!-- Category Filter Buttons -->
         <div class="graphics-filters reveal-fade">
-          <button class="filter-btn active" data-filter="all" type="button">Wszystkie realizacje (14)</button>
-          <button class="filter-btn" data-filter="plakaty" type="button">Plakaty & Kampanie (4)</button>
-          <button class="filter-btn" data-filter="merch" type="button">Branding, 3D & Merch (7)</button>
-          <button class="filter-btn" data-filter="kreacja" type="button">Motion & Digital Art (3)</button>
+          <button class="filter-btn active" data-filter="all" type="button" data-i18n="filterAll">Wszystkie realizacje (14)</button>
+          <button class="filter-btn" data-filter="plakaty" type="button" data-i18n="filterPosters">Plakaty & Kampanie (4)</button>
+          <button class="filter-btn" data-filter="merch" type="button" data-i18n="filterMerch">Branding, 3D & Merch (7)</button>
+          <button class="filter-btn" data-filter="kreacja" type="button" data-i18n="filterArt">Motion & Digital Art (3)</button>
         </div>
 
         <div class="graphics-grid">
@@ -1167,7 +1106,7 @@
           <article class="graphic-card reveal-fade" data-category="plakaty" data-type="image"
             data-full-src="img/projects/plakat_zostan_ratownikiem.png"
             data-title="Plakat Rekrutacyjny: Zostań Ratownikiem WOPR"
-            data-desc="Oficjalny plakat naborowy dla Oddziału Miejskiego WOPR w Katowicach. Dynamiczny układ, wyrazista typografia i bezpośredni przekaz zachęcający do wstąpienia w szeregi ratowników.">
+            data-desc="Plakat naborowy dla Oddziału Miejskiego WOPR w Katowicach. Wyrazista grafika i bezpośredni przekaz zachęcający do dołączenia do ratowników.">
             <div class="graphic-preview">
               <span class="graphic-badge">Plakat A3</span>
               <img src="img/projects/plakat_zostan_ratownikiem.png" alt="Plakat Zostań Ratownikiem WOPR"
@@ -1178,7 +1117,7 @@
             </div>
             <div class="graphic-info">
               <h3 class="graphic-title">Zostań Ratownikiem WOPR</h3>
-              <p class="graphic-sub">Oficjalny plakat naborowy OM WOPR Katowice</p>
+              <p class="graphic-sub">Plakat naborowy OM WOPR Katowice</p>
               <div class="graphic-tags">
                 <span class="graphic-tag-item">Plakat A3</span>
                 <span class="graphic-tag-item">Rekrutacja</span>
@@ -1191,7 +1130,7 @@
           <article class="graphic-card reveal-fade" data-category="plakaty" data-type="image"
             data-full-src="img/projects/plakat_dzien_utoniec.png"
             data-title="Światowy Dzień Zapobiegania Utonięciom (25 lipca)"
-            data-desc="Oficjalny plakat edukacyjny przygotowany na Światowy Dzień Zapobiegania Utonięciom (World Drowning Prevention Day). Silny ładunek emocjonalny, kontrast i edukacja w zakresie bezpieczeństwa nad wodą.">
+            data-desc="Plakat edukacyjny na Światowy Dzień Zapobiegania Utonięciom (World Drowning Prevention Day). Silny kontrast i czytelne zasady bezpieczeństwa nad wodą.">
             <div class="graphic-preview">
               <span class="graphic-badge">Kampania Społeczna</span>
               <img src="img/projects/plakat_dzien_utoniec.png" alt="Plakat Światowy Dzień Zapobiegania Utonięciom"
@@ -1347,7 +1286,7 @@
           <!-- Item 9: Baner DTP WOPR Katowice -->
           <article class="graphic-card reveal-fade" data-category="merch" data-type="image"
             data-full-src="img/projects/baner_wopr_katowice.png" data-title="Projekt DTP: Baner WOPR Katowice"
-            data-desc="Kompletny plik produkcyjny do druku wielkoformatowego. Znakowanie, kontakt, hasła promujące bezpieczeństwo wodne oraz oficjalne barwy jednostki.">
+            data-desc="Projekt baneru do druku wielkoformatowego. Znakowanie, dane kontaktowe, hasła edukacyjne i barwy jednostki.">
             <div class="graphic-preview">
               <span class="graphic-badge">Projekt DTP</span>
               <img src="img/projects/baner_wopr_katowice.png" alt="Baner WOPR Katowice" class="graphic-img"
@@ -1358,7 +1297,7 @@
             </div>
             <div class="graphic-info">
               <h3 class="graphic-title">Projekt Baneru WOPR Katowice</h3>
-              <p class="graphic-sub">Plik produkcyjny do druku wielkoformatowego</p>
+              <p class="graphic-sub">Plik do druku wielkoformatowego</p>
               <div class="graphic-tags">
                 <span class="graphic-tag-item">DTP</span>
                 <span class="graphic-tag-item">Baner</span>
@@ -1369,7 +1308,7 @@
           <!-- Item 10: Wizytówki -->
           <article class="graphic-card reveal-fade" data-category="merch" data-type="image"
             data-full-src="img/projects/wizualizacja_wizytowki.png" data-title="Wizytówki Służbowe WOPR Katowice"
-            data-desc="Projekt eleganckiej wizytówki reprezentacyjnej z motywem ratowniczym, tłoczeniami i czytelnym układem danych kontaktowych.">
+            data-desc="Projekt wizytówki z motywem ratowniczym, tłoczeniami i czytelnym układem danych kontaktowych.">
             <div class="graphic-preview">
               <span class="graphic-badge">Akcydens</span>
               <img src="img/projects/wizualizacja_wizytowki.png" alt="Wizytówki WOPR" class="graphic-img"
@@ -1434,8 +1373,8 @@
 
           <!-- Item 13: Eleganckie Zaproszenie Eventowe -->
           <article class="graphic-card reveal-fade" data-category="kreacja" data-type="image"
-            data-full-src="img/projects/zaproszenie_event.png" data-title="Oficjalne Zaproszenie Eventowe"
-            data-desc="Elegancki projekt papeterii i zaproszenia na uroczyste gale, jubileusze oraz podsumowania sezonów ratowniczych.">
+            data-full-src="img/projects/zaproszenie_event.png" data-title="Zaproszenie na Galę WOPR"
+            data-desc="Projekt zaproszenia na gale, jubileusze oraz podsumowania sezonów ratowniczych.">
             <div class="graphic-preview">
               <span class="graphic-badge">Poligrafia</span>
               <img src="img/projects/zaproszenie_event.png" alt="Zaproszenie Eventowe" class="graphic-img"
@@ -1445,7 +1384,7 @@
               </div>
             </div>
             <div class="graphic-info">
-              <h3 class="graphic-title">Oficjalne Zaproszenie Eventowe</h3>
+              <h3 class="graphic-title">Zaproszenie na Galę WOPR</h3>
               <p class="graphic-sub">Poligrafia na uroczystości i jubileusze ratownicze</p>
               <div class="graphic-tags">
                 <span class="graphic-tag-item">Zaproszenie</span>
@@ -1482,41 +1421,34 @@
     <section class="section section-darker" id="social-work">
       <div class="container">
         <div class="section-header reveal-fade">
-          <span class="section-tag">Zarządzanie Mediami & Profile</span>
-          <h2 class="section-title">Prowadzone profile, kampanie & partnerstwa.</h2>
-          <p class="section-subtitle">
-            Zarządzanie mediami społecznościowymi dla instytucji, marek komercyjnych i projektów autorskich. Strategia
-            contentu, produkcja wideo, relacje sponsorskie i analityka zasięgów.
+          <span class="section-tag" data-i18n="socialTag">Social Media & Partnerzy</span>
+          <h2 class="section-title" data-i18n="socialTitle">Prowadzone profile i współprace.</h2>
+          <p class="section-subtitle" data-i18n="socialSubtitle">
+            Jak prowadzę media społecznościowe dla instytucji, marek i w projektach autorskich.
           </p>
         </div>
 
         <div class="featured-case reveal-fade">
           <div class="case-grid">
             <div class="case-content">
-              <h3 class="case-title">Instytucje, Kampanie & Prowadzone Profile</h3>
-              <div class="case-role-sub">Szef Działu IT • Prowadzenie Social Media • Partnerstwa</div>
-              <p class="case-desc">
-                Oddział Miejski WOPR w Katowicach, współpraca z Zarządem Wojewódzkim Śląskiego WOPR oraz autorskie
-                kanały twórcy cyfrowego. Odpowiadam za bezawaryjną pracę systemów IT, strategię obecności w mediach
-                społecznościowych, produkcję wideo oraz pozyskiwanie kluczowych partnerów sprzętowych i
-                technologicznych.
+              <h3 class="case-title" data-i18n="caseMainTitle">WOPR Katowice & Śląskie WOPR</h3>
+              <div class="case-role-sub" data-i18n="caseMainSub">Szef Działu IT • Prowadzenie Social Media • Pozyskiwanie Partnerów</div>
+              <p class="case-desc" data-i18n="caseMainDesc">
+                W Oddziale Miejskim WOPR w Katowicach dbam o to, by sprzęt i sieć działały bezawaryjnie, a profile w sieci były żywe i angażujące. Regularnie publikuję posty, montuję rolki i rozmawiam z firmami, które chcą wesprzeć ratowników sprzętem lub sponsoringiem.
               </p>
 
               <div class="case-highlights">
                 <div class="case-highlight-item">
-                  <span class="highlight-val">Dział Informatyczny</span>
-                  <span class="highlight-text">Zarządzanie infrastrukturą, sprzęt, bazy, cyberbezpieczeństwo i procedury
-                    jednostki</span>
+                  <span class="highlight-val" data-i18n="caseH1Val">Dział IT</span>
+                  <span class="highlight-text" data-i18n="caseH1Txt">Opieka nad sprzętem, siecią, serwerami, łącznością radiową i bazami danych.</span>
                 </div>
                 <div class="case-highlight-item">
-                  <span class="highlight-val">Social Media & Wideo</span>
-                  <span class="highlight-text">Prowadzenie IG @wopr.katowice (1.1k+) i FB (3.1k+), publikacje Śląskie
-                    WOPR, ujęcia z drona i relacje live</span>
+                  <span class="highlight-val" data-i18n="caseH2Val">Social Media & Wideo</span>
+                  <span class="highlight-text" data-i18n="caseH2Txt">Prowadzenie Instagrama @wopr.katowice i Facebooka, ujęcia z drona i montaż rolek.</span>
                 </div>
                 <div class="case-highlight-item case-highlight-full">
-                  <span class="highlight-val">Pozyskiwanie Partnerów & Sponsoring</span>
-                  <span class="highlight-text">Inicjowanie, negocjowanie i realizacja strategicznych współprac z firmami
-                    technologicznymi, ratowniczymi i motoryzacyjnymi</span>
+                  <span class="highlight-val" data-i18n="caseH3Val">Partnerzy & Sponsoring</span>
+                  <span class="highlight-text" data-i18n="caseH3Txt">Bezpośrednie rozmowy i pozyskiwanie firm technologicznych, ratowniczych i motoryzacyjnych.</span>
                 </div>
               </div>
 
@@ -1582,10 +1514,9 @@
           <div class="wopr-partners-section">
             <div class="wopr-partners-header">
               <span class="wopr-partners-tag">Relacje B2B & Sponsoring</span>
-              <h4 class="wopr-partners-title">Nawiązane Partnerstwa & Pozyskani Sponsorzy</h4>
-              <p class="wopr-partners-desc">
-                Firmy i marki, z którymi bezpośrednio zainicjowałem i wynegocjowałem współpracę partnerską, sprzętową
-                oraz promocyjną dla WOPR Katowice i Śląskiego WOPR:
+              <h4 class="wopr-partners-title" data-i18n="partnersSectionTitle">Partnerzy i sponsorzy, z którymi współpracowałem:</h4>
+              <p class="wopr-partners-desc" data-i18n="partnersSectionDesc">
+                Marki i firmy, z którymi bezpośrednio nawiązałem współpracę promocyjną lub sprzętową dla WOPR Katowice:
               </p>
             </div>
 
@@ -1598,9 +1529,8 @@
                   <span class="partner-arrow">↗</span>
                 </div>
                 <strong class="partner-name">OMODA & JAECOO Auto-Boss</strong>
-                <span class="partner-role">Kampania motoryzacyjna & JAECOO 8</span>
-                <p class="partner-detail">Wspólna realizacja wideo na 100-lecie ratownictwa wodnego; występ w roli
-                  ratownika.</p>
+                <span class="partner-role" data-i18n="partnerOmodaRole">Kampania motoryzacyjna & JAECOO 8</span>
+                <p class="partner-detail" data-i18n="partnerOmodaDesc">Wspólna realizacja wideo na 100-lecie ratownictwa; występ w roli ratownika.</p>
               </a>
 
               <!-- Partner 2: Creative Developer Studio -->
@@ -1609,8 +1539,8 @@
                   <span class="partner-badge">Technologia & Web</span>
                 </div>
                 <strong class="partner-name">Creative Developer Studio</strong>
-                <span class="partner-role">Software house & rozwiązania cyfrowe</span>
-                <p class="partner-detail">Współpraca w obszarze technologii internetowych i wsparcia projektowego.</p>
+                <span class="partner-role" data-i18n="partnerCdsRole">Software house & rozwiązania cyfrowe</span>
+                <p class="partner-detail" data-i18n="partnerCdsDesc">Współpraca w obszarze technologii internetowych i wsparcia projektowego.</p>
               </div>
 
               <!-- Partner 3: ASBIS Poland -->
@@ -1619,8 +1549,8 @@
                   <span class="partner-badge">Sprzęt & IT</span>
                 </div>
                 <strong class="partner-name">ASBIS Poland</strong>
-                <span class="partner-role">Dystrybucja IT & technologie</span>
-                <p class="partner-detail">Pozyskanie i współpraca w zakresie rozwiązań technologicznych i sprzętowych.
+                <span class="partner-role" data-i18n="partnerAsbisRole">Dystrybucja IT & technologie</span>
+                <p class="partner-detail" data-i18n="partnerAsbisDesc">Pozyskanie partnera i współpraca w zakresie sprzętu komputerowego.
                 </p>
               </div>
 
@@ -1630,8 +1560,8 @@
                   <span class="partner-badge">Ratownictwo</span>
                 </div>
                 <strong class="partner-name">Błękitna Fala</strong>
-                <span class="partner-role">Środowisko ratownicze & bezpieczeństwo</span>
-                <p class="partner-detail">Wspólne inicjatywy promujące bezpieczny wypoczynek i edukację nad wodą.</p>
+                <span class="partner-role" data-i18n="partnerFalaRole">Środowisko ratownicze</span>
+                <p class="partner-detail" data-i18n="partnerFalaDesc">Wspólne inicjatywy promujące bezpieczny wypoczynek nad wodą.</p>
               </div>
 
               <!-- Partner 5: OnDuty.pl -->
@@ -1640,8 +1570,8 @@
                   <span class="partner-badge">Wyposażenie</span>
                 </div>
                 <strong class="partner-name">OnDuty.pl</strong>
-                <span class="partner-role">Sprzęt ratowniczy & taktyczny</span>
-                <p class="partner-detail">Doposażenie jednostki w profesjonalny ekwipunek i wyposażenie służbowe.</p>
+                <span class="partner-role" data-i18n="partnerOndutyRole">Sprzęt ratowniczy & taktyczny</span>
+                <p class="partner-detail" data-i18n="partnerOndutyDesc">Doposażenie jednostki w profesjonalny ekwipunek ratowniczy.</p>
               </div>
 
               <!-- Partner 6: Decathlon -->
@@ -1650,8 +1580,8 @@
                   <span class="partner-badge">Sport & Outdoor</span>
                 </div>
                 <strong class="partner-name">Decathlon</strong>
-                <span class="partner-role">Sprzęt asekuracyjny & sportowy</span>
-                <p class="partner-detail">Partnerstwo wspierające zabezpieczenia wodne, szkolenia i eventy ratownicze.
+                <span class="partner-role" data-i18n="partnerDecathlonRole">Sport & outdoor</span>
+                <p class="partner-detail" data-i18n="partnerDecathlonDesc">Wsparcie sprzętowe przy zabezpieczeniach wodnych i eventach.
                 </p>
               </div>
 
@@ -1661,8 +1591,8 @@
                   <span class="partner-badge">Łączność Radiowa</span>
                 </div>
                 <strong class="partner-name">Hytera Communications</strong>
-                <span class="partner-role">Profesjonalna radiokomunikacja</span>
-                <p class="partner-detail">Niezawodna łączność bezprzewodowa dla ratowników podczas akcji i ćwiczeń.</p>
+                <span class="partner-role" data-i18n="partnerHyteraRole">Radiokomunikacja</span>
+                <p class="partner-detail" data-i18n="partnerHyteraDesc">Niezawodna łączność bezprzewodowa dla ratowników podczas akcji i ćwiczeń.</p>
               </div>
 
               <!-- Partner 8: Gina Software -->
@@ -1671,8 +1601,8 @@
                   <span class="partner-badge">Oprogramowanie</span>
                 </div>
                 <strong class="partner-name">Gina Software</strong>
-                <span class="partner-role">Systemy dedykowane & IT</span>
-                <p class="partner-detail">Cyfryzacja i optymalizacja procesów zarządzania informacją w ratownictwie.</p>
+                <span class="partner-role" data-i18n="partnerGinaRole">Oprogramowanie dedykowane</span>
+                <p class="partner-detail" data-i18n="partnerGinaDesc">Współpraca w zakresie systemów informatycznych dla służb ratunkowych.</p>
               </div>
             </div>
           </div>
@@ -1683,14 +1613,10 @@
           <!-- Card A: SKN BioSoft PolSL -->
           <article class="social-extra-card">
             <span class="social-extra-badge">Politechnika Śląska • Inżynieria Biomedyczna</span>
-            <h3 class="social-extra-title">Studenckie Koło Naukowe BioSoft</h3>
-            <div class="social-extra-sub">Zarządzanie profilami & produkcja wideo • Wydział Inżynierii Biomedycznej
-            </div>
-            <p class="social-extra-desc">
-              Jestem jednym z zarządzających mediami społecznościowymi Studenckiego Koła Naukowego
-              <strong>BioSoft</strong> na Politechnice Śląskiej. Odpowiadam za kreację wizerunku naukowego koła,
-              dynamiczne materiały wideo, promocję projektów badawczych z zakresu informatyki medycznej, przetwarzania
-              sygnałów i AI.
+            <h3 class="social-extra-title" data-i18n="biosoftTitle">Studenckie Koło Naukowe BioSoft (Politechnika Śląska)</h3>
+            <div class="social-extra-sub" data-i18n="biosoftSub">Prowadzenie profili i montaż filmów • Wydział Inżynierii Biomedycznej</div>
+            <p class="social-extra-desc" data-i18n="biosoftDesc">
+              Współprowadzę media społecznościowe koła naukowego BioSoft. Przygotowuję rolki wideo i grafiki prezentujące projekty badawcze z zakresu informatyki medycznej i sztucznej inteligencji.
             </p>
             <div class="social-extra-actions">
               <a href="https://www.instagram.com/biosoft.polsl/" target="_blank" rel="noopener noreferrer"
@@ -1702,8 +1628,8 @@
                 Facebook Koła ↗
               </a>
               <a href="https://www.instagram.com/p/DT7sTEPDTaG/" target="_blank" rel="noopener noreferrer"
-                class="btn btn-primary btn-sm">
-                Zobacz mój materiał wideo ↗
+                class="btn btn-primary btn-sm" data-i18n="biosoftBtnVideo">
+                Zobacz mój film ↗
               </a>
             </div>
           </article>
@@ -1711,12 +1637,10 @@
           <!-- Card B: TikTok Zarząd Główny WOPR -->
           <article class="social-extra-card">
             <span class="social-extra-badge">Zarząd Główny WOPR • Format Wertykalny</span>
-            <h3 class="social-extra-title">TikTok @wopr.official (ZG WOPR)</h3>
-            <div class="social-extra-sub">Członek Komisji ds. Komunikacji • Realizacja i produkcja wideo</div>
-            <p class="social-extra-desc">
-              Jako nominowany członek Komisji Profilaktyki i Komunikacji Społecznej Zarządu Głównego WOPR odpowiadam za
-              produkcję wideo na oficjalny TikTok Zarządu Głównego. Tworzę dynamiczne, viralowe formaty łączące wiedzę o
-              bezpieczeństwie nad wodą z nowoczesnym humorem i trendami młodzieżowymi.
+            <h3 class="social-extra-title" data-i18n="woprOfficialTitle">TikTok @wopr.official (Zarząd Główny WOPR)</h3>
+            <div class="social-extra-sub" data-i18n="woprOfficialSub">Członek Komisji Komunikacji • Realizacja i montaż wideo</div>
+            <p class="social-extra-desc" data-i18n="woprOfficialDesc">
+              Jako członek Komisji Profilaktyki i Komunikacji Społecznej Zarządu Głównego WOPR nagrywam i montuję krótkie filmy na TikToka. Pokazujemy zasady bezpieczeństwa nad wodą z humorem i w nowoczesnej formie.
             </p>
             <div class="social-extra-actions">
               <a href="https://www.tiktok.com/@wopr.official?lang=pl-PL" target="_blank" rel="noopener noreferrer"
@@ -1724,12 +1648,12 @@
                 Profil TikTok @wopr.official ↗
               </a>
               <a href="https://www.tiktok.com/@wopr.official/video/7671998393639505185?lang=pl-PL" target="_blank"
-                rel="noopener noreferrer" class="btn btn-primary btn-sm">
-                Viral 1 (format humorystyczny) ↗
+                rel="noopener noreferrer" class="btn btn-primary btn-sm" data-i18n="woprOfficialBtnV1">
+                Film 1 (TikTok) ↗
               </a>
               <a href="https://www.tiktok.com/@wopr.official/video/7668673603314961697?lang=pl-PL" target="_blank"
-                rel="noopener noreferrer" class="btn btn-secondary btn-sm">
-                Viral 2 (humorystyczno-edukacyjny) ↗
+                rel="noopener noreferrer" class="btn btn-secondary btn-sm" data-i18n="woprOfficialBtnV2">
+                Film 2 (TikTok) ↗
               </a>
             </div>
           </article>
@@ -1741,10 +1665,10 @@
     <section class="section" id="social-hub">
       <div class="container">
         <div class="section-header reveal-fade">
-          <span class="section-tag">Centrum Mediów</span>
-          <h2 class="section-title">Wszystkie profile & platformy.</h2>
-          <p class="section-subtitle">
-            Bezpośrednie odnośniki do kodu, transmisji na żywo, materiałów filmowych oraz profili osobistych.
+          <span class="section-tag" data-i18n="hubTag">Wszystkie Linki</span>
+          <h2 class="section-title" data-i18n="hubTitle">Gdzie mnie znaleźć w sieci.</h2>
+          <p class="section-subtitle" data-i18n="hubSubtitle">
+            Bezpośrednie odnośniki do mojego kodu, streamów, filmów i kontaktu.
           </p>
         </div>
 
@@ -1759,16 +1683,15 @@
               <svg viewBox="0 0 24 24" class="icon" fill="currentColor" style="width:14px;height:14px;">
                 <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
               </svg>
-              <span>Oficjalny profil twórcy cyfrowego</span>
+              <span data-i18n="hubCreatorBadge">Profil twórcy cyfrowego</span>
             </span>
-            <h3 class="creator-feature-title">EnieczeK (@enieczek)</h3>
-            <p class="creator-feature-desc">
-              Autorska działalność twórcza, dynamiczne rolki, relacje ze streamów i zaplecze technologiczne. Aktywna
-              społeczność, materiały backstage oraz kontakt osobisty.
+            <h3 class="creator-feature-title" data-i18n="hubCreatorTitle">EnieczeK (@enieczek)</h3>
+            <p class="creator-feature-desc" data-i18n="hubCreatorDesc">
+              Mój główny profil autorski na Instagramie: kulisy projektów, rolki ze streamów, sprzęt i kontakt prywatny.
             </p>
             <div style="margin-top: 14px;">
               <a href="https://www.instagram.com/enieczek/" target="_blank" rel="noopener noreferrer"
-                class="btn btn-secondary">
+                class="btn btn-secondary" data-i18n="hubCreatorBtn">
                 Odwiedź profil Instagram @enieczek ↗
               </a>
             </div>
@@ -1787,7 +1710,7 @@
             <div class="social-card-info">
               <span class="social-platform">WhatsApp</span>
               <strong class="social-handle">+48 691 210 798</strong>
-              <span class="social-desc">Bezpośrednia rozmowa & szybki kontakt</span>
+              <span class="social-desc" data-i18n="hubWaDesc">Szybka wiadomość lub telefon</span>
             </div>
             <span class="social-arrow">↗</span>
           </a>
@@ -1802,14 +1725,12 @@
               </svg>
             </div>
             <div class="social-card-info">
-              <span class="social-platform">TikTok Autorski</span>
+              <span class="social-platform">TikTok</span>
               <strong class="social-handle">@enieczek</strong>
-              <span class="social-desc">Kreatywne wideo, trendy i backstage</span>
+              <span class="social-desc" data-i18n="hubTtDesc">Krótkie formy wideo i kulisy</span>
             </div>
             <span class="social-arrow">↗</span>
           </a>
-
-
 
           <!-- Card: GitHub -->
           <a href="https://github.com/EnieczeK" target="_blank" rel="noopener noreferrer"
@@ -1823,7 +1744,7 @@
             <div class="social-card-info">
               <span class="social-platform">GitHub</span>
               <strong class="social-handle">@EnieczeK</strong>
-              <span class="social-desc">Repozytoria, kod, projekty webowe</span>
+              <span class="social-desc" data-i18n="hubGhDesc">Repozytoria, kod i strony</span>
             </div>
             <span class="social-arrow">↗</span>
           </a>
@@ -1840,7 +1761,7 @@
             <div class="social-card-info">
               <span class="social-platform">LinkedIn</span>
               <strong class="social-handle">Mikołaj Skorupa</strong>
-              <span class="social-desc">Kariera zawodowa i networking</span>
+              <span class="social-desc" data-i18n="hubLiDesc">Profil zawodowy i sieć kontaktów</span>
             </div>
             <span class="social-arrow">↗</span>
           </a>
@@ -1857,7 +1778,7 @@
             <div class="social-card-info">
               <span class="social-platform">YouTube</span>
               <strong class="social-handle">@enieczek</strong>
-              <span class="social-desc">Materiały wideo, montaż i projekty</span>
+              <span class="social-desc" data-i18n="hubYtDesc">Dłuższe filmy i montaże</span>
             </div>
             <span class="social-arrow">↗</span>
           </a>
@@ -1874,7 +1795,7 @@
             <div class="social-card-info">
               <span class="social-platform">Twitch</span>
               <strong class="social-handle">enieczek</strong>
-              <span class="social-desc">Transmisje na żywo & live streaming</span>
+              <span class="social-desc" data-i18n="hubTwDesc">Transmisje na żywo</span>
             </div>
             <span class="social-arrow">↗</span>
           </a>
@@ -1891,7 +1812,7 @@
             <div class="social-card-info">
               <span class="social-platform">Instagram</span>
               <strong class="social-handle">@enieczek</strong>
-              <span class="social-desc">Codzienne kadry i kulisy twórczości</span>
+              <span class="social-desc" data-i18n="hubIgDesc">Codzienne relacje i zdjęcia</span>
             </div>
             <span class="social-arrow">↗</span>
           </a>
@@ -1908,7 +1829,7 @@
             <div class="social-card-info">
               <span class="social-platform">Threads</span>
               <strong class="social-handle">@enieczek</strong>
-              <span class="social-desc">Przemyślenia i backstage projektowy</span>
+              <span class="social-desc" data-i18n="hubThDesc">Krótkie wpisy i przemyślenia</span>
             </div>
             <span class="social-arrow">↗</span>
           </a>
@@ -1925,14 +1846,14 @@
             <div class="social-card-info">
               <span class="social-platform">Facebook</span>
               <strong class="social-handle">enieczekk</strong>
-              <span class="social-desc">Profil osobisty & kontakt</span>
+              <span class="social-desc" data-i18n="hubFbDesc">Profil prywatny</span>
             </div>
             <span class="social-arrow">↗</span>
           </a>
 
           <!-- Card: Discord (Click to Copy Nick) -->
           <div class="social-card social-card-interactive reveal-fade" id="discordCard" data-clipboard="enieczek"
-            role="button" tabindex="0" title="Kliknij, aby skopiować nick: enieczek">
+            role="button" tabindex="0" title="Kliknij, aby skopiować nick: enieczek" data-i18n-title="discordCopyTip">
             <div class="social-card-icon dc">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path
@@ -1940,9 +1861,9 @@
               </svg>
             </div>
             <div class="social-card-info">
-              <span class="social-platform">Discord <span class="badge-copy">Kopiuj nick</span></span>
+              <span class="social-platform">Discord <span class="badge-copy">Kopiuj</span></span>
               <strong class="social-handle" id="discordHandleText">enieczek</strong>
-              <span class="social-desc">Nick: enieczek (kliknij, aby skopiować)</span>
+              <span class="social-desc" data-i18n="hubDcDesc">Nick: enieczek (kliknij, aby skopiować)</span>
             </div>
             <span class="social-copy-icon" id="discordCopyIcon">📋</span>
           </div>
@@ -1955,31 +1876,30 @@
       <div class="container">
         <div class="contact-box reveal-fade">
           <div class="contact-box-glow"></div>
-          <span class="section-tag">Nawiążmy współpracę</span>
-          <h2 class="contact-title">Masz projekt IT, wideo, branding lub ofertę kariery?</h2>
-          <p class="contact-text">
-            Chętnie porozmawiam o wyzwaniach technologicznych, projektach informatycznych, prowadzeniu social media oraz
-            produkcjach wideo.
+          <span class="section-tag" data-i18n="contactTag">Kontakt</span>
+          <h2 class="contact-title" data-i18n="contactTitle">Porozmawiajmy o projekcie lub współpracy.</h2>
+          <p class="contact-text" data-i18n="contactText">
+            Szukasz kogoś do projektu IT, montażu wideo, poprowadzenia mediów społecznościowych lub masz ciekawą ofertę pracy? Śmiało napisz lub zadzwoń.
           </p>
 
           <!-- Direct Cards -->
           <div class="direct-contact-cards">
             <a href="mailto:eknieczek@gmail.com" class="direct-card" title="Napisz e-mail">
-              <span class="direct-card-label">Adres E-mail</span>
+              <span class="direct-card-label" data-i18n="contactEmailLabel">Adres E-mail</span>
               <span class="direct-card-val">eknieczek@gmail.com</span>
-              <span class="direct-card-sub">Kliknij, aby wysłać wiadomość</span>
+              <span class="direct-card-sub" data-i18n="contactEmailSub">Kliknij, aby wysłać wiadomość</span>
             </a>
 
             <a href="tel:+48691210798" class="direct-card" title="Zadzwoń lub napisz na WhatsApp">
-              <span class="direct-card-label">Telefon & WhatsApp</span>
+              <span class="direct-card-label" data-i18n="contactPhoneLabel">Telefon & WhatsApp</span>
               <span class="direct-card-val">+48 691 210 798</span>
-              <span class="direct-card-sub">Telefon, SMS & czat WhatsApp</span>
+              <span class="direct-card-sub" data-i18n="contactPhoneSub">Rozmowa, SMS lub WhatsApp</span>
             </a>
 
             <div class="direct-card">
-              <span class="direct-card-label">Lokalizacja & Mobilność</span>
+              <span class="direct-card-label" data-i18n="contactLocLabel">Lokalizacja</span>
               <span class="direct-card-val">Mikołów / Zabrze / Katowice</span>
-              <span class="direct-card-sub">Śląsk | Prawo Jazdy Kat. B</span>
+              <span class="direct-card-sub" data-i18n="contactLocSub">Śląsk | Prawo jazdy kat. B</span>
             </div>
           </div>
 
@@ -1990,16 +1910,16 @@
                 <path
                   d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.99.54 1.787.82 2.796.82 3.183 0 5.768-2.587 5.768-5.766.001-3.187-2.575-5.77-5.768-5.767zm9.839 5.766c.002 5.417-4.406 9.825-9.84 9.825-1.724 0-3.344-.448-4.767-1.23l-5.32 1.396 1.424-5.187c-.885-1.472-1.353-3.17-1.355-4.804-.003-5.418 4.405-9.826 9.839-9.826 2.628.001 5.099 1.025 6.955 2.883 1.858 1.858 2.862 4.331 2.864 6.943zm-4.707 3.518c-.261-.131-1.543-.761-1.782-.848-.239-.087-.413-.131-.587.131-.174.261-.674.848-.826 1.022-.152.174-.304.196-.565.065-.261-.131-1.101-.406-2.097-1.294-.775-.692-1.299-1.546-1.451-1.807-.152-.261-.016-.402.115-.532.118-.117.261-.304.391-.457.131-.152.174-.261.261-.435.087-.174.043-.326-.022-.457-.065-.131-.587-1.414-.804-1.936-.212-.508-.427-.439-.587-.447l-.5-.009c-.174 0-.457.065-.696.326s-.913.892-.913 2.175.935 2.523 1.065 2.697c.131.174 1.84 2.809 4.457 3.938.623.269 1.109.429 1.488.55.626.199 1.196.171 1.646.104.502-.075 1.543-.631 1.761-1.24.218-.609.218-1.131.152-1.24-.065-.109-.239-.174-.5-.305z" />
               </svg>
-              <span>Napisz na WhatsApp</span>
+              <span data-i18n="contactBtnWa">Napisz na WhatsApp</span>
             </a>
-            <a href="mailto:eknieczek@gmail.com" class="btn btn-primary">
-              Napisz wiadomość e-mail
+            <a href="mailto:eknieczek@gmail.com" class="btn btn-primary" data-i18n="contactBtnEmail">
+              Wyślij e-mail
             </a>
             <a href="https://www.linkedin.com/in/miko%C5%82aj-skorupa-8ab4a5393/" target="_blank"
-              rel="noopener noreferrer" class="btn btn-secondary">
+              rel="noopener noreferrer" class="btn btn-secondary" data-i18n="contactBtnLi">
               Połącz na LinkedIn
             </a>
-            <button class="btn btn-secondary" id="copyDiscordContactBtn" data-clipboard="enieczek">
+            <button class="btn btn-secondary" id="copyDiscordContactBtn" data-clipboard="enieczek" data-i18n="contactBtnDc">
               Skopiuj Discord: enieczek
             </button>
           </div>
@@ -2010,7 +1930,7 @@
 
   <!-- Fixed Floating Background Audio Controller Widget (song_background.mp3) -->
   <aside class="audio-controller-widget" id="audioControllerWidget" aria-label="Odtwarzacz muzyki w tle">
-    <div class="audio-hint-bubble" id="audioHintBubble">🎵 Kliknij, aby włączyć muzykę</div>
+    <div class="audio-hint-bubble" id="audioHintBubble" data-i18n="audioHint">🎵 Kliknij, aby włączyć muzykę</div>
     <button class="audio-toggle-btn" id="audioToggleBtn" type="button" aria-pressed="false"
       title="Włącz / wyłącz muzykę w tle (song_background.mp3)">
       <span class="audio-icon-wrap">
@@ -2024,7 +1944,7 @@
         <span class="bar bar-3"></span>
         <span class="bar bar-4"></span>
       </div>
-      <span class="audio-btn-label" id="audioBtnLabel">Muzyka w tle</span>
+      <span class="audio-btn-label" id="audioBtnLabel" data-i18n="audioLabel">Muzyka w tle</span>
     </button>
     <audio id="bgMusic" src="song_background.mp3" autoplay preload="auto" loop></audio>
   </aside>
@@ -2034,11 +1954,11 @@
     <div class="container footer-container">
       <div class="footer-left">
         <span class="footer-brand">Mikołaj Skorupa</span>
-        <span class="footer-copy">&copy; <span id="currentYear"></span>. IT Specialist & Digital Content Creator.</span>
+        <span class="footer-copy">&copy; <span id="currentYear"></span>. <span data-i18n="footerCopy">Mikołaj Skorupa (EnieczeK). IT, wideo i kreacja cyfrowa.</span></span>
       </div>
       <div class="footer-right">
         <a href="#top" class="back-to-top" aria-label="Wróć na górę strony">
-          <span>Wróć na górę</span>
+          <span data-i18n="backToTop">Wróć na górę</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="top-arrow">
             <polyline points="18 15 12 9 6 15"></polyline>
           </svg>
@@ -2111,6 +2031,7 @@
   </div>
 
   <!-- JavaScript -->
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 
